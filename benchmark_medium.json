@@ -1,0 +1,1490 @@
+[
+  {
+    "question": "In the context of model interpretability, what is the primary advantage of using partial dependence plots (PDPs) over other feature importance methods?",
+    "choices": [
+      "A) PDPs provide a more nuanced view of how individual features affect the predictions by accounting for interactions with other features.",
+      "B) PDPs are more computationally efficient than other methods, making them suitable for large datasets.",
+      "C) PDPs offer a visual representation of feature importance that is easier to understand than traditional metrics like SHAP values.",
+      "D) PDPs are specifically designed for tree-based models and provide no benefits for neural networks or linear regression models."
+    ],
+    "answer": "A",
+    "explanation": "Partial dependence plots (PDPs) offer a more nuanced view of how individual features affect the predictions by accounting for interactions with other features. Unlike other feature importance methods, PDPs can capture complex relationships between features and their impact on the model's predictions.",
+    "domain": "machine learning",
+    "tier": "medium",
+    "id": 226,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Consider a database query that joins two tables, A and B, on the common attribute 'ID'. The query optimizer decides to use an index on table A's 'ID' column. Which of the following statements best describes the impact of this decision on the overall performance of the query?",
+    "choices": [
+      "A) The query will run faster since it only needs to scan the indexed column in table A.",
+      "B) The query will run slower since the index scan will require additional disk I/O.",
+      "C) The query's performance will not be affected by this decision.",
+      "D) The query may run faster or slower depending on the selectivity of the join condition."
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is that the query will run faster since it only needs to scan the indexed column in table A. This is because the index allows the database to quickly locate the matching rows in table B, reducing the amount of work required by the query optimizer.",
+    "domain": "computer science",
+    "tier": "medium",
+    "id": 215,
+    "verification_confidence": 100
+  },
+  {
+    "question": "When training a neural network, which of the following regularization techniques is most effective at preventing overfitting by adding noise to the inputs during training?",
+    "choices": [
+      "A) Dropout",
+      "B) Early Stopping",
+      "C) Weight Decay",
+      "D) Data Augmentation"
+    ],
+    "answer": "A",
+    "explanation": "Dropout adds noise to the inputs during training, effectively preventing overfitting by randomly dropping out neurons during training. The other options do not involve adding noise to the inputs: Early Stopping is a method for stopping training early when performance starts to degrade on validation sets; Weight Decay is a method for regularizing weights by adding a penalty term to the loss function; Data Augmentation is a method for increasing the size of a dataset by artificially generating new examples.",
+    "domain": "machine learning",
+    "tier": "medium",
+    "id": 148,
+    "verification_confidence": 100
+  },
+  {
+    "id": 201,
+    "tier": "medium",
+    "domain": "math",
+    "question": "What is the formula for the area of a circle?",
+    "choices": [
+      "A) 2\u00cf\u20acr",
+      "B) \u00cf\u20acr^2",
+      "C) \u00cf\u20acd",
+      "D) 4\u00cf\u20acr^2"
+    ],
+    "answer": "B",
+    "explanation": "The area of a circle is \u00cf\u20acr^2, where r is the radius."
+  },
+  {
+    "question": "When an object with a mass m is dropped from rest in a vacuum, what is the relationship between its acceleration (a) and the gravitational constant (G)?",
+    "choices": [
+      "A) a \u221d G/m",
+      "B) a \u221d Gm",
+      "C) a \u221d \u221a(G/m)",
+      "D) a \u221d m/G"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A because the acceleration of an object in free fall is given by F = mg, where F is the force due to gravity and g is the acceleration due to gravity. Since F = GmM/m^2 (where M is the mass of the Earth), we can substitute for F to get a = GM/m^2. This shows that the acceleration is proportional to 1/m, not G.",
+    "domain": "physics",
+    "tier": "medium",
+    "id": 251,
+    "verification_confidence": 95
+  },
+  {
+    "question": "When analyzing the motion of a particle in a uniform magnetic field, which of the following statements accurately describes the effect of the magnetic force on the particle's trajectory?",
+    "choices": [
+      "A) The magnetic force causes the particle to follow a circular path",
+      "B) The magnetic force increases the particle's velocity along its original direction",
+      "C) The magnetic force changes the particle's acceleration but not its velocity",
+      "D) The magnetic force has no effect on the particle's trajectory"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A because a uniform magnetic field causes charged particles to follow circular trajectories due to the Lorentz force. Option B is incorrect as the magnetic force does not increase the particle's velocity along its original direction. Option C is incorrect as the magnetic force affects both acceleration and velocity. Option D is incorrect as the magnetic force has a significant impact on the particle's trajectory.",
+    "domain": "physics",
+    "tier": "medium",
+    "id": 191,
+    "verification_confidence": 95
+  },
+  {
+    "question": "What is the primary mechanism by which the Notch signaling pathway regulates cell differentiation during embryonic development?",
+    "choices": [
+      "A) Activation of a downstream transcription factor",
+      "B) Inhibition of a competing signaling cascade",
+      "C) Direct regulation of gene expression through binding to specific DNA sequences",
+      "D) Modulation of cell adhesion via changes in cadherin-mediated interactions"
+    ],
+    "answer": "A",
+    "explanation": "The Notch pathway regulates cell differentiation by activating downstream transcription factors, such as Hes1 and Hey2. These transcription factors then inhibit the expression of genes required for cell differentiation, thereby maintaining a proliferative state. In contrast, the other options do not accurately capture the primary mechanism by which the Notch pathway regulates cell differentiation.",
+    "domain": "biology",
+    "tier": "medium",
+    "id": 155,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Consider a continuous function f(x) = x^3 + 2x^2 - 5x + 1, which has exactly one critical point. What can be concluded about the nature of this critical point?",
+    "choices": [
+      "A) It is a local minimum.",
+      "B) It is a global maximum.",
+      "C) It is a saddle point.",
+      "D) It must be an inflection point."
+    ],
+    "answer": "A",
+    "explanation": "The function has exactly one critical point, which implies that the derivative of f(x) vanishes at this point. Since the cubic term dominates the quadratic and linear terms for large values of x, we can conclude that the critical point is a local minimum due to the strict concavity of the function.",
+    "domain": "mathematics",
+    "tier": "medium",
+    "id": 151,
+    "verification_confidence": 95
+  },
+  {
+    "id": 187,
+    "tier": "medium",
+    "domain": "science",
+    "question": "Which law states that the pressure of a gas is inversely proportional to its volume at constant temperature?",
+    "choices": [
+      "A) Charles's Law",
+      "B) Avogadro's Law",
+      "C) Boyle's Law",
+      "D) Gay-Lussac's Law"
+    ],
+    "answer": "C",
+    "explanation": "Boyle's Law: P1V1 = P2V2 at constant temperature."
+  },
+  {
+    "question": "In a classical logic framework, which of the following statements about modal logic is true?",
+    "choices": [
+      "A) Modal logics are a type of fuzzy logic.",
+      "B) Modal logics are concerned with truth values that depend on the possible worlds in which they are evaluated.",
+      "C) Modal logics are only applicable to propositional calculus.",
+      "D) Modal logics are equivalent to classical predicate logic."
+    ],
+    "answer": "B",
+    "explanation": "Modal logic deals with modalities such as necessity and possibility, which are concerned with truth values that depend on the possible worlds in which they are evaluated. Options A, C, and D are all incorrect; fuzzy logic is a different mathematical framework, modal logics can be applied to predicate calculus but this is not their defining characteristic, and classical predicate logic does not have modalities like necessity and possibility.",
+    "domain": "logic",
+    "tier": "medium",
+    "id": 205,
+    "verification_confidence": 100
+  },
+  {
+    "question": "The Treaty of Westphalia, signed in 1648, is often considered a turning point in the development of modern international relations because it?",
+    "choices": [
+      "A) Established the concept of sovereignty and the idea that nations should not interfere in each other's internal affairs",
+      "B) Created the Holy Roman Empire as a new imperial power",
+      "C) Marked the end of the Thirty Years' War, but had no lasting impact on international relations",
+      "D) Introduced the concept of collective security and led to the formation of the League of Nations"
+    ],
+    "answer": "A",
+    "explanation": "The Treaty of Westphalia established the principle of sovereignty, which holds that each nation has a supreme authority within its own borders. This marked a significant shift away from medieval notions of imperial power and towards modern concepts of national self-determination. Options B, C, and D are all incorrect because they do not accurately describe the significance of the Treaty of Westphalia in international relations.",
+    "domain": "history",
+    "tier": "medium",
+    "id": 212,
+    "verification_confidence": 100
+  },
+  {
+    "id": 239,
+    "tier": "medium",
+    "domain": "math",
+    "question": "What is the derivative of x^3 + 2x^2 - 5x + 1?",
+    "choices": [
+      "A) 3x^2 + 4x - 5",
+      "B) 3x^2 + 2x - 5",
+      "C) x^2 + 4x - 5",
+      "D) 3x^2 + 4x + 1"
+    ],
+    "answer": "A",
+    "explanation": "d/dx(x^3 + 2x^2 - 5x + 1) = 3x^2 + 4x - 5."
+  },
+  {
+    "question": "Let P be a set of positive integers. If every finite subset of P has a least element, what can be concluded about the set P?",
+    "choices": [
+      "A) P is empty",
+      "B) P contains all integers greater than or equal to 1",
+      "C) P has no greatest element",
+      "D) P is infinite"
+    ],
+    "answer": "C",
+    "explanation": "Since every finite subset of P has a least element, P must have an infinite number of elements. This implies that P cannot be empty (as it would have a greatest element). Moreover, if P were to contain all integers greater than or equal to 1, then the set {2} would not have a least element, which is a contradiction. Therefore, P having no greatest element is the only possible conclusion.",
+    "domain": "logic",
+    "tier": "medium",
+    "id": 161,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Which type of neural excitability is characterized by the ability of neurons to generate action potentials in response to a single, brief depolarization?",
+    "choices": [
+      "A) Spontaneous activity",
+      "B) Tonic activity",
+      "C) Phasic activity",
+      "D) Sodium-dependent potassium conductance"
+    ],
+    "answer": "C",
+    "explanation": "Phasic activity is characterized by the ability of neurons to generate action potentials in response to a single, brief depolarization. Spontaneous activity refers to the generation of action potentials without any external stimulus. Tonic activity refers to the constant release of neurotransmitters over time. Sodium-dependent potassium conductance is a type of ion channel that helps regulate the resting membrane potential.",
+    "domain": "neuroscience",
+    "tier": "medium",
+    "id": 139,
+    "verification_confidence": 95
+  },
+  {
+    "question": "A mass m is attached to a spring with constant k. When the mass is displaced by x from its equilibrium position, it experiences a force F = -kx. Which of the following statements about the motion of the mass is TRUE?",
+    "choices": [
+      "A) The mass will oscillate at a frequency proportional to \u221a(k/m)",
+      "B) The mass will accelerate uniformly towards its equilibrium position",
+      "C) The force on the mass depends only on its velocity, not its position or acceleration",
+      "D) The energy of the system is conserved"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A because the equation F = -kx represents a simple harmonic motion, and the frequency of oscillation is indeed proportional to \u221a(k/m). Options B, C, and D are all incorrect: the mass will not accelerate uniformly towards its equilibrium position (B), the force on the mass does depend on its position (not just velocity or acceleration) as described by Hooke's law (C), and energy may be transferred between kinetic and potential forms but is not conserved in this conservative system (D).",
+    "domain": "physics",
+    "tier": "medium",
+    "id": 157,
+    "verification_confidence": 100
+  },
+  {
+    "question": "When selecting features for a classification model, which of the following strategies is most likely to reduce overfitting?",
+    "choices": [
+      "A) Randomly sampling a subset of original features",
+      "B) Selecting features with high mutual information among each other",
+      "C) Retaining only the top-scoring features in a feature selection algorithm",
+      "D) Including all available features and using regularization techniques"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A) Randomly sampling a subset of original features, as this strategy can help reduce overfitting by introducing randomness into the model's decision-making process. Options B and C are both incorrect because they do not address the problem of overfitting directly. Option D is also incorrect because while regularization techniques like L1 or L2 penalty can help reduce overfitting, including all available features in a classification model does not necessarily reduce overfitting.",
+    "domain": "machine learning",
+    "tier": "medium",
+    "id": 147,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Which of the following statements about a valid argument form is TRUE?",
+    "choices": [
+      "A) If an argument has multiple conclusions, it must be valid.",
+      "B) A valid argument cannot have any premises that are irrelevant to its conclusion.",
+      "C) In order for an argument to be considered valid, all of its premises must be true.",
+      "D) An invalid argument can still be persuasive if its premises are plausible and its conclusion is appealing."
+    ],
+    "answer": "C",
+    "explanation": "Option C correctly states that in order for an argument to be considered valid, all of its premises must be true. Options A and B present incorrect implications about the structure or relevance of premises in a valid argument. Option D confuses the concepts of validity and persuasion.",
+    "domain": "logic",
+    "tier": "medium",
+    "id": 199,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Consider a recursive algorithm that solves a problem by breaking it down into two subproblems, each requiring the same amount of time to solve. What is the time complexity of this algorithm in Big O notation?",
+    "choices": [
+      "A) O(n^2)",
+      "B) O(n log n)",
+      "C) O(2^n)",
+      "D) O(n)"
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is O(n), as the algorithm breaks down the problem into two subproblems of equal size, resulting in a linear increase in time complexity. Option A, O(n^2), would result from an algorithm that has quadratic growth, not recursive breakdown. Options B and C are incorrect as they represent different complexities (logarithmic and exponential, respectively) not related to recursive algorithms.",
+    "domain": "algorithms",
+    "tier": "medium",
+    "id": 132,
+    "verification_confidence": 100
+  },
+  {
+    "question": "When analyzing the impact of a trade agreement on international trade, which of the following effects would NOT be captured by the Ricardian model?",
+    "choices": [
+      "A) Changes in capital flows between countries",
+      "B) Effects of non-tariff barriers such as quotas and subsidies",
+      "C) Shifts in consumer preferences due to changes in product variety",
+      "D) Increases in production costs resulting from new trade agreements"
+    ],
+    "answer": "C",
+    "explanation": "The Ricardian model focuses on comparative advantage and the gains from trade, but does not account for shifts in consumer preferences. The other options are all relevant effects that could be captured by the model.",
+    "domain": "economics",
+    "tier": "medium",
+    "id": 220,
+    "verification_confidence": 95
+  },
+  {
+    "id": 204,
+    "tier": "medium",
+    "domain": "math",
+    "question": "What is the Bayes theorem formula?",
+    "choices": [
+      "A) P(A|B) = P(B|A) * P(A) / P(B)",
+      "B) P(A|B) = P(A) * P(B)",
+      "C) P(A|B) = P(A) / P(B)",
+      "D) P(A|B) = P(B|A) / P(A)"
+    ],
+    "answer": "A",
+    "explanation": "Bayes theorem: P(A|B) = P(B|A) * P(A) / P(B)."
+  },
+  {
+    "question": "Let G be a finite abelian group, and H a subgroup of index 2 in G. Which of the following statements about the quotient group G/H is true?",
+    "choices": [
+      "A) G/H is always cyclic",
+      "B) If G is cyclic, then G/H is also cyclic",
+      "C) The order of G/H divides the order of G",
+      "D) G/H is never simple"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C) The order of G/H divides the order of G. This follows from Lagrange's theorem, which states that for any subgroup H of a finite group G, the order of H divides the order of G. Since G/H is isomorphic to the quotient group H^op/(H^op \u2229 H), its order also divides the order of G. The other options are incorrect because they do not generalize to all finite abelian groups.",
+    "domain": "mathematics",
+    "tier": "medium",
+    "id": 252,
+    "verification_confidence": 100
+  },
+  {
+    "question": "In a given propositional logic formula, if \u00ac(p \u2228 q) is logically equivalent to what?",
+    "choices": [
+      "A) \u00acp \u2227 \u00acq",
+      "B) p \u2227 q",
+      "C) p \u2228 q",
+      "D) \u00acp \u00acq"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A) \u00acp \u2227 \u00acq because the formula \u00ac(p \u2228 q) is equivalent to the logical statement 'it's not the case that either p or q are true'. This can be rewritten as a conjunction of two negations, \u00acp and \u00acq. The other options are incorrect because B) p \u2227 q is the original formula (p \u2228 q), C) p \u2228 q is the opposite of what we want to prove, and D) \u00acp \u00acq assumes that both p and q are false.",
+    "domain": "logic",
+    "tier": "medium",
+    "id": 184,
+    "verification_confidence": 100
+  },
+  {
+    "question": "When selecting features for a machine learning model, which of the following statements about mutual information is TRUE?",
+    "choices": [
+      "A) Mutual information measures the amount of information that one random variable provides about another.",
+      "B) Mutual information is only applicable to binary features.",
+      "C) Mutual information is symmetric, meaning MI(X;Y) = MI(Y;X)",
+      "D) Mutual information is always non-negative and has a maximum value of 1"
+    ],
+    "answer": "A",
+    "explanation": "Mutual information measures the amount of information that one random variable provides about another. The other options are incorrect because mutual information can be used with features of any type, not just binary. Mutual information is not necessarily symmetric (MI(X;Y) \u2260 MI(Y;X)). Finally, mutual information can take on values greater than 1.",
+    "domain": "machine learning",
+    "tier": "medium",
+    "id": 214,
+    "verification_confidence": 100
+  },
+  {
+    "question": "Consider a sorting algorithm that uses a combination of insertion sort and merge sort. Which of the following best describes its time complexity?",
+    "choices": [
+      "A) O(n log n), where n is the size of the input",
+      "B) O(n^2), regardless of the input size",
+      "C) O(n + k log k), where k is the number of inversions",
+      "D) O(1), since it's a comparison-based sorting algorithm"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A) O(n log n) because, although insertion sort has a time complexity of O(n) and merge sort has a time complexity of O(n log n), the combination of both algorithms will result in an overall time complexity of O(n log n). Options B, C, and D are incorrect because they do not accurately describe the time complexity of this sorting algorithm.",
+    "domain": "algorithms",
+    "tier": "medium",
+    "id": 186,
+    "verification_confidence": 95
+  },
+  {
+    "question": "When a particle accelerator injects a beam of particles into a storage ring, what is the primary mechanism by which the magnetic fields in the ring interact with the particles?",
+    "choices": [
+      "A) The magnetic fields induce an electric current in the particles",
+      "B) The magnetic fields create a force that slows down the particles",
+      "C) The magnetic fields change the direction of motion for the particles",
+      "D) The magnetic fields cause the particles to decay into other particles"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C because when a particle accelerator injects a beam of particles into a storage ring, the magnetic fields in the ring interact with the particles by changing their direction of motion. This is known as bending or steering the particles to follow a specific path around the ring. The other options are incorrect: inducing an electric current would require a change in velocity for the particles (not just direction), slowing down the particles would not occur through magnetic interactions, and causing the particles to decay into other particles is not related to the interaction of magnetic fields with particles.",
+    "domain": "physics",
+    "tier": "medium",
+    "id": 159,
+    "verification_confidence": 100
+  },
+  {
+    "question": "In the context of cellular respiration, which of the following statements accurately describes the role of citrate synthase in the citric acid cycle?",
+    "choices": [
+      "A) It is a rate-limiting enzyme that regulates the overall pace of the citric acid cycle.",
+      "B) It catalyzes the final step in the production of ATP from pyruvate during glycolysis.",
+      "C) It plays a crucial role in the regeneration of NAD+ and FAD during the electron transport chain.",
+      "D) It is an essential enzyme for the biosynthesis of fatty acids from acetyl-CoA."
+    ],
+    "answer": "A",
+    "explanation": "Citrate synthase is indeed the first committed step in the citric acid cycle, setting the stage for the subsequent reactions that ultimately produce ATP, NADH, and FAD. The other options mischaracterize its role in cellular respiration.",
+    "domain": "biology",
+    "tier": "medium",
+    "id": 221,
+    "verification_confidence": 100
+  },
+  {
+    "question": "In a supervised learning setting, which of the following regularization techniques aims to reduce overfitting by adding a penalty term to the model's loss function proportional to the square of the magnitude of the model's weights?",
+    "choices": [
+      "A) Early Stopping",
+      "B) Weight Decay",
+      "C) Dropout Regularization",
+      "D) Cross-Entropy Loss"
+    ],
+    "answer": "B",
+    "explanation": "Weight decay is a regularization technique that adds a penalty term to the loss function, proportional to the square of the magnitude of the model's weights. This encourages smaller weights and prevents overfitting. Early stopping stops training when the model's performance on the validation set starts to degrade, but it does not explicitly penalize large weights. Dropout regularization randomly drops neurons during training, but it does not directly control the magnitude of the weights. Cross-entropy loss is a common loss function used in classification problems, but it is not a type of regularization.",
+    "domain": "machine learning",
+    "tier": "medium",
+    "id": 206,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is a key function of the nucleus accumbens in the brain, particularly in relation to reward processing?",
+    "choices": [
+      "A) Integration of sensory information from the olfactory system",
+      "B) Modulation of dopamine release to regulate motivation and pleasure",
+      "C) Regulation of sleep-wake cycles through interactions with the suprachiasmatic nucleus",
+      "D) Control of autonomic responses, such as heart rate and blood pressure"
+    ],
+    "answer": "B",
+    "explanation": "The nucleus accumbens is a critical structure in the brain's reward system. It plays a key role in processing rewarding stimuli by modulating dopamine release, which regulates motivation and pleasure. This answer is supported by numerous studies demonstrating the importance of the nucleus accumbens in addiction, learning, and mood disorders. The other options do not accurately describe its function.",
+    "domain": "neuroscience",
+    "tier": "medium",
+    "id": 246,
+    "verification_confidence": 95
+  },
+  {
+    "question": "During the cell cycle, which stage is characterized by the condensation of chromatin into visible chromosomes?",
+    "choices": [
+      "A) Interphase",
+      "B) Prophase",
+      "C) Anaphase",
+      "D) Telophase"
+    ],
+    "answer": "B",
+    "explanation": "Prophase is the stage where chromatin condenses into visible chromosomes, allowing for accurate chromosome segregation during mitosis and meiosis. Interphase is a period of cell growth and DNA replication, while anaphase and telophase are stages characterized by the separation of sister chromatids and the completion of cell division, respectively.",
+    "domain": "biology",
+    "tier": "medium",
+    "id": 192,
+    "verification_confidence": 100
+  },
+  {
+    "question": "Consider the following two statements: 'All humans are mortal' and 'Socrates is human'. Which of the following logical conclusions can be deduced from these statements?",
+    "choices": [
+      "A) Socrates must be alive",
+      "B) All mortals are humans",
+      "C) At least one philosopher is not mortal",
+      "D) It can be concluded that Socrates will definitely die"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer, 'All mortals are humans', follows logically from the given statements. The statement 'All humans are mortal' means that mortality is a property of humanity, so all things that possess this property (are mortal) must also be human. Since Socrates is human, it can be concluded that he is mortal. This does not provide any information about his current or future state (alive or dead), so options A and D are incorrect. Option C is unrelated to the given statements and provides no logical conclusion.",
+    "domain": "logic",
+    "tier": "medium",
+    "id": 145,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Consider a computer system with two levels of cache: Level 1 (L1) and Level 2 (L2). L1 cache has a smaller size but a higher hit rate, while L2 cache has a larger size but a lower hit rate. Which of the following best explains why this hierarchical caching approach is effective?",
+    "choices": [
+      "A) The combination of small and large caches allows for better spatial locality",
+      "B) The higher hit rate of L1 cache reduces the pressure on the main memory",
+      "C) The smaller size of L1 cache ensures that most requested data can be stored in it",
+      "D) The lower latency of L2 cache makes it a good candidate for storing frequently accessed data"
+    ],
+    "answer": "A",
+    "explanation": "The hierarchical caching approach is effective because the combination of small and large caches allows for better spatial locality. This means that frequently accessed data can be stored in the smaller, faster L1 cache, reducing the need to access slower main memory or larger L2 cache. In contrast, options B and C are not accurate explanations, as the hit rates of L1 and L2 caches are not directly related to their sizes. Option D is also incorrect, as latency is not a factor in determining which level of cache should store frequently accessed data.",
+    "domain": "computer science",
+    "tier": "medium",
+    "id": 174,
+    "verification_confidence": 100
+  },
+  {
+    "question": "When a solution of sodium hydroxide (NaOH) is added to a mixture of nitric acid (HNO3) and sulfuric acid (H2SO4), which reaction is most likely to occur?",
+    "choices": [
+      "A) Neutralization of HNO3 with NaOH",
+      "B) Oxidation of NaOH by HNO3",
+      "C) Hydrolysis of H2SO4 by NaOH",
+      "D) Condensation of water from the reactants"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A) Neutralization of HNO3 with NaOH because sodium hydroxide (NaOH) will neutralize nitric acid (HNO3), forming a salt and water. The other options are incorrect because: B) Sodium hydroxide is not oxidized by nitric acid, but rather reacts to form a salt. C) Hydrolysis of sulfuric acid would require the presence of water, which is not provided in the reaction. D) Condensation of water from the reactants is not a plausible reaction.",
+    "domain": "chemistry",
+    "tier": "medium",
+    "id": 142,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Which of the following cellular processes is primarily responsible for maintaining the structure and function of eukaryotic cell membranes?",
+    "choices": [
+      "A) Phagocytosis",
+      "B) Endocytosis",
+      "C) Exocytosis",
+      "D) Lipid raft formation"
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is D) Lipid raft formation, as it refers to the dynamic assembly and disassembly of specific lipids and proteins in eukaryotic cell membranes, which maintains their structure and function. Phagocytosis (A) and endocytosis (B) are cellular processes involving engulfment or ingestion of external substances or particles, whereas exocytosis (C) is the release of vesicles or molecules from cells.",
+    "domain": "biology",
+    "tier": "medium",
+    "id": 134,
+    "verification_confidence": 95
+  },
+  {
+    "question": "What is the primary function of the inhibitory neurons in the visual cortex, as described by Hubel and Wiesel's work on simple cells?",
+    "choices": [
+      "A) To amplify the signals from photoreceptors",
+      "B) To synchronize the firing of excitatory neurons",
+      "C) To reduce the background activity and enhance contrast detection",
+      "D) To integrate information from multiple retinal ganglion cells"
+    ],
+    "answer": "C",
+    "explanation": "Hubel and Wiesel's work on simple cells in the visual cortex demonstrated that inhibitory neurons play a crucial role in reducing background activity, which enhances the contrast detection of stimuli. This is because the inhibitory neurons help to cancel out the noisy or irrelevant information from other cells, allowing the excitatory neurons to focus on specific features of the stimulus. In contrast, option A is incorrect as photoreceptors are not directly related to the visual cortex. Option B is also wrong as synchronization of firing is not the primary function of inhibitory neurons in this context. Finally, option D is an incorrect description of the role of retinal ganglion cells.",
+    "domain": "neuroscience",
+    "tier": "medium",
+    "id": 168,
+    "verification_confidence": 95
+  },
+  {
+    "question": "When designing an efficient algorithm for solving a dynamic programming problem, which of the following is NOT a necessary consideration?",
+    "choices": [
+      "A) The time complexity of the recursive function",
+      "B) The space complexity of memoization tables",
+      "C) The number of iterations required to reach convergence",
+      "D) The existence of a closed-form solution"
+    ],
+    "answer": "D",
+    "explanation": "While a closed-form solution might be desirable, it's not necessary for designing an efficient algorithm. In fact, many dynamic programming problems don't have a closed-form solution. The other options are all important considerations when designing an efficient algorithm: the time complexity of the recursive function (A) helps determine if memoization is effective; the space complexity of memoization tables (B) affects the memory usage of the algorithm; and the number of iterations required to reach convergence (C) informs the choice of termination condition.",
+    "domain": "computer science",
+    "tier": "medium",
+    "id": 169,
+    "verification_confidence": 95
+  },
+  {
+    "question": "During the process of meiosis, which of the following statements about crossover recombination is true?",
+    "choices": [
+      "A) Crossover events always occur between non-homologous chromosomes.",
+      "B) Crossover events can only occur between homologous chromosomes.",
+      "C) The frequency and distribution of crossovers are influenced by the distance between the centromeres of the participating chromosomes.",
+      "D) The repair of DNA double-strand breaks is a prerequisite for crossover recombination."
+    ],
+    "answer": "C",
+    "explanation": "Correct answer: C) The frequency and distribution of crossovers are influenced by the distance between the centromeres of the participating chromosomes. During meiosis, crossovers occur more frequently between homologous chromosomes that are physically close to each other due to the influence of genetic recombination hotspots and the chromosomal architecture. This is in contrast to non-homologous chromosomes which would not be influenced by this factor.",
+    "domain": "biology",
+    "tier": "medium",
+    "id": 211,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In the presence of a catalyst, the rate-determining step in the hydrogenation of an alkene to an alkane typically involves the formation of which intermediate?",
+    "choices": [
+      "A) A \u03c0-complex between the alkene and metal atoms",
+      "B) A \u03c3-complex between the alkene and metal atoms",
+      "C) A transition state with a partially formed C-H bond",
+      "D) A fully formed alkyl-metal complex"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is a transition state with a partially formed C-H bond, as this intermediate would require the highest energy input to form and is therefore rate-determining. The other options are plausible but incorrect; a \u03c0-complex (A) may form initially, but it does not involve the rate-determining step; a \u03c3-complex (B) is unlikely to be involved in alkene hydrogenation; and a fully formed alkyl-metal complex (D) would not require the high energy input necessary for the rate-determining step.",
+    "domain": "chemistry",
+    "tier": "medium",
+    "id": 135,
+    "verification_confidence": 95
+  },
+  {
+    "question": "The process by which certain cells in multicellular organisms, such as epithelial cells, can change shape and move to specific locations is called",
+    "choices": [
+      "A) Apoptosis",
+      "B) Ectodermization",
+      "C) Epithelial-to-mesenchymal transition (EMT)",
+      "D) Metastasis"
+    ],
+    "answer": "C",
+    "explanation": "Epithelial-to-mesenchymal transition (EMT) is a process by which epithelial cells, such as those found in the lining of organs or glands, can transform into mesenchymal cells, such as fibroblasts or smooth muscle cells. This process allows these cells to move and invade surrounding tissues, and is important for development, tissue repair, and cancer progression. Apoptosis is programmed cell death, ectodermization refers to the formation of the three primary germ layers during embryonic development, and metastasis is the spread of cancer cells to distant sites in the body.",
+    "domain": "biology",
+    "tier": "medium",
+    "id": 240,
+    "verification_confidence": 100
+  },
+  {
+    "question": "Which stage of the cortical neural processing stream is characterized by the strongest inhibitory influence on pyramidal neurons?",
+    "choices": [
+      "A) Primary sensory cortex",
+      "B) Motor cortex",
+      "C) Thalamocortical relay",
+      "D) Lateral intralaminar nuclei"
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is D) Lateral intralaminar nuclei, as these regions are known to exert strong inhibitory influence on pyramidal neurons during information processing. The other options do not possess this characteristic.",
+    "domain": "neuroscience",
+    "tier": "medium",
+    "id": 193,
+    "verification_confidence": 95
+  },
+  {
+    "question": "What is the primary role of the metal center in the enzyme-catalyzed oxidation reaction catalyzed by cytochrome c oxidase?",
+    "choices": [
+      "A) To stabilize the transition state",
+      "B) To facilitate proton transfer through the protein",
+      "C) To provide a binding site for oxygen molecules",
+      "D) To accept and donate electrons"
+    ],
+    "answer": "D",
+    "explanation": "The metal center in cytochrome c oxidase is primarily responsible for accepting and donating electrons during the oxidation reaction. This role is crucial for the enzyme's function as it enables the transfer of electrons through the protein, ultimately resulting in the reduction of oxygen to water. The other options are incorrect because while the metal center does play a role in stabilizing the transition state (A), facilitating proton transfer (B) and providing a binding site for oxygen molecules (C), its primary function is to accept and donate electrons.",
+    "domain": "chemistry",
+    "tier": "medium",
+    "id": 133,
+    "verification_confidence": 100
+  },
+  {
+    "question": "In a scenario where a hash table with n slots is implemented using linear probing for collision resolution, what is the minimum number of probes required to guarantee that an inserted key is not overwritten?",
+    "choices": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) \u03a9(n)",
+      "D) \u0398(min(n, k))"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer C) \u03a9(n) is because with linear probing, a collision can lead to an unbounded number of probes in the worst-case scenario. Options A and B are incorrect because they do not take into account the possibility of collisions, while option D is wrong because the minimum number of probes required depends on the specific implementation and cannot be expressed as a function solely of n.",
+    "domain": "computer science",
+    "tier": "medium",
+    "id": 225,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Which of the following types of neurons is most affected by the loss of AMP-activated protein kinase (AMPK) in the context of Alzheimer's disease?",
+    "choices": [
+      "A) Glutamatergic neurons",
+      "B) GABAergic interneurons",
+      "C) Cholinergic neurons",
+      "D) Dopaminergic neurons"
+    ],
+    "answer": "C",
+    "explanation": "The loss of AMPK leads to disruptions in neuronal energy metabolism, which is particularly problematic for cholinergic neurons that rely heavily on acetylcholine synthesis. Glutamatergic and GABAergic neurons are more resilient to changes in energy metabolism, while dopaminergic neurons have distinct metabolic requirements.",
+    "domain": "neuroscience",
+    "tier": "medium",
+    "id": 143,
+    "verification_confidence": 95
+  },
+  {
+    "question": "What is the primary limitation of using only a k-d tree for nearest neighbor search in high-dimensional spaces, where k is the number of neighbors to consider?",
+    "choices": [
+      "A) The algorithm's time complexity increases exponentially with the dimensionality.",
+      "B) The quality of the results degrades significantly as the data becomes more sparse.",
+      "C) The memory required to store the tree grows too large to be practical.",
+      "D) The k-d tree is inherently biased towards clusters of a specific shape."
+    ],
+    "answer": "A",
+    "explanation": "The primary limitation of using only a k-d tree for nearest neighbor search in high-dimensional spaces is that its time complexity increases exponentially with the dimensionality. This is because the algorithm has to traverse the tree in a hierarchical manner, which becomes increasingly expensive as the number of dimensions grows. In contrast, options B and C are not direct limitations of the k-d tree itself, but rather potential issues that might arise when using it for nearest neighbor search. Option D is also incorrect, as the k-d tree does not have an inherent bias towards clusters of a specific shape.",
+    "domain": "machine learning",
+    "tier": "medium",
+    "id": 217,
+    "verification_confidence": 95
+  },
+  {
+    "question": "What is the primary effect of a tariff on a country's domestic market, assuming the country produces both the goods being imported and the substitute good?",
+    "choices": [
+      "A) The price of the imported good increases, while the price of the substitute good decreases.",
+      "B) The price of the imported good increases, while the price of the substitute good remains unchanged.",
+      "C) The price of the imported good remains unchanged, while the price of the substitute good increases.",
+      "D) The price of the imported good and the substitute good both increase."
+    ],
+    "answer": "B",
+    "explanation": "A tariff on a country's imports causes the domestic price to rise. Since the country also produces the substitute good, there is no reason for its price to decrease. Instead, the increased demand for the domestically produced good drives up its price.",
+    "domain": "economics",
+    "tier": "medium",
+    "id": 241,
+    "verification_confidence": 95
+  },
+  {
+    "id": 171,
+    "tier": "medium",
+    "domain": "science",
+    "question": "What is the Heisenberg Uncertainty Principle?",
+    "choices": [
+      "A) Energy cannot be created or destroyed",
+      "B) Position and momentum cannot both be precisely known simultaneously",
+      "C) Every action has an equal and opposite reaction",
+      "D) Matter and energy are equivalent"
+    ],
+    "answer": "B",
+    "explanation": "Heisenberg's principle states that the more precisely position is known, the less precisely momentum can be known."
+  },
+  {
+    "question": "For a massless spring with spring constant k, what is the relationship between the force F and displacement x in the elastic limit?",
+    "choices": [
+      "A) F = -kx",
+      "B) F = kx^2",
+      "C) F = kx + m v^2",
+      "D) F = kx / (m + k)"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A) F = -kx because the force exerted by a massless spring with spring constant k is proportional to the displacement x, and the direction of the force is opposite to the direction of the displacement. Options B) and D) are incorrect as they do not accurately describe the relationship between force and displacement for a massless spring. Option C) is irrelevant as it describes the relationship between force, velocity, and acceleration for an object with mass.",
+    "domain": "physics",
+    "tier": "medium",
+    "id": 156,
+    "verification_confidence": 100
+  },
+  {
+    "question": "When training a neural network to solve a binary classification problem, which of the following is NOT a common technique for addressing class imbalance?",
+    "choices": [
+      "A) Oversampling the minority class",
+      "B) Randomly undersampling the majority class",
+      "C) Weighting the loss function based on class frequency",
+      "D) Using a probability threshold for prediction"
+    ],
+    "answer": "B",
+    "explanation": "Oversampling and weighting the loss function are common techniques to address class imbalance. Undersampling the majority class can lead to a biased model, as it discards valuable information from the majority class. A probability threshold is not a technique to address class imbalance, but rather a method for making predictions in classification models.",
+    "domain": "machine learning",
+    "tier": "medium",
+    "id": 178,
+    "verification_confidence": 95
+  },
+  {
+    "id": 233,
+    "tier": "medium",
+    "domain": "cs",
+    "question": "What is the time complexity of binary search on a sorted array of n elements?",
+    "choices": [
+      "A) O(n)",
+      "B) O(n log n)",
+      "C) O(log n)",
+      "D) O(1)"
+    ],
+    "answer": "C",
+    "explanation": "Binary search halves the search space each step, giving O(log n) complexity."
+  },
+  {
+    "question": "In a given propositional logic formula, which of the following statements about its satisfiability is necessarily true?",
+    "choices": [
+      "A) It can be determined whether the formula is satisfiable or not",
+      "B) The formula is always satisfiable if it contains only conjunctions and disjunctions",
+      "C) If the formula is satisfiable, there exists at least one model with exactly two truth assignments for atomic propositions",
+      "D) Satisfiability cannot be determined without knowing the truth values of all variables"
+    ],
+    "answer": "A",
+    "explanation": "This answer is correct because every propositional logic formula can be decided to be either satisfiable or not by checking if it is a tautology. Options B, C, and D are incorrect because a formula containing only conjunctions and disjunctions may still be unsatisfiable, a formula with at least one model does not require exactly two truth assignments for atomic propositions, and satisfiability can indeed be determined without knowing the truth values of all variables.",
+    "domain": "logic",
+    "tier": "medium",
+    "id": 248,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In a uniform magnetic field, the force on a moving charge can be described by which of the following equations?",
+    "choices": [
+      "A) F = (qvB)",
+      "B) F = qE",
+      "C) F = m(a - v^2/r)",
+      "D) F = m(a + v^2/r)"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A) F = (qvB), which describes the Lorentz force on a moving charge in a uniform magnetic field. The other options are incorrect because: B) E represents electric field, not magnetic field; C) and D) represent centripetal and centrifugal forces respectively, neither of which describe the force due to a magnetic field.",
+    "domain": "physics",
+    "tier": "medium",
+    "id": 223,
+    "verification_confidence": 100
+  },
+  {
+    "question": "The Treaty of Verdun (843) was a significant turning point in European history, marking the end of the Carolingian Empire. Which of the following best describes its consequences?",
+    "choices": [
+      "A) It established a lasting feudal system throughout Europe.",
+      "B) It led to the unification of Western and Eastern Roman Empires under one ruler.",
+      "C) It divided Charlemagne's vast empire among his three sons, Charles, Louis, and Lothair.",
+      "D) It marked the beginning of the Viking Age in Northern Europe."
+    ],
+    "answer": "C",
+    "explanation": "The Treaty of Verdun was a crucial event that divided Charlemagne's empire among his three sons. This led to the fragmentation of power and the emergence of new kingdoms, setting the stage for the complex web of feudal relationships that followed. In contrast, option A oversimplifies the complex consequences of the treaty, while options B and D are entirely inaccurate.",
+    "domain": "history",
+    "tier": "medium",
+    "id": 176,
+    "verification_confidence": 100
+  },
+  {
+    "question": "The neural correlate of the 'binding problem' in visual perception refers to the challenge of integrating which of the following types of information across different brain areas?",
+    "choices": [
+      "A) Color and shape",
+      "B) Location and orientation",
+      "C) Motion and depth",
+      "D) Attentional modulation and spatial mapping"
+    ],
+    "answer": "A",
+    "explanation": "The binding problem refers to the difficulty of integrating features such as color, shape, and other visual attributes into a unified percept. This problem is thought to be mediated by neural activity in higher-level areas such as V4 and IT, which integrate information from early sensory areas. Options B, C, and D are related to different aspects of visual perception, but do not specifically address the binding problem.",
+    "domain": "neuroscience",
+    "tier": "medium",
+    "id": 197,
+    "verification_confidence": 95
+  },
+  {
+    "question": "During the early stages of development, which neural structure plays a crucial role in the formation of the thalamocortical loop?",
+    "choices": [
+      "A) Cerebellum",
+      "B) Hippocampus",
+      "C) Septum pellucidum",
+      "D) Zona incerta"
+    ],
+    "answer": "D",
+    "explanation": "The zona incerta is a structure in the diencephalon that forms part of the thalamocortical loop, which is essential for the development and maturation of cortical circuits. The other options are not directly involved in the formation of this loop.",
+    "domain": "neuroscience",
+    "tier": "medium",
+    "id": 158,
+    "verification_confidence": 95
+  },
+  {
+    "question": "For a particle undergoing uniform circular motion in the x-y plane, which of the following statements about its velocity vector v(t) is true?",
+    "choices": [
+      "A) The magnitude of v(t) remains constant and its direction changes constantly.",
+      "B) The magnitude of v(t) increases with time and its direction remains fixed.",
+      "C) The magnitude of v(t) decreases with time and its direction changes periodically.",
+      "D) The magnitude of v(t) is zero at all times, but the direction can vary."
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A because in uniform circular motion, the particle's velocity vector always points radially outward from the center of rotation. As it moves along a circle, its direction changes constantly while its magnitude remains constant.",
+    "domain": "physics",
+    "tier": "medium",
+    "id": 200,
+    "verification_confidence": 100
+  },
+  {
+    "question": "In a comparative study of gene regulation in different organisms, researchers find that the binding affinity of transcription factor A (TF-A) to its target DNA sequence is significantly higher in organism X than in organism Y. What is the most likely explanation for this difference?",
+    "choices": [
+      "A) Evolutionary adaptation of TF-A to optimize gene expression in organism X",
+      "B) Random variation in TF-A binding affinity between organisms",
+      "C) Changes in chromatin structure or histone modification patterns between organisms X and Y",
+      "D) Differences in the abundance or activity of transcriptional co-regulators"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is that the difference in binding affinity is likely due to evolutionary adaptation, as organism X has a specific requirement for TF-A-mediated gene regulation. The other options are less plausible explanations, as random variation would not result in such a significant difference, chromatin structure changes would require additional genetic or epigenetic modifications, and differences in co-regulators would not directly impact TF-A binding affinity.",
+    "domain": "biology",
+    "tier": "medium",
+    "id": 247,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In a classical logic framework, if the statements 'All A are B' and 'C is not an A' are true, what can be concluded about C's relationship to B?",
+    "choices": [
+      "A) C must be B",
+      "B) C cannot be B",
+      "C) The statement 'C is B' is indeterminate",
+      "D) There is insufficient information to determine the relationship between C and B"
+    ],
+    "answer": "B",
+    "explanation": "Since 'All A are B' is true, it follows that nothing can be both an A and not a B. Given 'C is not an A', we know C cannot be an A, but there is no information to conclude whether C is a B or not. Therefore, option B) C cannot be B is the correct conclusion.",
+    "domain": "logic",
+    "tier": "medium",
+    "id": 209,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Consider a sequence of Fibonacci numbers: F(0) = 1, F(1) = 1, and F(n) = F(n-1) + F(n-2) for n > 1. Which of the following statements about the limiting behavior of this sequence as n approaches infinity is true?",
+    "choices": [
+      "A) The ratio F(n+1)/F(n) approaches a constant value.",
+      "B) The ratio F(n+1)/F(n) approaches infinity.",
+      "C) The sequence oscillates between two values.",
+      "D) The sequence converges to a specific numerical value."
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A, as the limiting behavior of the Fibonacci sequence can be shown to converge to the golden ratio (approximately 1.61803). Option B is incorrect because the ratio F(n+1)/F(n) does not approach infinity; in fact, it approaches a constant value. Options C and D are also incorrect, as the sequence does not oscillate between two values nor converge to a specific numerical value.",
+    "domain": "mathematics",
+    "tier": "medium",
+    "id": 254,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Which of the following cellular processes is primarily responsible for generating the diversity of antibody responses in vertebrates?",
+    "choices": [
+      "A) Clonal selection",
+      "B) Gene rearrangement",
+      "C) Alternative splicing",
+      "D) Transcriptional regulation"
+    ],
+    "answer": "A",
+    "explanation": "Clonal selection refers to the process by which mature B cells with high-affinity antibodies are selectively expanded and retained in response to antigen presentation. This allows for the generation of diverse antibody responses. Gene rearrangement, while important for the development of the immune system, is not directly responsible for generating diversity in antibody responses. Alternative splicing can affect gene expression, but it is not a primary mechanism for generating antibody diversity. Transcriptional regulation plays a role in modulating gene expression, but it does not drive the generation of diverse antibody responses.",
+    "domain": "biology",
+    "tier": "medium",
+    "id": 175,
+    "verification_confidence": 100
+  },
+  {
+    "question": "In the process of cellular respiration, which statement about the electron transport chain (ETC) is accurate?",
+    "choices": [
+      "A) The ETC generates ATP and NADH from FADH2",
+      "B) The ETC reduces oxygen to form water",
+      "C) The ETC produces proton gradients that drive ATP synthesis",
+      "D) The ETC consumes energy by reducing cytochrome c"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C) The ETC produces proton gradients that drive ATP synthesis. During the electron transport chain, electrons flow through a series of protein complexes in the mitochondrial inner membrane, resulting in the creation of a proton gradient across the membrane. This gradient drives the production of ATP through the process of chemiosmosis.",
+    "domain": "biology",
+    "tier": "medium",
+    "id": 237,
+    "verification_confidence": 95
+  },
+  {
+    "question": "The Treaty of Westphalia, signed in 1648, marked the end of which major conflict?",
+    "choices": [
+      "A) The War of the Spanish Succession",
+      "B) The Eighty Years' War",
+      "C) The Thirty Years' War",
+      "D) The Franco-Dutch War"
+    ],
+    "answer": "C",
+    "explanation": "The Treaty of Westphalia was a key treaty that ended the Thirty Years' War, a devastating conflict that involved many European countries and lasted for nearly a century. While the other options were all significant military conflicts in Europe during this time period, they did not involve as wide a range of countries or last as long as the Thirty Years' War.",
+    "domain": "history",
+    "tier": "medium",
+    "id": 172,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What was the primary objective behind the Treaty of Westphalia (1648), a series of agreements that ended the Thirty Years' War?",
+    "choices": [
+      "A) To establish the Holy Roman Empire as the dominant power in Europe",
+      "B) To recognize the independence and sovereignty of all European states",
+      "C) To impose Catholicism as the official religion throughout Europe",
+      "D) To create a unified Protestant state across Northern Europe"
+    ],
+    "answer": "B",
+    "explanation": "The Treaty of Westphalia aimed to establish a framework for international relations, recognizing the independence and sovereignty of all European states. This was a crucial step towards modern diplomacy, as it acknowledged that nations were no longer subject to external authority. Options A, C, and D are incorrect because they do not accurately reflect the primary objective of the Treaty.",
+    "domain": "history",
+    "tier": "medium",
+    "id": 213,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In a simple linear regression model, if the p-value for the F-statistic is greater than the significance level \u03b1 = 0.05, what can be concluded about the null hypothesis?",
+    "choices": [
+      "A) The null hypothesis cannot be rejected at the given significance level.",
+      "B) The null hypothesis is likely to be true.",
+      "C) There is insufficient evidence to support the alternative hypothesis.",
+      "D) The null hypothesis must be rejected in favor of the alternative."
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A because if the p-value for the F-statistic is greater than \u03b1 = 0.05, it means that there is not sufficient evidence to reject the null hypothesis at the given significance level. The null hypothesis cannot be rejected based on this result.",
+    "domain": "statistics",
+    "tier": "medium",
+    "id": 207,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Let P be a statement that is either true or false. Which of the following operations on P would preserve its truth value?",
+    "choices": [
+      "A) Conjunction with another true statement",
+      "B) Disjunction with another false statement",
+      "C) Negation",
+      "D) Implication with another true statement"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C) Negation, because negating a statement P does not change its truth value. If P is true, then \u00acP (the negation of P) is false, and vice versa. The other options do not preserve the truth value: A) Conjunction with another true statement would make the resulting statement always true, regardless of the original truth value; B) Disjunction with another false statement would make the resulting statement always true if the original statement was true, but false otherwise; D) Implication with another true statement is a semantic operation that does not affect the truth value of P.",
+    "domain": "logic",
+    "tier": "medium",
+    "id": 173,
+    "verification_confidence": 95
+  },
+  {
+    "id": 150,
+    "tier": "medium",
+    "domain": "science",
+    "question": "What is the SI unit of electric resistance?",
+    "choices": [
+      "A) Volt",
+      "B) Ampere",
+      "C) Ohm",
+      "D) Watt"
+    ],
+    "answer": "C",
+    "explanation": "The SI unit of electrical resistance is the Ohm (\u00ce\u00a9), named after Georg Ohm."
+  },
+  {
+    "id": 144,
+    "tier": "medium",
+    "domain": "cs",
+    "question": "In a min-heap, what is the time complexity of extracting the minimum element?",
+    "choices": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n log n)"
+    ],
+    "answer": "B",
+    "explanation": "Extracting the min requires heapifying down, which takes O(log n)."
+  },
+  {
+    "question": "The mechanism by which the rate of a chemical reaction depends on the concentration of reactants is best described by which of the following rate laws?",
+    "choices": [
+      "A) First-order kinetics",
+      "B) Second-order kinetics with respect to one reactant and zeroth-order with respect to another",
+      "C) Zeroth-order kinetics",
+      "D) Michaelis-Menten kinetics"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B) Second-order kinetics with respect to one reactant and zeroth-order with respect to another. This rate law describes the dependence of a reaction rate on the concentration of two or more reactants, where the order of the reaction with respect to one reactant may be different from that with respect to another. The other options are incorrect because A) First-order kinetics only depends on the concentration of one reactant, C) Zeroth-order kinetics is independent of the concentrations of all reactants, and D) Michaelis-Menten kinetics is a specific enzyme-substrate interaction.",
+    "domain": "chemistry",
+    "tier": "medium",
+    "id": 244,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Which of the following empires was NOT a major rival of the Byzantine Empire during its peak (4th-15th centuries)?",
+    "choices": [
+      "A) Sassanid Empire",
+      "B) Frankish Kingdom",
+      "C) Ottoman Empire",
+      "D) Roman Republic"
+    ],
+    "answer": "D",
+    "explanation": "The Byzantine Empire, also known as the Eastern Roman Empire, was a continuation of the Roman Empire in the east. Its main rivals were the Sassanid Empire to the east and the Frankish Kingdom to the west. The Ottoman Empire rose much later, from the 13th century onwards, while the Roman Republic ceased to exist with the fall of the Western Roman Empire in the 5th century AD. Therefore, the Roman Republic is not a correct answer.",
+    "domain": "history",
+    "tier": "medium",
+    "id": 230,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the primary advantage of using early stopping in gradient descent-based neural networks?",
+    "choices": [
+      "A) Reduced risk of overfitting by avoiding excessive training",
+      "B) Improved model interpretability through feature importance analysis",
+      "C) Enhanced regularization effect through dropout layers",
+      "D) Increased computational efficiency by terminating unnecessary iterations"
+    ],
+    "answer": "A",
+    "explanation": "Early stopping in gradient descent-based neural networks primarily serves to prevent overfitting by terminating the training process when performance on a validation set starts to degrade. This is because the model has likely reached a local minimum and further training would only exacerbate overfitting, whereas stopping early allows for better generalization. The other options do not directly address the primary advantage of early stopping.",
+    "domain": "machine learning",
+    "tier": "medium",
+    "id": 208,
+    "verification_confidence": 95
+  },
+  {
+    "id": 177,
+    "tier": "medium",
+    "domain": "math",
+    "question": "What is the Pythagorean theorem?",
+    "choices": [
+      "A) a^2 - b^2 = c^2",
+      "B) a^2 + b^2 = c^2",
+      "C) a + b = c",
+      "D) a^3 + b^3 = c^3"
+    ],
+    "answer": "B",
+    "explanation": "In a right triangle, the square of the hypotenuse equals the sum of squares of the other two sides."
+  },
+  {
+    "question": "In a valid argument, which of the following statements is sufficient to conclude that the conclusion cannot be true?",
+    "choices": [
+      "A) The premises contain a logical contradiction",
+      "B) The premises are mutually exclusive",
+      "C) The premises do not entail the conclusion",
+      "D) The conclusion is already assumed as true"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A because if the premises contain a logical contradiction, then the argument is invalid and the conclusion cannot be true. Options B and C are incorrect because mutual exclusivity or lack of entailment does not necessarily lead to an impossible conclusion. Option D is incorrect because assuming the conclusion as true is not sufficient to prove it.",
+    "domain": "logic",
+    "tier": "medium",
+    "id": 234,
+    "verification_confidence": 100
+  },
+  {
+    "question": "The process by which neurons in the brain's olfactory bulb respond more strongly to novel odors than familiar ones is thought to be mediated by changes in the strength of which type of synaptic connection?",
+    "choices": [
+      "A) Hebbian",
+      "B) Homosynaptic",
+      "C) Heterosynaptic",
+      "D) Metaplastic"
+    ],
+    "answer": "A",
+    "explanation": "Hebbian learning is a type of long-term potentiation that occurs at the synaptic level and is thought to play a key role in the processing of novel information, including the olfactory system. The other options are not directly related to this process.",
+    "domain": "neuroscience",
+    "tier": "medium",
+    "id": 183,
+    "verification_confidence": 100
+  },
+  {
+    "question": "In a finite lattice, the validity of a logical argument relies on which property of the lattice's graph structure?",
+    "choices": [
+      "A) Planarity",
+      "B) Connectivity",
+      "C) Dilation",
+      "D) Homogeneity"
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is homogeneity. In a finite lattice, the validity of a logical argument relies on the fact that every element in the lattice has the same number of neighbors. This property ensures that the argument can be applied uniformly to all elements in the lattice, making it valid or invalid regardless of its location.",
+    "domain": "logic",
+    "tier": "medium",
+    "id": 185,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Consider the following argument: All humans are mortal, Socrates is human. Which of the following conclusions can be logically inferred?",
+    "choices": [
+      "A) Therefore, Socrates is mortal",
+      "B) Perhaps Socrates is immortal",
+      "C) The statement 'All humans are mortal' is irrelevant to Socrates' mortality",
+      "D) There is insufficient information to determine Socrates' mortality"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer follows logically from the given premises. From 'All humans are mortal' and 'Socrates is human', we can conclude that Socrates, as a human, must be mortal. The other options do not follow logically: B) is an assumption rather than a conclusion; C) ignores the relevance of the first premise to Socrates' case; D) incorrectly suggests that we need more information to determine Socrates' mortality.",
+    "domain": "logic",
+    "tier": "medium",
+    "id": 130,
+    "verification_confidence": 95
+  },
+  {
+    "question": "When an object undergoes a transition from one phase to another (e.g., solid to liquid), what determines the rate at which this process occurs?",
+    "choices": [
+      "A) Temperature",
+      "B) Pressure",
+      "C) Surface tension",
+      "D) Viscosity"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A) Temperature, as the rate of phase transition is typically dependent on temperature. The other options are incorrect because pressure affects the equilibrium state but not the rate of transition (B), surface tension has a negligible effect at the macroscopic scale (C), and viscosity is a property related to fluid flow that does not directly impact phase transitions (D).",
+    "domain": "physics",
+    "tier": "medium",
+    "id": 238,
+    "verification_confidence": 100
+  },
+  {
+    "question": "During the processing of visual information, which brain region is responsible for the initial stage of feature extraction from visual stimuli?",
+    "choices": [
+      "A) Primary Visual Cortex",
+      "B) Lateral Occipital Complex",
+      "C) Fusiform Gyrus",
+      "D) Posterior Parietal Cortex"
+    ],
+    "answer": "A",
+    "explanation": "The primary visual cortex (V1) is the first stage of processing for visual information, responsible for extracting basic features such as line orientation and spatial frequency. While other regions may be involved in later stages of visual processing or specific aspects of feature extraction, V1 is specifically dedicated to this initial stage.",
+    "domain": "neuroscience",
+    "tier": "medium",
+    "id": 160,
+    "verification_confidence": 95
+  },
+  {
+    "question": "For a dataset with a significant amount of skewness, which of the following transformations would most likely improve the assumptions for performing a two-sample t-test?",
+    "choices": [
+      "A) Logarithmic transformation",
+      "B) Square root transformation",
+      "C) Standardization by subtracting means and dividing by standard deviations",
+      "D) No transformation is necessary"
+    ],
+    "answer": "A",
+    "explanation": "The logarithmic transformation can help to reduce skewness in a dataset, which is often required for the assumptions of a two-sample t-test. The other options may not address the issue of skewness effectively or are not suitable transformations for this type of test.",
+    "domain": "statistics",
+    "tier": "medium",
+    "id": 196,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In a simple linear regression model, which of the following statements best describes the relationship between the population slope coefficient (\u03b2) and the sample slope coefficient (b)?",
+    "choices": [
+      "A) \u03b2 = b",
+      "B) \u03b2 > b",
+      "C) \u03b2 < b",
+      "D) |\u03b2| = |b|"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A because in a simple linear regression model, the population slope coefficient (\u03b2) and the sample slope coefficient (b) are equivalent. The sample slope coefficient (b) is an estimator of the true population slope coefficient (\u03b2). As the sample size increases, the difference between \u03b2 and b tends to zero, making them asymptotically equal.",
+    "domain": "statistics",
+    "tier": "medium",
+    "id": 170,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In a random sample of size n from a population with unknown mean \u03bc, which of the following methods provides an unbiased estimator of the population mean?",
+    "choices": [
+      "A) Sample median",
+      "B) Sample mode",
+      "C) Sample mean (x\u0304)",
+      "D) Sample variance"
+    ],
+    "answer": "C",
+    "explanation": "The sample mean (x\u0304) is an unbiased estimator of the population mean because it is a linear combination of independent and identically distributed random variables, which preserves the expected value. The median and mode are not necessarily representative of the population's central tendency.",
+    "domain": "statistics",
+    "tier": "medium",
+    "id": 202,
+    "verification_confidence": 95
+  },
+  {
+    "question": "What is the primary mechanism by which the enzyme telomerase maintains telomere length in somatic cells?",
+    "choices": [
+      "A) Telomerase adds nucleotides to the 5' end of telomeres.",
+      "B) Telomerase removes damaged nucleotides from telomeres, allowing for more accurate repair.",
+      "C) Telomerase maintains telomere length by interacting with the DNA damage response pathway.",
+      "D) Telomerase does not play a role in maintaining telomere length in somatic cells."
+    ],
+    "answer": "A",
+    "explanation": "Telomerase is responsible for adding nucleotides to the ends of chromosomes, allowing them to maintain their integrity and protect against fusion. This process occurs in stem cells and some cancer cells, but not in somatic cells where telomeres naturally shorten with each cell division.",
+    "domain": "biology",
+    "tier": "medium",
+    "id": 165,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In a sample of size 25, what is the most accurate estimate for the population proportion p when using the sample proportion?",
+    "choices": [
+      "A) The sample proportion itself",
+      "B) The midpoint between 0 and 1",
+      "C) The average of all possible values of p",
+      "D) The margin of error for a confidence interval"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is the sample proportion itself because it is an unbiased estimator. The other options are incorrect: the midpoint between 0 and 1 is not a meaningful estimate, the average of all possible values of p would require knowledge of the underlying distribution, and the margin of error is a measure of precision rather than accuracy.",
+    "domain": "statistics",
+    "tier": "medium",
+    "id": 198,
+    "verification_confidence": 95
+  },
+  {
+    "id": 245,
+    "tier": "medium",
+    "domain": "cs",
+    "question": "What does SOLID stand for in software engineering?",
+    "choices": [
+      "A) Single, Open, Liskov, Interface, Dependency",
+      "B) Simple, Object, Linked, Interface, Design",
+      "C) Single, Object, Liskov, Integrated, Dependency",
+      "D) Structured, Open, Linked, Interface, Dependency"
+    ],
+    "answer": "A",
+    "explanation": "SOLID: Single responsibility, Open/closed, Liskov substitution, Interface segregation, Dependency inversion."
+  },
+  {
+    "id": 190,
+    "tier": "medium",
+    "domain": "history",
+    "question": "The Treaty of Westphalia (1648) ended which major conflict?",
+    "choices": [
+      "A) The Hundred Years War",
+      "B) The Thirty Years War",
+      "C) The Seven Years War",
+      "D) The War of Spanish Succession"
+    ],
+    "answer": "B",
+    "explanation": "The Treaty of Westphalia ended the Thirty Years War in 1648."
+  },
+  {
+    "question": "When adding a strong acid to a solution containing a weak base, which of the following pH values can be expected in the resulting mixture?",
+    "choices": [
+      "A) pH < 7",
+      "B) pH = pKa of the weak base",
+      "C) pH > 7",
+      "D) pH depends on the concentration ratio of acid and base"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is that the pH will be less than 7 because strong acids fully dissociate, increasing the hydrogen ion concentration. The wrong answers are all plausible but incorrect: the weak base's pKa has no direct relevance to the resulting pH; a strong acid would not increase the pH; and the pH actually depends on the strength of the acid and the concentration ratio.",
+    "domain": "chemistry",
+    "tier": "medium",
+    "id": 136,
+    "verification_confidence": 100
+  },
+  {
+    "question": "The neural activity in the primary visual cortex is typically characterized by which of the following types of oscillations?",
+    "choices": [
+      "A) Gamma waves (30-100 Hz)",
+      "B) Alpha waves (8-12 Hz)",
+      "C) Beta waves (13-30 Hz)",
+      "D) Delta waves (0.5-4 Hz)"
+    ],
+    "answer": "A",
+    "explanation": "The primary visual cortex is known to exhibit gamma wave activity, which is thought to play a role in processing and binding sensory information. Alpha, beta, and delta waves are typically associated with other brain regions or states.",
+    "domain": "neuroscience",
+    "tier": "medium",
+    "id": 195,
+    "verification_confidence": 95
+  },
+  {
+    "question": "During the process of neural plasticity, which type of synapse reorganization occurs when a neuron's axon is severed, resulting in its withdrawal from the synaptic circuit?",
+    "choices": [
+      "A) Long-term potentiation (LTP)",
+      "B) Long-term depression (LTD)",
+      "C) Short-term facilitation",
+      "D) Synaptic pruning"
+    ],
+    "answer": "D",
+    "explanation": "Synaptic pruning is a process of eliminating weak or unused connections between neurons, which occurs when a neuron's axon is severed. LTP and LTD refer to changes in the strength of synaptic connections between neurons, while short-term facilitation refers to temporary increases in neurotransmitter release.",
+    "domain": "neuroscience",
+    "tier": "medium",
+    "id": 188,
+    "verification_confidence": 100
+  },
+  {
+    "question": "In a formal proof by contradiction, which of the following statements is NOT a possible conclusion?",
+    "choices": [
+      "A) The statement being proved is false.",
+      "B) The assumption made at the beginning of the proof must be incorrect.",
+      "C) The original statement can be concluded as true.",
+      "D) There exists a third truth value beyond true and false."
+    ],
+    "answer": "D",
+    "explanation": "In a formal proof by contradiction, the goal is to show that the statement being proved leads to a logical inconsistency. This can be done by assuming its negation (i.e., the statement being proved is false) and then showing that this assumption leads to a contradictory conclusion. Therefore, option D is not a possible conclusion in a formal proof by contradiction.",
+    "domain": "logic",
+    "tier": "medium",
+    "id": 222,
+    "verification_confidence": 100
+  },
+  {
+    "question": "During cell division, what is the primary role of the spindle fibers in eukaryotic cells?",
+    "choices": [
+      "A) To provide structural support to the nuclear envelope",
+      "B) To anchor the chromosomes to the plasma membrane",
+      "C) To facilitate the separation and alignment of sister chromatids",
+      "D) To regulate the activity of the mitotic motor proteins"
+    ],
+    "answer": "C",
+    "explanation": "Spindle fibers play a crucial role in ensuring proper chromosome segregation during cell division. They attach to the kinetochores of sister chromatids, align them at the metaphase plate, and then separate them during anaphase. The other options are all incorrect as they do not accurately describe the primary function of spindle fibers.",
+    "domain": "biology",
+    "tier": "medium",
+    "id": 146,
+    "verification_confidence": 100
+  },
+  {
+    "question": "The Treaty of Westphalia, signed in 1648, marked the end of which major European conflict?",
+    "choices": [
+      "A) The Thirty Years' War",
+      "B) The War of the Austrian Succession",
+      "C) The Spanish War of Independence",
+      "D) The Franco-Prussian War"
+    ],
+    "answer": "A",
+    "explanation": "The Treaty of Westphalia indeed marked the end of the Thirty Years' War, a devastating conflict that ravaged much of Europe. Options B-D are incorrect as they refer to separate conflicts that occurred in different time periods.",
+    "domain": "history",
+    "tier": "medium",
+    "id": 253,
+    "verification_confidence": 95
+  },
+  {
+    "question": "What is the primary driving force behind the process of chemical vapor deposition (CVD) in semiconductor manufacturing?",
+    "choices": [
+      "A) Temperature gradients between the substrate and reactant gases",
+      "B) Electrostatic attraction between ions and nucleation sites on the substrate",
+      "C) Surface diffusion of adatoms to form a crystal lattice structure",
+      "D) Thermal activation energy required for reaction initiation"
+    ],
+    "answer": "A",
+    "explanation": "The primary driving force behind CVD is the temperature difference between the substrate and reactant gases, which creates a concentration gradient that drives the deposition process. Temperature gradients cannot be eliminated by electrostatic attraction or surface diffusion.",
+    "domain": "chemistry",
+    "tier": "medium",
+    "id": 131,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Which of the following best describes the relationship between inflation and nominal interest rates, as depicted in the monetarist theory?",
+    "choices": [
+      "A) Inflation and nominal interest rates are positively correlated.",
+      "B) Inflation and nominal interest rates are inversely correlated.",
+      "C) Nominal interest rates remain constant while inflation fluctuates.",
+      "D) The relationship between inflation and nominal interest rates is ambiguous and depends on the specific economic context."
+    ],
+    "answer": "A",
+    "explanation": "The correct answer, A) Inflation and nominal interest rates are positively correlated., reflects the monetarist theory's assertion that an increase in inflation leads to a corresponding increase in nominal interest rates. This is because high inflation erodes the purchasing power of money, making lenders demand higher returns to compensate for expected price increases. Options B, C, and D do not accurately represent the relationship between inflation and nominal interest rates as described by monetarist theory.",
+    "domain": "economics",
+    "tier": "medium",
+    "id": 180,
+    "verification_confidence": 95
+  },
+  {
+    "question": "When testing the equality of two population means, which of the following is a valid justification for using the two-sample t-test instead of the one-sample t-test?",
+    "choices": [
+      "A) The sample sizes are significantly different",
+      "B) The variances of the samples are known to be equal",
+      "C) The samples come from normal distributions",
+      "D) The populations being compared have different standard deviations"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A because the two-sample t-test assumes independence and non-equal sample sizes, whereas the one-sample t-test assumes a single sample size. This justifies using the two-sample t-test when testing the equality of two population means. Options B and C are incorrect as they relate to assumptions about variance or normality, which are not directly related to the justification for choosing between tests. Option D is also incorrect because it does not address the comparison of means.",
+    "domain": "statistics",
+    "tier": "medium",
+    "id": 181,
+    "verification_confidence": 100
+  },
+  {
+    "question": "Which of the following cellular processes is primarily responsible for the regulation of gene expression in response to changes in the availability of nutrients?",
+    "choices": [
+      "A) Apoptosis",
+      "B) Autophagy",
+      "C) Epigenetic modification",
+      "D) Protein synthesis"
+    ],
+    "answer": "C",
+    "explanation": "Epigenetic modifications, such as DNA methylation and histone modification, play a crucial role in regulating gene expression in response to changes in nutrient availability. Apoptosis is the process of programmed cell death, autophagy is the process of cellular self-digestion, and protein synthesis is the process of creating proteins from amino acids.",
+    "domain": "biology",
+    "tier": "medium",
+    "id": 137,
+    "verification_confidence": 95
+  },
+  {
+    "id": 243,
+    "tier": "medium",
+    "domain": "cs",
+    "question": "What is Big O notation O(n^2) typically associated with?",
+    "choices": [
+      "A) Linear search",
+      "B) Binary search",
+      "C) Bubble sort",
+      "D) Merge sort"
+    ],
+    "answer": "C",
+    "explanation": "Bubble sort has O(n^2) time complexity in average and worst cases."
+  },
+  {
+    "question": "Which type of neural activity is characterized by the simultaneous firing of a group of neurons, often involving different brain regions?",
+    "choices": [
+      "A) Synchronous oscillations",
+      "B) Asymmetric spike timing",
+      "C) Local field potentials",
+      "D) Phase-locked loops"
+    ],
+    "answer": "A",
+    "explanation": "Synchronous oscillations refer to the coordinated activity of a group of neurons, often involving different brain regions. This type of neural activity is distinct from the other options: Asymmetric spike timing refers to the temporal variation in neuron firing, Local field potentials are large-scale electrical fields generated by neural activity, and Phase-locked loops are an electronic concept not directly related to neuroscience.",
+    "domain": "neuroscience",
+    "tier": "medium",
+    "id": 167,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the primary mechanism by which a catalyst affects the rate of a chemical reaction?",
+    "choices": [
+      "A) By increasing the activation energy required for the forward reaction",
+      "B) By decreasing the activation energy required for the reverse reaction",
+      "C) By forming a strong covalent bond with the reactant molecule",
+      "D) By stabilizing the transition state of the reaction"
+    ],
+    "answer": "D",
+    "explanation": "A catalyst works by lowering the energy barrier between the reactants and products, allowing the reaction to proceed more quickly. This is achieved by stabilizing the transition state, which is the highest-energy intermediate in the reaction. Options A-C are all incorrect because they describe mechanisms that would either slow down or speed up a reaction, but not the way catalysts actually work.",
+    "domain": "chemistry",
+    "tier": "medium",
+    "id": 224,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Consider a dynamic programming algorithm that solves the Fibonacci sequence problem. Which of the following statements accurately describes the key insight that allows for efficient computation of the nth Fibonacci number?",
+    "choices": [
+      "A) Using memoization to store previously computed values",
+      "B) Employing a recursive approach with no optimization",
+      "C) Applying a divide-and-conquer strategy to reduce computational complexity",
+      "D) Implementing a brute-force iteration with exponential time complexity"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is memoization, as it allows the algorithm to store previously computed values and avoid redundant calculations. This insight enables the efficient computation of the nth Fibonacci number, rather than recomputing values from scratch. The other options are incorrect because they do not take into account the key optimization that memoization provides.",
+    "domain": "algorithms",
+    "tier": "medium",
+    "id": 236,
+    "verification_confidence": 100
+  },
+  {
+    "question": "In the context of cellular respiration, which process is responsible for generating a proton motive force across the inner mitochondrial membrane?",
+    "choices": [
+      "A) Citric acid cycle",
+      "B) Oxidative phosphorylation",
+      "C) Glycolysis",
+      "D) Fermentation"
+    ],
+    "answer": "B",
+    "explanation": "Oxidative phosphorylation is the process responsible for generating a proton motive force across the inner mitochondrial membrane. This occurs in the electron transport chain of the mitochondria, where protons are pumped out of the matrix into the intermembrane space, creating a proton gradient that drives ATP synthesis.",
+    "domain": "biology",
+    "tier": "medium",
+    "id": 242,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the primary goal of regularization techniques in machine learning models, such as L1 and L2 regularization?",
+    "choices": [
+      "A) To improve model interpretability by reducing overfitting",
+      "B) To enhance model flexibility by increasing the number of local optima",
+      "C) To speed up training times by reducing computational complexity",
+      "D) To increase model accuracy by introducing noise in the training data"
+    ],
+    "answer": "A",
+    "explanation": "Regularization techniques, such as L1 and L2 regularization, are designed to prevent overfitting by adding a penalty term to the loss function. This penalty term encourages the model to learn simpler representations and avoid complex features that may not generalize well to new data. By doing so, regularization helps improve model interpretability by reducing the risk of memorizing training data noise.",
+    "domain": "machine learning",
+    "tier": "medium",
+    "id": 218,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Consider a dynamic programming algorithm to find the longest increasing subsequence (LIS) of a given sequence of integers. Which of the following is a correct approach to compute the recurrence relation for this problem?",
+    "choices": [
+      "A) Use a memoized function to store and reuse previously computed values",
+      "B) Initialize an array of length n+1, where n is the size of the input sequence, and set each element to its corresponding index",
+      "C) Define a recursive function that takes two integers as input and returns the maximum length of LIS ending at those indices",
+      "D) Implement a priority queue data structure to efficiently select the longest increasing subsequence"
+    ],
+    "answer": "A",
+    "explanation": "The correct approach is to use memoization to store and reuse previously computed values, rather than recalculating them from scratch. This is because the recurrence relation for the LIS problem has overlapping subproblems, making it a prime candidate for dynamic programming. Options B and C are incorrect because they do not take into account the need to store and reuse previously computed values. Option D is incorrect because priority queues are not typically used in dynamic programming.",
+    "domain": "algorithms",
+    "tier": "medium",
+    "id": 255,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In a typical implementation of the binary search algorithm, what is the primary benefit of using a sorted input array?",
+    "choices": [
+      "A) Reduced number of comparisons",
+      "B) Improved cache locality",
+      "C) Enhanced parallelizability",
+      "D) Simplified code optimization"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is that the primary benefit of using a sorted input array is reduced number of comparisons, as binary search can terminate early once the target value is known to be outside certain regions of the array. The other options are plausible but incorrect: cache locality and parallelizability are not directly related to the benefits of sorting, and simplified code optimization is not unique to binary search.",
+    "domain": "computer science",
+    "tier": "medium",
+    "id": 162,
+    "verification_confidence": 100
+  }
+]

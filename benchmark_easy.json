@@ -1,0 +1,1462 @@
+[
+  {
+    "question": "The primary purpose of the olfactory bulb in the brain is to:",
+    "choices": [
+      "A) Integrate and process sensory information from the vomeronasal organ",
+      "B) Relay signals from the nose to the hippocampus for memory formation",
+      "C) Process odorant molecules into a neural representation for conscious perception",
+      "D) Filter out irrelevant sensory input from the trigeminal nerve"
+    ],
+    "answer": "C",
+    "explanation": "The olfactory bulb is responsible for processing and integrating information from the olfactory receptors in the nose, not the vomeronasal organ. It does not directly relay signals to the hippocampus or filter out sensory input from the trigeminal nerve.",
+    "domain": "neuroscience",
+    "tier": "easy",
+    "id": 103,
+    "verification_confidence": 95
+  },
+  {
+    "question": "What is the primary function of the 'train' method in a neural network?",
+    "choices": [
+      "A) To test the model's performance on unseen data",
+      "B) To update the model's weights and biases based on training data",
+      "C) To select the most important features for the model",
+      "D) To normalize the input data"
+    ],
+    "answer": "B",
+    "explanation": "The 'train' method is used to update the model's weights and biases based on the training data. This is where the model learns from the data and improves its performance. Options A, C, and D are all incorrect because the 'train' method is not about testing the model's performance, selecting features, or normalizing input data.",
+    "domain": "machine learning",
+    "tier": "easy",
+    "id": 3,
+    "verification_confidence": 100
+  },
+  {
+    "question": "If a geometric shape has line symmetry about the y-axis, which of the following statements must be true?",
+    "choices": [
+      "A) The shape's graph is always an even function",
+      "B) The shape's graph can be odd or even",
+      "C) The shape's graph is never a polynomial",
+      "D) The shape's graph has at least one axis of symmetry"
+    ],
+    "answer": "A",
+    "explanation": "Since the shape has line symmetry about the y-axis, its graph must have an odd multiple of \u03c0 as a factor. This means that the shape's function must be even. Any odd function would not possess this type of symmetry.",
+    "domain": "mathematics",
+    "tier": "easy",
+    "id": 66,
+    "verification_confidence": 95
+  },
+  {
+    "question": "The American Revolution began in which year, as a response to the Intolerable Acts passed by the British Parliament?",
+    "choices": [
+      "A) 1775",
+      "B) 1763",
+      "C) 1750",
+      "D) 1789"
+    ],
+    "answer": "A",
+    "explanation": "The American Revolution started in 1775 as a response to the Intolerable Acts, which were a series of laws passed by the British Parliament that imposed harsh restrictions on the colonies. The other options are incorrect because they do not mark the beginning of the American Revolution.",
+    "domain": "history",
+    "tier": "easy",
+    "id": 101,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Which of the following statements is a valid inference from the premises: 'All humans are mortal. Socrates is human.'?",
+    "choices": [
+      "A) Therefore, Socrates is not immortal.",
+      "B) There is no conclusion that can be drawn about Socrates' mortality.",
+      "C) It does not follow that Socrates will definitely die someday.",
+      "D) The statement only implies that Socrates might possibly be mortal."
+    ],
+    "answer": "A",
+    "explanation": "The correct answer follows logically from the premises: since all humans are mortal, and Socrates is human, it can be inferred that Socrates must also be mortal. Options B-D do not follow logically from the given information.",
+    "domain": "logic",
+    "tier": "easy",
+    "id": 42,
+    "verification_confidence": 95
+  },
+  {
+    "question": "What is the primary purpose of the cache memory in a computer?",
+    "choices": [
+      "A) To store frequently used instructions for faster execution",
+      "B) To reduce the physical size and cost of the system by storing less frequently used data",
+      "C) To provide a secondary storage medium for permanent data preservation",
+      "D) To improve power consumption and thermal efficiency by turning off unused components"
+    ],
+    "answer": "A",
+    "explanation": "The primary purpose of cache memory is to store frequently accessed data or instructions in a fast, easily accessible location. This reduces the time it takes for the CPU to access main memory, improving overall system performance. Options B, C, and D are incorrect as they do not accurately describe the role of cache memory.",
+    "domain": "computer science",
+    "tier": "easy",
+    "id": 28,
+    "verification_confidence": 100
+  },
+  {
+    "question": "The primary function of the cerebral cortex in the human brain is to:",
+    "choices": [
+      "A) Regulate autonomic functions such as heart rate and blood pressure",
+      "B) Integrate sensory information from the thalamus and process it into conscious perception",
+      "C) Control voluntary movements of skeletal muscles",
+      "D) Produce hormones that regulate emotions and stress responses"
+    ],
+    "answer": "B",
+    "explanation": "The cerebral cortex is responsible for processing sensory information, higher-level thinking, and facilitating conscious perception. This answer highlights the cortical role in integrating sensory data from the thalamus, whereas other options focus on autonomic regulation (A), motor control (C), or hormone production (D).",
+    "domain": "neuroscience",
+    "tier": "easy",
+    "id": 15,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Which of the following statements about logical equivalence is TRUE?",
+    "choices": [
+      "A) Two propositional formulas are logically equivalent if they have the same truth value in all possible worlds.",
+      "B) Two propositional formulas are logically equivalent if they can be simplified to a tautology.",
+      "C) Two propositional formulas are logically equivalent if they have the same negation.",
+      "D) Two propositional formulas are logically equivalent if one is a logical consequence of the other."
+    ],
+    "answer": "A",
+    "explanation": "Logical equivalence means that two statements always have the same truth value. This answer correctly defines what it means for two propositional formulas to be logically equivalent. The other options are incorrect because they all focus on specific properties of the formulas rather than their overall truth value.",
+    "domain": "logic",
+    "tier": "easy",
+    "id": 115,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the average value of a set of data that has been shifted by adding or subtracting a constant value?",
+    "choices": [
+      "A) The original mean",
+      "B) A new mean equal to the original mean plus the shift value",
+      "C) The same as the original median",
+      "D) Unchanged, since the shift only affects the scale"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B because when you add or subtract a constant from each data point, you are essentially moving the entire distribution by that amount. This means the new mean will also change by that same amount, resulting in the original mean plus the shift value.",
+    "domain": "statistics",
+    "tier": "easy",
+    "id": 86,
+    "verification_confidence": 95
+  },
+  {
+    "id": 53,
+    "tier": "easy",
+    "domain": "math",
+    "question": "What is 15% of 200?",
+    "choices": [
+      "A) 25",
+      "B) 30",
+      "C) 35",
+      "D) 40"
+    ],
+    "answer": "B",
+    "explanation": "15/100 * 200 = 30."
+  },
+  {
+    "question": "The primary function of a central bank in a country's economy is to:",
+    "choices": [
+      "A) Regulate interest rates",
+      "B) Implement taxation policies",
+      "C) Maintain price stability through monetary policy",
+      "D) Manage government spending"
+    ],
+    "answer": "C",
+    "explanation": "Central banks are responsible for maintaining price stability by using monetary policy tools, such as setting interest rates and adjusting the money supply. This helps to control inflation and stabilize the economy. Regulating interest rates is a key part of this process, but it's not the primary function. Taxation policies and government spending are the realm of other institutions.",
+    "domain": "economics",
+    "tier": "easy",
+    "id": 76,
+    "verification_confidence": 95
+  },
+  {
+    "question": "What is the sum of an infinite geometric series with first term 2 and common ratio 1/2?",
+    "choices": [
+      "A) 4",
+      "B) 6",
+      "C) 8",
+      "D) 10"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A because the sum of a geometric series with first term a and common ratio r can be calculated using the formula S = a/(1-r). In this case, a = 2 and r = 1/2, so S = 2/(1-1/2) = 4.",
+    "domain": "mathematics",
+    "tier": "easy",
+    "id": 123,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the fundamental force responsible for keeping objects on Earth's surface?",
+    "choices": [
+      "A) Gravity",
+      "B) Electromagnetism",
+      "C) Friction",
+      "D) Buoyancy"
+    ],
+    "answer": "A",
+    "explanation": "Gravity is the force that attracts two objects with mass towards each other, and it is responsible for keeping objects on Earth's surface. The other options are not fundamental forces that affect large-scale objects like those found on Earth.",
+    "domain": "physics",
+    "tier": "easy",
+    "id": 120,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Which economic indicator is most closely associated with the overall health of a country's economy?",
+    "choices": [
+      "A) Gross Domestic Product (GDP)",
+      "B) Inflation Rate",
+      "C) Unemployment Rate",
+      "D) Consumer Price Index"
+    ],
+    "answer": "A",
+    "explanation": "The answer is A) Gross Domestic Product (GDP), as it provides a comprehensive measure of the size and growth rate of an economy. The other options are important economic indicators, but they do not provide a broad view of an economy's overall health.",
+    "domain": "economics",
+    "tier": "easy",
+    "id": 39,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the primary function of the glial cells in the central nervous system?",
+    "choices": [
+      "A) To produce neurotransmitters for neuron communication",
+      "B) To support and maintain the structure and function of neurons",
+      "C) To facilitate the transmission of action potentials between neurons",
+      "D) To regulate blood flow to specific regions of the brain"
+    ],
+    "answer": "B",
+    "explanation": "Glial cells, such as astrocytes and oligodendrocytes, play a crucial role in supporting the structure and function of neurons. They provide nutrients, remove debris and excess neurotransmitters, and maintain the blood-brain barrier. Option A is incorrect because neurotransmitter production is primarily the job of neurons themselves. Options C and D are also incorrect because glial cells do not facilitate transmission of action potentials or regulate blood flow.",
+    "domain": "neuroscience",
+    "tier": "easy",
+    "id": 109,
+    "verification_confidence": 95
+  },
+  {
+    "question": "The cerebral cortex is divided into four main layers: I, II, III, and IV. Which layer is responsible for receiving and processing sensory information from the thalamus?",
+    "choices": [
+      "A) Layer I",
+      "B) Layer II/III",
+      "C) Layer IV",
+      "D) The pyramidal cells in Layer V"
+    ],
+    "answer": "C",
+    "explanation": "Layer IV is responsible for receiving and processing sensory information from the thalamus, as it is the primary recipient of input from the thalamic nuclei. Layers I-III are primarily involved in integrating and transmitting this information to other areas, while Layer V contains pyramidal cells that are not directly involved in sensory processing.",
+    "domain": "neuroscience",
+    "tier": "easy",
+    "id": 23,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the primary goal of the sorting algorithm known as Bubble Sort?",
+    "choices": [
+      "A) To find the median value in an array",
+      "B) To sort an array in descending order",
+      "C) To repeatedly swap adjacent elements if they are in the wrong order",
+      "D) To eliminate duplicate values from a list"
+    ],
+    "answer": "C",
+    "explanation": "Bubble Sort's primary goal is to repeatedly swap adjacent elements if they are in the wrong order, with the intention of moving larger or smaller values towards the end of the array. The other options do not accurately describe the purpose of Bubble Sort.",
+    "domain": "algorithms",
+    "tier": "easy",
+    "id": 56,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the primary function of a compiler in computer programming?",
+    "choices": [
+      "A) To translate machine code into assembly language",
+      "B) To interpret high-level source code directly",
+      "C) To analyze and optimize program performance",
+      "D) To generate executable machine code from source code"
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is that a compiler's primary function is to translate source code written in a high-level programming language into executable machine code that can be run directly by the computer. The other options are incorrect: option A refers to an assembler, which translates assembly language into machine code; option B describes interpretation, not compilation; and option C is a task that can be performed during compilation or separately with profiling tools.",
+    "domain": "computer science",
+    "tier": "easy",
+    "id": 87,
+    "verification_confidence": 100
+  },
+  {
+    "question": "The Treaty of Westphalia, signed in 1648, marked the end of which major conflict?",
+    "choices": [
+      "A) The Thirty Years' War",
+      "B) The English Civil War",
+      "C) The Dutch Revolt",
+      "D) The Spanish War of Succession"
+    ],
+    "answer": "A",
+    "explanation": "The Treaty of Westphalia was a series of treaties signed in 1648 that marked the end of the Thirty Years' War. This war was a devastating conflict that involved many European countries, including Germany, Sweden, France, and the Holy Roman Empire. The treaty established the principle of sovereign states and the concept of non-interference in the internal affairs of other nations. In contrast, the English Civil War ended with the Restoration of the monarchy under Charles II, the Dutch Revolt was a series of rebellions against Spanish rule that ended with the signing of the Treaty of M\u00fcnster in 1648, and the Spanish War of Succession was a conflict over the throne of Spain that did not end until the Treaty of Rastatt was signed in 1714.",
+    "domain": "history",
+    "tier": "easy",
+    "id": 119,
+    "verification_confidence": 100
+  },
+  {
+    "id": 30,
+    "tier": "easy",
+    "domain": "geography",
+    "question": "What is the capital of France?",
+    "choices": [
+      "A) Lyon",
+      "B) Paris",
+      "C) Marseille",
+      "D) Nice"
+    ],
+    "answer": "B",
+    "explanation": "Paris is the capital and largest city of France."
+  },
+  {
+    "question": "What is the primary goal of a decision tree algorithm in machine learning?",
+    "choices": [
+      "A) To identify the underlying structure of the data",
+      "B) To predict a continuous output variable",
+      "C) To classify instances into different categories",
+      "D) To optimize a cost function by selecting the best features"
+    ],
+    "answer": "C",
+    "explanation": "The primary goal of a decision tree algorithm is to classify instances into different categories, not to identify underlying structure (A), predict continuous output variables (B), or optimize a cost function by selecting the best features (D). The correct answer is to classify instances, which is the core functionality of decision trees.",
+    "domain": "machine learning",
+    "tier": "easy",
+    "id": 37,
+    "verification_confidence": 100
+  },
+  {
+    "id": 128,
+    "tier": "easy",
+    "domain": "geography",
+    "question": "On which continent is the Amazon rainforest primarily located?",
+    "choices": [
+      "A) Africa",
+      "B) Asia",
+      "C) South America",
+      "D) North America"
+    ],
+    "answer": "C",
+    "explanation": "The Amazon rainforest is primarily located in Brazil, South America."
+  },
+  {
+    "question": "Which of the following compounds has the highest boiling point?",
+    "choices": [
+      "A) Methane (CH4)",
+      "B) Ethanol (C2H5OH)",
+      "C) Cyclohexane (C6H12)",
+      "D) Propane (C3H8)"
+    ],
+    "answer": "C",
+    "explanation": "Cyclohexane has the highest boiling point due to its strong intermolecular forces and relatively large molecular size. Methane, ethanol, and propane have weaker intermolecular forces and smaller molecules, resulting in lower boiling points.",
+    "domain": "chemistry",
+    "tier": "easy",
+    "id": 104,
+    "verification_confidence": 95
+  },
+  {
+    "id": 17,
+    "tier": "easy",
+    "domain": "math",
+    "question": "What is the sum of angles in a triangle?",
+    "choices": [
+      "A) 90 degrees",
+      "B) 180 degrees",
+      "C) 270 degrees",
+      "D) 360 degrees"
+    ],
+    "answer": "B",
+    "explanation": "The interior angles of any triangle always sum to 180 degrees."
+  },
+  {
+    "question": "What is the fundamental physical principle that describes the relationship between a force applied to an object and its resulting acceleration?",
+    "choices": [
+      "A) Hooke's Law",
+      "B) Newton's Second Law of Motion",
+      "C) Euler's Bernoulli Equation",
+      "D) Fourier's Law of Heat Conduction"
+    ],
+    "answer": "B",
+    "explanation": "Newton's Second Law of Motion states that the force applied to an object (F) is equal to its mass (m) times its acceleration (a), or F = ma. This means that for a given force, different objects with different masses will accelerate at different rates. In contrast, Hooke's Law describes the relationship between force and displacement in a spring, Euler's Bernoulli Equation is a mathematical formula used to describe the behavior of fluids, and Fourier's Law of Heat Conduction relates heat flow to temperature gradients.",
+    "domain": "physics",
+    "tier": "easy",
+    "id": 70,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the sum of the interior angles in a regular polygon with n sides?",
+    "choices": [
+      "A) (n - 2) * 180",
+      "B) n * 180",
+      "C) (n + 2) * 180",
+      "D) (n/2) * 360"
+    ],
+    "answer": "A",
+    "explanation": "The sum of the interior angles in a polygon with n sides is equal to (n-2)*180 degrees. This is because an (n-sided) polygon can be divided into (n-2) triangles, and each triangle has an angle sum of 180 degrees.",
+    "domain": "mathematics",
+    "tier": "easy",
+    "id": 1,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the primary function of the operating system in a computer?",
+    "choices": [
+      "A) To manage and optimize CPU usage",
+      "B) To manage and allocate memory resources",
+      "C) To provide a secure interface between hardware and software",
+      "D) To compress and decompress data"
+    ],
+    "answer": "C",
+    "explanation": "The primary function of an operating system is to act as an intermediary between computer hardware and user-level applications, providing common services to computer programs such as process control, memory management, file input/output operations, networking, and security. This ensures that software components can interact with the hardware in a standardized and controlled way.",
+    "domain": "computer science",
+    "tier": "easy",
+    "id": 25,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the primary difference between a greedy algorithm and a dynamic programming algorithm?",
+    "choices": [
+      "A) Greedy algorithms make optimal choices at each step, while dynamic programming algorithms consider all possible choices.",
+      "B) Dynamic programming algorithms are always more efficient than greedy algorithms.",
+      "C) Greedy algorithms can only be used for NP-complete problems.",
+      "D) Greedy algorithms rely on backtracking to find the solution."
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is that a greedy algorithm makes optimal choices at each step, whereas a dynamic programming algorithm considers all possible choices. The other options are incorrect: B) Dynamic programming can be less efficient than greedy algorithms if the problem has overlapping subproblems. C) Greedy algorithms do not rely on backtracking to find the solution.",
+    "domain": "algorithms",
+    "tier": "easy",
+    "id": 20,
+    "verification_confidence": 100
+  },
+  {
+    "id": 90,
+    "tier": "easy",
+    "domain": "science",
+    "question": "What is the atomic number of Carbon?",
+    "choices": [
+      "A) 4",
+      "B) 6",
+      "C) 8",
+      "D) 12"
+    ],
+    "answer": "B",
+    "explanation": "Carbon has atomic number 6, meaning it has 6 protons."
+  },
+  {
+    "question": "Which part of the human brain is primarily responsible for processing sensory information from our eyes?",
+    "choices": [
+      "A) Cerebellum",
+      "B) Hippocampus",
+      "C) Occipital lobe",
+      "D) Amygdala"
+    ],
+    "answer": "C",
+    "explanation": "The occipital lobe is the primary visual processing center of the brain, responsible for processing sensory information from our eyes. The other options are not directly involved in visual processing.",
+    "domain": "neuroscience",
+    "tier": "easy",
+    "id": 67,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the smallest whole number that can be obtained by combining one or more atoms of hydrogen (H) with one or more atoms of oxygen (O)?",
+    "choices": [
+      "A) H2",
+      "B) O2",
+      "C) HO2",
+      "D) OH"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is H2, as the smallest whole number that can be obtained by combining one or more atoms of hydrogen (H) with one or more atoms of oxygen (O) is water (H2O), which is equivalent to combining two hydrogen atoms with one oxygen atom. The other options are incorrect because they do not represent a single, whole number of atoms.",
+    "domain": "chemistry",
+    "tier": "easy",
+    "id": 72,
+    "verification_confidence": 95
+  },
+  {
+    "question": "When an object is thrown vertically upwards, what happens to its potential energy?",
+    "choices": [
+      "A) It remains constant",
+      "B) It increases as the object rises",
+      "C) It decreases as the object falls back down",
+      "D) It becomes zero at the highest point"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is that the potential energy of the object increases as it rises because its height above the ground increases. The other options are incorrect because the potential energy remains constant if there's no change in height, decreases if the object falls back down, and becomes zero only at the highest point.",
+    "domain": "physics",
+    "tier": "easy",
+    "id": 22,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is a common goal when selecting features for a machine learning model?",
+    "choices": [
+      "A) To minimize the number of input variables",
+      "B) To reduce the computational complexity of the algorithm",
+      "C) To increase the predictive accuracy and explanatory power of the model",
+      "D) To decrease the importance of the target variable"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C) To increase the predictive accuracy and explanatory power of the model. This goal is achieved by selecting features that are relevant, non-redundant, and highly correlated with the target variable, which ultimately improves the model's ability to make accurate predictions and provides meaningful insights.",
+    "domain": "machine learning",
+    "tier": "easy",
+    "id": 49,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the primary function of chlorophyll in plant cells?",
+    "choices": [
+      "A) To store energy from sunlight",
+      "B) To regulate cell growth and division",
+      "C) To absorb and utilize water",
+      "D) To facilitate the conversion of light energy into chemical energy"
+    ],
+    "answer": "D",
+    "explanation": "Chlorophyll is a green pigment found in plant cells that plays a crucial role in photosynthesis. Its primary function is to absorb light energy from the sun and use it to convert carbon dioxide and water into glucose and oxygen. The other options are not accurate descriptions of chlorophyll's function.",
+    "domain": "biology",
+    "tier": "easy",
+    "id": 5,
+    "verification_confidence": 100
+  },
+  {
+    "question": "The Treaty of Westphalia, signed in 1648, marked the end of which major conflict?",
+    "choices": [
+      "A) The Thirty Years' War",
+      "B) The English Civil War",
+      "C) The Franco-Spanish War",
+      "D) The Dutch Revolt"
+    ],
+    "answer": "A",
+    "explanation": "The Treaty of Westphalia was signed to end the Thirty Years' War, a devastating conflict that lasted from 1618 to 1648 and involved many European countries. The other options are incorrect because they were separate conflicts or did not involve the same scope of devastation as the Thirty Years' War.",
+    "domain": "history",
+    "tier": "easy",
+    "id": 107,
+    "verification_confidence": 100
+  },
+  {
+    "question": "Which part of the human brain is primarily responsible for processing olfactory information?",
+    "choices": [
+      "A) Hippocampus",
+      "B) Amygdala",
+      "C) Olfactory bulb",
+      "D) Basal ganglia"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer, Olfactory bulb, is the part of the brain that processes and interprets olfactory information. The other options are involved in different functions: Hippocampus is involved in memory formation, Amygdala is involved in emotional processing, and Basal ganglia is involved in motor control.",
+    "domain": "neuroscience",
+    "tier": "easy",
+    "id": 6,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the primary function of the atom in a chemical bond?",
+    "choices": [
+      "A) To provide the necessary energy for the reaction",
+      "B) To share electrons with other atoms",
+      "C) To donate electrons to other atoms",
+      "D) To accept electrons from other atoms"
+    ],
+    "answer": "B",
+    "explanation": "The primary function of an atom in a chemical bond is to share electrons with other atoms. This allows the formation of a covalent bond, where the shared electrons are held between the atoms. The other options do not accurately describe the role of an atom in a chemical bond.",
+    "domain": "chemistry",
+    "tier": "easy",
+    "id": 61,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In a dataset with n observations, what is the formula for the sample variance?",
+    "choices": [
+      "A) \u03a3(x_i - x\u0304)^2 / (n-1)",
+      "B) \u03a3x_i^2 / n",
+      "C) |x_1-x_n| / n",
+      "D) \u2211(x_i-x\u0304) / \u221an"
+    ],
+    "answer": "A",
+    "explanation": "The sample variance is calculated as the average of squared deviations from the mean, which is \u03a3(x_i - x\u0304)^2 / (n-1). Options B and D are incorrect because they don't take into account the squared nature of the deviations. Option C is incorrect because it's calculating the absolute difference between consecutive values, not the variance.",
+    "domain": "statistics",
+    "tier": "easy",
+    "id": 14,
+    "verification_confidence": 100
+  },
+  {
+    "id": 2,
+    "tier": "easy",
+    "domain": "science",
+    "question": "What is the chemical symbol for water?",
+    "choices": [
+      "A) H2O",
+      "B) CO2",
+      "C) NaCl",
+      "D) O2"
+    ],
+    "answer": "A",
+    "explanation": "Water is composed of two hydrogen atoms and one oxygen atom."
+  },
+  {
+    "question": "What is the primary function of the cell wall in plant cells?",
+    "choices": [
+      "A) It provides structural support and protection to the cell",
+      "B) It regulates the movement of ions across the cell membrane",
+      "C) It facilitates the transport of nutrients into the cell",
+      "D) It plays a crucial role in photosynthesis"
+    ],
+    "answer": "A",
+    "explanation": "The primary function of the cell wall is indeed to provide structural support and protection to the cell, which allows it to maintain its shape and withstand external pressures. The other options do not accurately describe the primary function of the cell wall.",
+    "domain": "biology",
+    "tier": "easy",
+    "id": 85,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the value of x in the equation 2x + 5 = 11?",
+    "choices": [
+      "A) 1",
+      "B) 3",
+      "C) 4",
+      "D) 2"
+    ],
+    "answer": "B",
+    "explanation": "To solve for x, subtract 5 from both sides to get 2x = 6, then divide by 2 to find x = 3. The other options are incorrect because they do not satisfy the equation.",
+    "domain": "mathematics",
+    "tier": "easy",
+    "id": 82,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the chemical symbol for a group of atoms that is the simplest and most abundant form of carbon in nature?",
+    "choices": [
+      "A) C6H12O6",
+      "B) CO2",
+      "C) CH4",
+      "D) C"
+    ],
+    "answer": "D",
+    "explanation": "The answer D) C refers to the chemical symbol for graphite, which is a group of atoms that is the simplest and most abundant form of carbon in nature. The other options are incorrect because C6H12O6 represents glucose, CO2 is carbon dioxide, and CH4 is methane.",
+    "domain": "chemistry",
+    "tier": "easy",
+    "id": 54,
+    "verification_confidence": 100
+  },
+  {
+    "question": "The atomic number of an element represents the number of what subatomic particles in its neutral atoms?",
+    "choices": [
+      "A) Protons",
+      "B) Neutrons",
+      "C) Electrons",
+      "D) Quarks"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is protons, as atomic number represents the number of protons present in an atom. This question tests understanding of fundamental concepts in chemistry and requires knowledge beyond mere memorization.",
+    "domain": "chemistry",
+    "tier": "easy",
+    "id": 52,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the primary function of chlorophyll in plant cells?",
+    "choices": [
+      "A) To absorb ultraviolet light for DNA repair",
+      "B) To catalyze the Calvin cycle",
+      "C) To facilitate cell-to-cell signaling through hormone production",
+      "D) To capture photons and convert them into chemical energy"
+    ],
+    "answer": "D",
+    "explanation": "Chlorophyll is a crucial molecule in plant cells that plays a key role in photosynthesis. Its primary function is to capture photons from the visible light spectrum and transfer that energy to other molecules, ultimately leading to the conversion of carbon dioxide and water into glucose and oxygen. The other options are plausible but incorrect: chlorophyll does not absorb ultraviolet light for DNA repair (A), nor is it directly involved in the Calvin cycle (B) or hormone production (C).",
+    "domain": "biology",
+    "tier": "easy",
+    "id": 8,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the primary function of chlorophyll in plant cells?",
+    "choices": [
+      "A) To facilitate cellular respiration",
+      "B) To regulate stomatal aperture",
+      "C) To absorb and utilize light energy for photosynthesis",
+      "D) To synthesize plant hormones"
+    ],
+    "answer": "C",
+    "explanation": "Chlorophyll is a green pigment that plays a crucial role in the process of photosynthesis. It absorbs light energy from the sun and transfers this energy to other molecules, ultimately allowing plants to convert carbon dioxide and water into glucose and oxygen. The other options are not accurate descriptions of chlorophyll's function.",
+    "domain": "biology",
+    "tier": "easy",
+    "id": 11,
+    "verification_confidence": 100
+  },
+  {
+    "question": "The Treaty of Westphalia, signed in 1648, marked the end of which major conflict?",
+    "choices": [
+      "A) The Hundred Years' War",
+      "B) The Thirty Years' War",
+      "C) The Wars of the Spanish Succession",
+      "D) The Napoleonic Wars"
+    ],
+    "answer": "B",
+    "explanation": "The Treaty of Westphalia was signed in 1648 and marked the end of the Thirty Years' War, a complex and devastating conflict that ravaged much of Europe. While the Hundred Years' War did occur, it ended in the 15th century. The Wars of the Spanish Succession and Napoleonic Wars were significant conflicts in their own right, but they both occurred later than the Treaty of Westphalia.",
+    "domain": "history",
+    "tier": "easy",
+    "id": 4,
+    "verification_confidence": 95
+  },
+  {
+    "question": "The Treaty of Westphalia, signed in 1648, marked the end of which major conflict?",
+    "choices": [
+      "A) Thirty Years' War",
+      "B) Eighty Years' War",
+      "C) Hundred Years' War",
+      "D) War of the Spanish Succession"
+    ],
+    "answer": "A",
+    "explanation": "The Treaty of Westphalia was a series of treaties that officially ended the Thirty Years' War in 1648. This war involved many European countries, including Germany, Sweden, France, and the Holy Roman Empire. In contrast, the Eighty Years' War was a conflict between the Netherlands and Spain from 1568 to 1648, while the Hundred Years' War was a series of conflicts between England and France from 1337 to 1453. The War of the Spanish Succession occurred much later, from 1701 to 1714.",
+    "domain": "history",
+    "tier": "easy",
+    "id": 81,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What was the primary reason for the British Parliament's decision to impose direct taxes on American colonies in 1765?",
+    "choices": [
+      "A) To finance military campaigns against Native American tribes",
+      "B) To pay off debts from the French and Indian War",
+      "C) To fund the administration of the colonies",
+      "D) To reduce the influence of colonial assemblies"
+    ],
+    "answer": "B",
+    "explanation": "The British government needed to pay off debts accumulated during the French and Indian War (1754-1763), which was fought primarily in North America. Direct taxes on American colonies were seen as a way to recoup some of these costs, whereas the other options do not accurately reflect the primary motivation behind the imposition of direct taxes.",
+    "domain": "history",
+    "tier": "easy",
+    "id": 84,
+    "verification_confidence": 95
+  },
+  {
+    "question": "What is the fundamental force responsible for holding objects together?",
+    "choices": [
+      "A) Gravitational Force",
+      "B) Electromagnetic Force",
+      "C) Strong Nuclear Force",
+      "D) Weak Nuclear Force"
+    ],
+    "answer": "B",
+    "explanation": "The electromagnetic force is responsible for holding objects together through interactions between charged particles, such as protons and electrons. Gravity holds large-scale structures like planets and stars together, but it's not the fundamental force at play at the atomic level. The strong nuclear force holds quarks together inside protons and neutrons, while the weak nuclear force is responsible for certain types of radioactive decay.",
+    "domain": "physics",
+    "tier": "easy",
+    "id": 38,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Which property of real numbers states that the sum of two non-negative numbers is always greater than or equal to each number individually?",
+    "choices": [
+      "A) Transitive Property",
+      "B) Commutative Property",
+      "C) Distributive Property",
+      "D) Non-Negativity Principle"
+    ],
+    "answer": "D",
+    "explanation": "The correct answer, the Non-Negativity Principle, is often referred to as the 'sum of non-negative numbers' property. This principle states that for any two real numbers a and b, where both are greater than or equal to zero, their sum (a + b) is also greater than or equal to each number individually. The other options do not relate to this specific property.",
+    "domain": "mathematics",
+    "tier": "easy",
+    "id": 48,
+    "verification_confidence": 95
+  },
+  {
+    "question": "What is the primary function of the mitochondria in a cell?",
+    "choices": [
+      "A) To synthesize ATP through cellular respiration",
+      "B) To regulate protein synthesis",
+      "C) To store genetic information",
+      "D) To facilitate cellular signaling"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A) To synthesize ATP through cellular respiration. Mitochondria are often referred to as the 'powerhouses' of cells because they generate most of the energy that a cell needs to function by producing ATP through the process of cellular respiration. The other options are not accurate representations of the primary function of mitochondria.",
+    "domain": "chemistry",
+    "tier": "easy",
+    "id": 43,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the typical shape of the probability density function (PDF) of a normally distributed variable?",
+    "choices": [
+      "A) A uniform distribution",
+      "B) A skewed distribution with a single peak",
+      "C) A symmetric bell-shaped curve",
+      "D) An exponential decay"
+    ],
+    "answer": "C",
+    "explanation": "The answer is C because the probability density function (PDF) of a normally distributed variable, also known as the normal distribution or Gaussian distribution, is a symmetric bell-shaped curve. The other options are incorrect: A uniform distribution has no peak or skew; B skewed distributions typically have multiple peaks; and D exponential decay is not a characteristic of the normal distribution.",
+    "domain": "statistics",
+    "tier": "easy",
+    "id": 106,
+    "verification_confidence": 100
+  },
+  {
+    "question": "The main function of a central bank in an economy is to:",
+    "choices": [
+      "A) Regulate the money supply and implement monetary policy",
+      "B) Facilitate international trade by setting tariffs and quotas",
+      "C) Oversee government spending and taxation",
+      "D) Provide microfinance services to small businesses"
+    ],
+    "answer": "A",
+    "explanation": "The central bank's main function is to regulate the money supply and implement monetary policy, which includes setting interest rates and buying/selling securities on the open market. Options B, C, and D are all responsibilities of other government agencies or institutions.",
+    "domain": "economics",
+    "tier": "easy",
+    "id": 102,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the average return or expected value of a random variable X that follows a binomial distribution with n trials and probability p of success?",
+    "choices": [
+      "A) np",
+      "B) pn + (1 - p)n(1)",
+      "C) pn(1) - (1 - p)(n-1)",
+      "D) p(n+1)"
+    ],
+    "answer": "A",
+    "explanation": "The average return or expected value of a binomial random variable is simply the product of the number of trials and the probability of success. This is because each trial has an equal chance of being successful, so the total number of successes will be proportional to the number of trials and the probability of success.",
+    "domain": "statistics",
+    "tier": "easy",
+    "id": 75,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the primary goal of the sorting algorithm known as 'Bubble Sort'?",
+    "choices": [
+      "A) To find the median of an unsorted array",
+      "B) To rearrange elements in ascending order by repeatedly swapping adjacent elements if they are in wrong order",
+      "C) To reduce the average time complexity of a given algorithm",
+      "D) To detect and remove duplicate values from an input list"
+    ],
+    "answer": "B",
+    "explanation": "Bubble Sort is a simple sorting algorithm that works by repeatedly stepping through the list, comparing adjacent elements and swapping them if they are in the wrong order. The primary goal of Bubble Sort is to rearrange elements in ascending order by repeatedly swapping adjacent elements if they are in the wrong order.",
+    "domain": "algorithms",
+    "tier": "easy",
+    "id": 126,
+    "verification_confidence": 100
+  },
+  {
+    "question": "A sample dataset of size n has a mean \u03bc and standard deviation \u03c3. Which of the following statements about the sample proportion is true?",
+    "choices": [
+      "A) The sample proportion has mean \u03bc",
+      "B) The sample proportion has variance \u03c3^2/n",
+      "C) The sample proportion has mean \u03bc/\u03c3",
+      "D) The sample proportion has a bias of 0"
+    ],
+    "answer": "A",
+    "explanation": "The sample proportion is an unbiased estimator of the population proportion. Therefore, its mean is equal to the population proportion. This is because the sampling distribution of the sample proportion converges to the normal distribution with mean \u03bc as n approaches infinity.",
+    "domain": "statistics",
+    "tier": "easy",
+    "id": 12,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Which of the following processes is primarily responsible for generating energy in plant cells?",
+    "choices": [
+      "A) Photosynthesis",
+      "B) Cellular respiration",
+      "C) Fermentation",
+      "D) Glycolysis"
+    ],
+    "answer": "A",
+    "explanation": "Photosynthesis is the process by which plants convert light energy from the sun into chemical energy in the form of glucose. This process occurs in specialized organelles called chloroplasts and is essential for plant growth and development.",
+    "domain": "biology",
+    "tier": "easy",
+    "id": 16,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the primary function of a budget in a government's fiscal policy?",
+    "choices": [
+      "A) To allocate resources efficiently among different sectors",
+      "B) To redistribute wealth from the rich to the poor",
+      "C) To control inflation by reducing aggregate demand",
+      "D) To maximize economic growth through tax cuts"
+    ],
+    "answer": "A",
+    "explanation": "The primary function of a budget in a government's fiscal policy is to allocate resources efficiently among different sectors. This involves determining how much money will be spent on various programs, services, and activities, such as healthcare, education, defense, and infrastructure. The goal is to ensure that the government is using its resources effectively and efficiently to achieve its economic and social objectives.",
+    "domain": "economics",
+    "tier": "easy",
+    "id": 51,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the primary goal of regularization in machine learning algorithms?",
+    "choices": [
+      "A) To improve model accuracy by reducing overfitting",
+      "B) To increase model complexity by adding more parameters",
+      "C) To speed up training time by decreasing computational cost",
+      "D) To enhance feature engineering by selecting relevant features"
+    ],
+    "answer": "A",
+    "explanation": "Regularization is a technique used to prevent machine learning models from overfitting the training data. By introducing a penalty term for complex models, regularization helps to reduce model accuracy but improves its generalizability on unseen data. Options B, C, and D do not accurately describe the primary goal of regularization.",
+    "domain": "machine learning",
+    "tier": "easy",
+    "id": 124,
+    "verification_confidence": 100
+  },
+  {
+    "question": "In a logical argument, which of the following can be concluded if all premises are true?",
+    "choices": [
+      "A) The conclusion must also be true",
+      "B) The conclusion might be false even if all premises are true",
+      "C) The conclusion is irrelevant to the truth of the premises",
+      "D) All additional information is required to determine the validity"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A because a valid logical argument ensures that if all premises are true, then the conclusion must also be true. Options B and C are incorrect because they contradict the definition of a valid argument. Option D is incorrect because the question only asks about the relationship between the premises and conclusion, not any additional information.",
+    "domain": "logic",
+    "tier": "easy",
+    "id": 18,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Which of the following statements best describes the central limit theorem (CLT) for sample means?",
+    "choices": [
+      "A) The CLT states that as the sample size increases, the distribution of sample means approaches a uniform distribution.",
+      "B) The CLT states that as the sample size increases, the distribution of sample means approaches a normal distribution with mean equal to the population mean and standard deviation equal to the population standard deviation divided by the square root of the sample size.",
+      "C) The CLT only applies when the population is normally distributed.",
+      "D) The CLT states that as the sample size increases, the distribution of sample means approaches a Poisson distribution."
+    ],
+    "answer": "B",
+    "explanation": "The correct answer describes the essence of the central limit theorem: as the sample size grows, the distribution of sample means converges to a normal distribution with specific properties. The other options either misrepresent or oversimplify the CLT.",
+    "domain": "statistics",
+    "tier": "easy",
+    "id": 73,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In a supervised machine learning problem, what is the primary role of the loss function?",
+    "choices": [
+      "A) To regularize the model's weights",
+      "B) To evaluate the model's performance on unseen data",
+      "C) To guide the optimization process towards the optimal solution",
+      "D) To identify features that are highly correlated with the target variable"
+    ],
+    "answer": "C",
+    "explanation": "The loss function plays a crucial role in supervised machine learning by guiding the optimization process towards the optimal solution. It measures the difference between the model's predictions and the true labels, allowing the algorithm to adjust its parameters to minimize the error. Options A, B, and D are all incorrect because regularization is not the primary role of the loss function, evaluation of unseen data is a task for metrics such as accuracy or F1-score, and identifying correlated features is not the main purpose of the loss function.",
+    "domain": "machine learning",
+    "tier": "easy",
+    "id": 35,
+    "verification_confidence": 100
+  },
+  {
+    "question": "Which of the following best describes the primary goal of monetary policy in a country with a floating exchange rate?",
+    "choices": [
+      "A) To stabilize the value of its currency",
+      "B) To manage inflation and promote economic growth",
+      "C) To maintain a balance of trade by adjusting tariffs",
+      "D) To regulate foreign investment"
+    ],
+    "answer": "B",
+    "explanation": "The primary goal of monetary policy in a country with a floating exchange rate is to manage inflation and promote economic growth, as the value of the currency will fluctuate based on market forces. Options A, C, and D are all incorrect because they focus on aspects of monetary policy that are typically managed by other means, such as fiscal policy or exchange control.",
+    "domain": "economics",
+    "tier": "easy",
+    "id": 118,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Which of the following statements is a valid inference from the statement 'All natural numbers are either even or odd'?",
+    "choices": [
+      "A) Some natural numbers are prime",
+      "B) The number 0 is not a natural number",
+      "C) All integers are either even or odd",
+      "D) There exists an integer that is both even and odd"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is 'C) All integers are either even or odd' because the statement 'All natural numbers are either even or odd' implies that all integers, including negative integers and zero, can be classified as being either even or odd. The other options do not logically follow from this initial statement.",
+    "domain": "logic",
+    "tier": "easy",
+    "id": 99,
+    "verification_confidence": 95
+  },
+  {
+    "id": 127,
+    "tier": "easy",
+    "domain": "geography",
+    "question": "Which is the largest ocean on Earth?",
+    "choices": [
+      "A) Atlantic",
+      "B) Indian",
+      "C) Arctic",
+      "D) Pacific"
+    ],
+    "answer": "D",
+    "explanation": "The Pacific Ocean is the largest and deepest ocean on Earth."
+  },
+  {
+    "question": "What is the primary function of the stack data structure in computer programming?",
+    "choices": [
+      "A) To provide a last-in-first-out (LIFO) storage mechanism for temporary data",
+      "B) To enable efficient sorting of large datasets",
+      "C) To facilitate fast lookup and retrieval of key-value pairs",
+      "D) To implement a queuing system with priority-based processing"
+    ],
+    "answer": "A",
+    "explanation": "The stack data structure is designed to store and retrieve items in a last-in-first-out (LIFO) order, making it suitable for managing temporary data, evaluating postfix expressions, or implementing recursive algorithms. The other options are not accurate representations of the primary function of a stack.",
+    "domain": "computer science",
+    "tier": "easy",
+    "id": 65,
+    "verification_confidence": 100
+  },
+  {
+    "question": "Which ancient civilization built the Hanging Gardens of Babylon, one of the Seven Wonders of the Ancient World?",
+    "choices": [
+      "A) Egyptians",
+      "B) Persians",
+      "C) Assyrians",
+      "D) Greeks"
+    ],
+    "answer": "C",
+    "explanation": "The Hanging Gardens of Babylon were a famous garden in ancient Mesopotamia, and the Assyrians are widely credited with building them. The Egyptians built the Great Pyramid of Giza, not the Hanging Gardens. The Persians had no connection to the Hanging Gardens, as they were an empire that existed much later. The Greeks did build some impressive architecture, but not the Hanging Gardens.",
+    "domain": "history",
+    "tier": "easy",
+    "id": 63,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Which structure is responsible for the transport of molecules across the cell membrane?",
+    "choices": [
+      "A) Mitochondria",
+      "B) Lysosomes",
+      "C) Golgi apparatus",
+      "D) Cell membrane"
+    ],
+    "answer": "D",
+    "explanation": "The cell membrane, also known as the plasma membrane, is a semi-permeable biological membrane that separates the cell from its environment. It regulates the movement of molecules in and out of the cell through various mechanisms such as diffusion, facilitated transport, and active transport.",
+    "domain": "biology",
+    "tier": "easy",
+    "id": 71,
+    "verification_confidence": 100
+  },
+  {
+    "id": 50,
+    "tier": "easy",
+    "domain": "science",
+    "question": "How many bones are in the adult human body?",
+    "choices": [
+      "A) 196",
+      "B) 206",
+      "C) 216",
+      "D) 226"
+    ],
+    "answer": "B",
+    "explanation": "The adult human body has 206 bones."
+  },
+  {
+    "question": "What is the primary function of a compiler in the software development process?",
+    "choices": [
+      "A) To translate assembly code into machine code",
+      "B) To convert high-level programming languages into executable code",
+      "C) To interpret bytecode directly into machine code",
+      "D) To optimize the performance of existing compiled code"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B) To convert high-level programming languages into executable code. A compiler's primary function is to take in source code written in a high-level programming language and translate it into machine code that can be executed directly by the computer. This process involves multiple stages, including lexical analysis, syntax analysis, semantic analysis, and optimization. The other options are incorrect because assembly code is typically translated from machine code (not the other way around), bytecode is interpreted or just-in-time compiled, and compiler optimization is an important but secondary goal.",
+    "domain": "computer science",
+    "tier": "easy",
+    "id": 92,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In a valid syllogism, which of the following statements about the conclusion is always true?",
+    "choices": [
+      "A) It must be a categorical proposition",
+      "B) It can be an affirmative or negative existential statement",
+      "C) It is always equivalent to one of the premises",
+      "D) It cannot be a universal affirmative statement"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer, C, reflects the fundamental property that in a valid syllogism, the conclusion logically follows from the premises. This means that the conclusion is always equivalent to one of the premises, either explicitly or implicitly. Options A and D are incorrect because they relate to specific types of categorical propositions, which do not directly address the relationship between the premises and the conclusion. Option B is incorrect because it refers to existential statements, which are not necessarily related to the validity of a syllogism.",
+    "domain": "logic",
+    "tier": "easy",
+    "id": 19,
+    "verification_confidence": 95
+  },
+  {
+    "question": "What is the value of x when solving the equation 2x + 5 = 11?",
+    "choices": [
+      "A) 1",
+      "B) 3",
+      "C) 4.5",
+      "D) 5"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is obtained by subtracting 5 from both sides of the equation, followed by dividing both sides by 2. This yields x = (11-5)/2 = 3.",
+    "domain": "mathematics",
+    "tier": "easy",
+    "id": 95,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the primary goal of regularization in machine learning?",
+    "choices": [
+      "A) To reduce overfitting by adding noise to the training data",
+      "B) To improve model interpretability by increasing feature importance",
+      "C) To enhance model flexibility by relaxing the constraints on decision boundaries",
+      "D) To speed up model training by reducing the number of iterations"
+    ],
+    "answer": "A",
+    "explanation": "Regularization is primarily used to reduce overfitting in machine learning models. This means that it helps prevent a model from becoming too specialized in the training data and unable to generalize well to new, unseen data. Adding noise or penalties to the objective function can help achieve this goal.",
+    "domain": "machine learning",
+    "tier": "easy",
+    "id": 111,
+    "verification_confidence": 95
+  },
+  {
+    "question": "What is the primary function of a catalyst in a chemical reaction?",
+    "choices": [
+      "A) To increase the activation energy of the reaction",
+      "B) To speed up the rate of reaction without being consumed",
+      "C) To change the equilibrium constant of the reaction",
+      "D) To convert reactants into products"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B because a catalyst speeds up the reaction by lowering the activation energy, but it remains unchanged after the reaction. Option A is incorrect because increasing activation energy slows down the reaction. Option C is wrong because equilibrium constant refers to the ratio of reactants and products at equilibrium, which is not related to the rate of reaction. Option D is a common misconception about catalysts, as they don't convert reactants into products but rather facilitate the reaction.",
+    "domain": "chemistry",
+    "tier": "easy",
+    "id": 69,
+    "verification_confidence": 100
+  },
+  {
+    "question": "Which of the following best describes the primary function of a central bank in a country's economy?",
+    "choices": [
+      "A) To regulate taxes",
+      "B) To manage government spending",
+      "C) To maintain low inflation and stable interest rates",
+      "D) To promote international trade"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C) To maintain low inflation and stable interest rates. Central banks, such as the Federal Reserve in the United States, are primarily responsible for managing a country's monetary policy to achieve low inflation and stable interest rates. This helps promote economic growth, employment, and overall stability. Options A, B, and D are all incorrect because they do not accurately describe the primary function of a central bank.",
+    "domain": "economics",
+    "tier": "easy",
+    "id": 31,
+    "verification_confidence": 95
+  },
+  {
+    "question": "What is the most commonly used measure of central tendency for a set of unimodal, symmetric data?",
+    "choices": [
+      "A) Median",
+      "B) Mode",
+      "C) Mean",
+      "D) Standard Deviation"
+    ],
+    "answer": "C",
+    "explanation": "The mean is often used as it provides an average value that represents the typical case. The median and mode are not necessarily representative of the 'typical' data point in unimodal, symmetric datasets. The standard deviation measures spread rather than central tendency.",
+    "domain": "statistics",
+    "tier": "easy",
+    "id": 27,
+    "verification_confidence": 95
+  },
+  {
+    "question": "The Treaty of Versailles, signed in 1919, marked the end of which major conflict?",
+    "choices": [
+      "A) The American Revolutionary War",
+      "B) World War I",
+      "C) The Napoleonic Wars",
+      "D) The Thirty Years' War"
+    ],
+    "answer": "B",
+    "explanation": "The Treaty of Versailles was signed in 1919 and officially ended World War I. While it had significant consequences for the world, it did not mark the end of the other conflicts mentioned.",
+    "domain": "history",
+    "tier": "easy",
+    "id": 24,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the primary goal of the training process in machine learning?",
+    "choices": [
+      "A) To minimize the loss function",
+      "B) To maximize the probability of correct predictions",
+      "C) To generate a set of linearly independent features",
+      "D) To reduce the dimensionality of the input data"
+    ],
+    "answer": "A",
+    "explanation": "The primary goal of the training process in machine learning is to minimize the loss function, which measures the difference between predicted and actual outputs. This ensures that the model is optimized for its intended task and produces accurate predictions.",
+    "domain": "machine learning",
+    "tier": "easy",
+    "id": 89,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the primary characteristic that distinguishes a command economy from a market economy?",
+    "choices": [
+      "A) The government plays a dominant role in production and distribution of goods and services",
+      "B) Prices are determined by supply and demand forces",
+      "C) The means of production are privately owned",
+      "D) Unemployment is minimized through government intervention"
+    ],
+    "answer": "A",
+    "explanation": "In a command economy, the government plays a dominant role in production and distribution of goods and services, whereas in a market economy, the prices are determined by supply and demand forces. The options B, C, and D do not accurately distinguish between the two economic systems.",
+    "domain": "economics",
+    "tier": "easy",
+    "id": 112,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the primary function of the 'exchange' step in the bubble sort algorithm?",
+    "choices": [
+      "A) Comparing adjacent elements for equality",
+      "B) Swapping adjacent elements that are out of order",
+      "C) Repeating the comparison process until no more swaps occur",
+      "D) Computing the average value of two compared elements"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B) Swapping adjacent elements that are out of order. The 'exchange' step in bubble sort is responsible for swapping adjacent elements if they are not in the correct order, which helps to gradually move larger or smaller values towards their final positions.",
+    "domain": "algorithms",
+    "tier": "easy",
+    "id": 64,
+    "verification_confidence": 95
+  },
+  {
+    "question": "What is the typical distribution shape of a sample mean when the underlying population distribution is normal?",
+    "choices": [
+      "A) Uniform",
+      "B) Skewed to the right",
+      "C) Normal",
+      "D) Symmetric around zero"
+    ],
+    "answer": "C",
+    "explanation": "The sample mean will typically follow a normal distribution due to the Central Limit Theorem (CLT), regardless of the shape of the underlying population distribution. This is because the CLT states that as the sample size increases, the sampling distribution of the mean will approach normality. Options A, B, and D are incorrect as they describe distributions that are not typically seen in this scenario.",
+    "domain": "statistics",
+    "tier": "easy",
+    "id": 41,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Which of the following algorithms always terminates?",
+    "choices": [
+      "A) Breadth-First Search (BFS)",
+      "B) Depth-First Search (DFS)",
+      "C) Dijkstra's algorithm",
+      "D) Bellman-Ford algorithm"
+    ],
+    "answer": "A",
+    "explanation": "BFS is guaranteed to terminate because it explores all nodes at a given depth before moving on to the next level. This ensures that the algorithm will eventually visit every node in the graph, at which point it can halt. In contrast, DFS and the algorithms listed do not have such guarantees.",
+    "domain": "algorithms",
+    "tier": "easy",
+    "id": 32,
+    "verification_confidence": 100
+  },
+  {
+    "question": "Which statement best describes the role of regularization in a neural network?",
+    "choices": [
+      "A) Regularization helps improve model performance by reducing overfitting.",
+      "B) Regularization increases model capacity by introducing more complex features.",
+      "C) Regularization is only used for logistic regression models and not other types of classification problems.",
+      "D) Regularization has no effect on the output of a neural network and can be ignored."
+    ],
+    "answer": "A",
+    "explanation": "Regularization helps prevent overfitting by adding a penalty term to the loss function that encourages simpler, more generalizable models. This is achieved through techniques like L1 and L2 regularization, which reduce the magnitude of model weights.",
+    "domain": "machine learning",
+    "tier": "easy",
+    "id": 9,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Which part of the brain plays a critical role in processing visual information?",
+    "choices": [
+      "A) Cerebellum",
+      "B) Hippocampus",
+      "C) Occipital lobe",
+      "D) Frontal cortex"
+    ],
+    "answer": "C",
+    "explanation": "The occipital lobe is responsible for processing visual information and is often referred to as the primary visual cortex. The cerebellum is involved in motor coordination, the hippocampus plays a role in memory formation, and the frontal cortex is involved in executive functions such as decision-making and planning.",
+    "domain": "neuroscience",
+    "tier": "easy",
+    "id": 34,
+    "verification_confidence": 100
+  },
+  {
+    "id": 21,
+    "tier": "easy",
+    "domain": "math",
+    "question": "What is 7 factorial (7!)?",
+    "choices": [
+      "A) 2520",
+      "B) 4040",
+      "C) 5040",
+      "D) 6020"
+    ],
+    "answer": "C",
+    "explanation": "7! = 7*6*5*4*3*2*1 = 5040."
+  },
+  {
+    "question": "Which part of the human brain is responsible for processing visual information?",
+    "choices": [
+      "A) Hippocampus",
+      "B) Cerebellum",
+      "C) Occipital lobe",
+      "D) Amygdala"
+    ],
+    "answer": "C",
+    "explanation": "The occipital lobe is the primary region of the brain that processes visual information from our environment. The hippocampus plays a key role in memory formation, the cerebellum is involved in motor coordination and learning, and the amygdala is responsible for processing emotions.",
+    "domain": "neuroscience",
+    "tier": "easy",
+    "id": 46,
+    "verification_confidence": 100
+  },
+  {
+    "question": "Which of the following is a characteristic of chemical bonding in molecules?",
+    "choices": [
+      "A) The atoms in the molecule have lost their individual electron clouds.",
+      "B) The electrons are shared between atoms to form a stable arrangement.",
+      "C) The nuclei of the atoms repel each other.",
+      "D) The bond lengths are always proportional to the atomic masses."
+    ],
+    "answer": "B",
+    "explanation": "Correct answer B highlights that chemical bonding in molecules is characterized by the sharing of electrons between atoms. This leads to a stable arrangement, which is essential for the existence and properties of molecules. In contrast, option A describes the loss of individual electron clouds, which does not accurately represent chemical bonding. Option C focuses on nuclear repulsion, which is an important aspect of atomic interactions but not directly related to chemical bonding. Option D is incorrect as bond lengths are influenced by various factors such as electronegativity and hybridization, rather than simply being proportional to atomic masses.",
+    "domain": "chemistry",
+    "tier": "easy",
+    "id": 79,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the primary goal of feature scaling in machine learning?",
+    "choices": [
+      "A) To reduce the impact of irrelevant features on model performance",
+      "B) To prevent overfitting by limiting the range of input values",
+      "C) To improve the interpretability of model predictions",
+      "D) To enable more efficient computation and faster training times"
+    ],
+    "answer": "D",
+    "explanation": "Feature scaling is primarily done to ensure that all features are on the same scale, allowing for more efficient computation and faster training times. This is particularly important in machine learning algorithms that rely on Euclidean distances or dot products, such as k-nearest neighbors or linear regression. While feature selection can help reduce the impact of irrelevant features, this is a separate process from feature scaling. Interpretability of model predictions is also not directly related to feature scaling, although it can be improved by using more interpretable models. Reducing overfitting is another important consideration in machine learning, but it is typically achieved through techniques like regularization or early stopping, rather than simply scaling the features.",
+    "domain": "machine learning",
+    "tier": "easy",
+    "id": 97,
+    "verification_confidence": 95
+  },
+  {
+    "question": "What is the primary function of the cell wall in plant cells?",
+    "choices": [
+      "A) To regulate gas exchange between the cell and its environment",
+      "B) To provide structural support and maintain cell shape",
+      "C) To facilitate nutrient uptake from the surrounding medium",
+      "D) To generate energy for the cell through photosynthesis"
+    ],
+    "answer": "B",
+    "explanation": "The cell wall in plant cells provides structural support and maintains cell shape, allowing the cell to maintain its shape and resist external pressures. The other options are not accurate functions of the cell wall.",
+    "domain": "biology",
+    "tier": "easy",
+    "id": 44,
+    "verification_confidence": 95
+  },
+  {
+    "question": "What was the primary event that led to the fall of the Western Roman Empire in 476 CE?",
+    "choices": [
+      "A) The decline of trade along the Silk Road",
+      "B) The Visigoths' sack of Rome under Alaric",
+      "C) The rise of Islam in the Mediterranean region",
+      "D) The collapse of the Byzantine Empire"
+    ],
+    "answer": "B",
+    "explanation": "The Western Roman Empire fell to the Visigoths under Alaric, who sacked Rome in 410 CE. This event marked the end of the empire's western territories and set the stage for the rise of medieval Europe. The other options are incorrect because the decline of trade along the Silk Road occurred later, Islam did not spread to the Mediterranean region until the 7th century, and the Byzantine Empire was still extant at this time.",
+    "domain": "history",
+    "tier": "easy",
+    "id": 122,
+    "verification_confidence": 95
+  },
+  {
+    "question": "What is the primary function of mitochondria in eukaryotic cells?",
+    "choices": [
+      "A) Protein synthesis",
+      "B) Cell signaling",
+      "C) Energy production",
+      "D) DNA replication"
+    ],
+    "answer": "C",
+    "explanation": "Mitochondria are often referred to as the 'powerhouses' of eukaryotic cells because they generate most of the energy in the form of ATP through cellular respiration. The other options do not accurately describe the primary function of mitochondria.",
+    "domain": "biology",
+    "tier": "easy",
+    "id": 96,
+    "verification_confidence": 100
+  },
+  {
+    "question": "Which structure is responsible for carrying genetic information from the nucleus to the cytoplasm during cell division?",
+    "choices": [
+      "A) Mitochondrial DNA",
+      "B) Chromatin",
+      "C) Microtubules",
+      "D) Lysosomes"
+    ],
+    "answer": "C",
+    "explanation": "Microtubules are dynamic polymers that play a crucial role in the transport of chromosomes during cell division. They form the spindle fibers that separate sister chromatids and move them to opposite poles of the dividing cells. In contrast, mitochondrial DNA is responsible for energy production within mitochondria, chromatin refers to the complex of DNA and histone proteins, and lysosomes are membrane-bound organelles involved in cellular digestion and recycling.",
+    "domain": "biology",
+    "tier": "easy",
+    "id": 80,
+    "verification_confidence": 100
+  },
+  {
+    "question": "In supervised machine learning, what is the primary goal of training a model?",
+    "choices": [
+      "A) To minimize the variance of the target variable",
+      "B) To maximize the accuracy of predictions on unseen data",
+      "C) To optimize the F1-score for the given problem",
+      "D) To find the average value of the target variable"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B because the primary goal of training a supervised machine learning model is to learn a mapping from input data to the corresponding output labels, with the aim of making accurate predictions on unseen data. The other options are incorrect because minimizing variance has no direct connection to the goal of training a model (A), F1-score optimization is a specific metric used for evaluating models in certain contexts (C), and finding the average value of the target variable is not a meaningful objective for supervised learning (D).",
+    "domain": "machine learning",
+    "tier": "easy",
+    "id": 98,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the primary function of a central bank in a country's economy?",
+    "choices": [
+      "A) To regulate international trade agreements",
+      "B) To manage government debt and deficits",
+      "C) To maintain price stability by controlling the money supply and interest rates",
+      "D) To provide emergency loans to individual consumers"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C) To maintain price stability by controlling the money supply and interest rates, as central banks are designed to stabilize the economy and prevent inflation or deflation. The other options are not accurate descriptions of a central bank's primary function.",
+    "domain": "economics",
+    "tier": "easy",
+    "id": 105,
+    "verification_confidence": 95
+  },
+  {
+    "id": 68,
+    "tier": "easy",
+    "domain": "science",
+    "question": "What gas do plants absorb during photosynthesis?",
+    "choices": [
+      "A) Oxygen",
+      "B) Nitrogen",
+      "C) Carbon Dioxide",
+      "D) Hydrogen"
+    ],
+    "answer": "C",
+    "explanation": "Plants absorb CO2 and release O2 during photosynthesis."
+  },
+  {
+    "question": "What is the primary purpose of a buffer in computer memory?",
+    "choices": [
+      "A) To store frequently accessed data",
+      "B) To act as a temporary storage for processing-intensive tasks",
+      "C) To prevent data corruption due to concurrent access",
+      "D) To optimize disk usage by caching often-used files"
+    ],
+    "answer": "C",
+    "explanation": "The primary purpose of a buffer is to prevent data corruption due to concurrent access. By temporarily storing and synchronizing data, buffers ensure that multiple processes or threads do not interfere with each other's memory operations, maintaining the integrity of the data.",
+    "domain": "computer science",
+    "tier": "easy",
+    "id": 78,
+    "verification_confidence": 95
+  },
+  {
+    "question": "What is the primary goal of regularization in machine learning?",
+    "choices": [
+      "A) To improve model interpretability by reducing feature importance",
+      "B) To prevent overfitting by adding a penalty term to the loss function",
+      "C) To increase the overall performance of the model by introducing noise during training",
+      "D) To handle class imbalance by resampling the minority class"
+    ],
+    "answer": "B",
+    "explanation": "Regularization in machine learning aims to prevent overfitting by adding a penalty term to the loss function. This encourages the model to learn more generalizable representations, rather than memorizing the training data. The other options are not primary goals of regularization: improving interpretability is a separate concern, introducing noise during training would actually worsen performance, and handling class imbalance requires resampling techniques like oversampling or undersampling.",
+    "domain": "machine learning",
+    "tier": "easy",
+    "id": 74,
+    "verification_confidence": 100
+  },
+  {
+    "question": "Which ancient civilization built the Hanging Gardens of Babylon?",
+    "choices": [
+      "A) The Egyptians",
+      "B) The Persians",
+      "C) The Mesopotamians",
+      "D) The Greeks"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C) The Mesopotamians, as the Hanging Gardens of Babylon were a famous structure built by the Neo-Babylonian Empire, which was a civilization that flourished in ancient Mesopotamia. While the Egyptians and Persians did build many impressive structures, there is no evidence to suggest they constructed the Hanging Gardens. The Greeks also did not have a significant presence in Mesopotamia during the time period when the Hanging Gardens were built.",
+    "domain": "history",
+    "tier": "easy",
+    "id": 93,
+    "verification_confidence": 95
+  }
+]

@@ -1,0 +1,1619 @@
+[
+  {
+    "question": "Consider a dynamic programming algorithm designed to solve the longest common subsequence (LCS) problem. The algorithm uses a bottom-up approach, where it fills up a 2D table in a row-major order. What is the main reason why this algorithm can take advantage of the cache hierarchy effectively?",
+    "choices": [
+      "A) The algorithm's table-filling pattern allows for sequential memory access",
+      "B) The use of memoization enables the algorithm to reuse previously computed values",
+      "C) The fact that the table size grows quadratically with the input size leads to efficient cache utilization",
+      "D) The algorithm can take advantage of the spatial locality property due to its row-major filling pattern"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A) The algorithm's table-filling pattern allows for sequential memory access. This is because the algorithm fills up the table in a row-major order, which means that elements in the same row are likely to be accessed sequentially, taking advantage of the cache hierarchy. Option B is incorrect because memoization does not directly impact cache utilization. Options C and D are also incorrect as they do not accurately capture the algorithm's behavior.",
+    "domain": "algorithms",
+    "tier": "hard",
+    "id": 261,
+    "verification_confidence": 95
+  },
+  {
+    "question": "The mechanism of the Fenton reaction, a key process in advanced oxidation processes (AOPs), involves the formation of hydroxyl radicals ('OH) from H2O2 and a transition metal catalyst. Which of the following statements best describes the role of Fe(II) in this reaction?",
+    "choices": [
+      "A) Fe(II) oxidizes H2O2 to form 'OH, which then reacts with the transition metal to form a coordination complex.",
+      "B) Fe(II) reduces H2O2 to form water and oxygen, thereby inhibiting the formation of 'OH radicals.",
+      "C) Fe(II) catalyzes the decomposition of H2O2 into water and oxygen, but does not directly participate in the formation of 'OH.",
+      "D) Fe(II) forms a complex with H2O2, which is then reduced to form 'OH radicals."
+    ],
+    "answer": "A",
+    "explanation": "Fe(II) plays a crucial role in the Fenton reaction by oxidizing H2O2 to form hydroxyl radicals ('OH), which are key players in AOPs. The other options do not accurately describe the mechanism of this process.",
+    "domain": "chemistry",
+    "tier": "hard",
+    "id": 375,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Which of the following best describes the primary mechanism by which dopamine modulates the activity of striatal medium spiny neurons, a key component of the cortico-basal gang-thalamo-cortical loop?",
+    "choices": [
+      "A) Dopamine directly hyperpolarizes these neurons through GABA receptors",
+      "B) Dopamine potentiates AMPA receptor-mediated excitation in these neurons",
+      "C) Dopamine activates adenosine receptors, leading to increased inhibition of these neurons",
+      "D) Dopamine selectively enhances the activity of these neurons by upregulating voltage-gated calcium channels"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B) Dopamine potentiates AMPA receptor-mediated excitation in these neurons. This is supported by numerous studies showing that dopamine increases the amplitude and duration of excitatory postsynaptic potentials in striatal medium spiny neurons through a mechanism involving AMPA receptors. In contrast, options A) and C) are incorrect because they do not reflect the typical effects of dopamine on striatal neurons. Option D) is also incorrect because while dopamine does affect calcium channels, this is not its primary mechanism of action in these neurons.",
+    "domain": "neuroscience",
+    "tier": "hard",
+    "id": 287,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Consider a relativistic particle with energy-momentum relation E\u00b2 = p\u00b2c\u00b2 + m\u00b2c\u2074, where E and p are the total energy and momentum, respectively. Assuming the particle is initially at rest, what is the minimum value of its proper time \u03c4 that can be achieved by accelerating it to a given maximum proper acceleration \u03b1?",
+    "choices": [
+      "A) \u03c4 = h/2\u03c0\u221a(1 + (\u03b1c)/(m\u00b2c\u00b3))",
+      "B) \u03c4 = hc/(2\u03b1c)",
+      "C) \u03c4 = h/m\u00b2\u03b1",
+      "D) \u03c4 = hc/m\u00b2"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer requires understanding of the relationship between proper time, proper acceleration, and the energy-momentum relation. The other options are incorrect because they do not account for the particle's initial rest frame and subsequent acceleration.",
+    "domain": "physics",
+    "tier": "hard",
+    "id": 327,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Consider a reaction mechanism involving the decomposition of a substituted cyclohexene, A, to form two products, B and C. The reaction pathway is proposed to involve a concerted [1,5]-sigmatropic rearrangement of A, followed by a rapid isomerization step. Which of the following statements about the stereochemistry of the products is most consistent with the proposed mechanism?",
+    "choices": [
+      "A) The products, B and C, will exhibit identical stereoselectivity.",
+      "B) The products, B and C, will exhibit complementary stereoselectivity.",
+      "C) The reaction is expected to be stereorandom, yielding a racemic mixture of B and C.",
+      "D) The reaction is expected to proceed with complete retention of stereochemistry at the migrating carbon center."
+    ],
+    "answer": "B",
+    "explanation": "The proposed mechanism involves a concerted [1,5]-sigmatropic rearrangement, which typically preserves the original stereochemistry at the migrating carbon center. This would result in complementary stereoselectivity for products B and C. Options A and D are incorrect because the isomerization step can introduce new stereochemical information, leading to different stereoselectivities for the two products. Option C is wrong because the reaction is not simply a random event; it involves a specific mechanism that dictates the stereochemical outcome.",
+    "domain": "chemistry",
+    "tier": "hard",
+    "id": 263,
+    "verification_confidence": 95
+  },
+  {
+    "question": "When studying the kinetics of a complex reaction involving multiple intermediates, which of the following statements about the steady-state approximation (SSA) is correct?",
+    "choices": [
+      "A) The SSA assumes that all intermediate species are present at constant concentrations throughout the reaction.",
+      "B) The SSA only applies to reactions with high activation energies and negligible reverse rates.",
+      "C) The SSA neglects the effects of mass transport limitations on the reaction rate.",
+      "D) The SSA is a rigorous mathematical treatment of reaction kinetics, requiring no assumptions about the system's behavior."
+    ],
+    "answer": "A",
+    "explanation": "The steady-state approximation assumes that all intermediate species are present at constant concentrations throughout the reaction, allowing one to neglect the time-dependent terms in the rate equations. This assumption is not always valid, especially when there are significant changes in reactant or product concentrations.",
+    "domain": "chemistry",
+    "tier": "hard",
+    "id": 336,
+    "verification_confidence": 95
+  },
+  {
+    "question": "The neural basis of spatial working memory in primates involves the sustained activation of which type of neurons in the prefrontal cortex, as proposed by the Baddeley model?",
+    "choices": [
+      "A) Pyramidal cells",
+      "B) Medium spiny neurons",
+      "C) Fast-spiking interneurons",
+      "D) Granule cells"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is medium spiny neurons, which are the primary output neurons of the prefrontal cortex and have been shown to be involved in spatial working memory tasks. Pyramidal cells are excitatory neurons that make up a large proportion of the cerebral cortex, but they are not specifically associated with spatial working memory. Fast-spiking interneurons are inhibitory neurons that play a crucial role in regulating neural activity, but they are not directly involved in spatial working memory. Granule cells are a type of neuron found in the cerebellum and are primarily involved in motor coordination.",
+    "domain": "neuroscience",
+    "tier": "hard",
+    "id": 343,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In the context of late medieval European history, what was the primary consequence of the Black Death's impact on the feudal system?",
+    "choices": [
+      "A) The rise of a strong central authority to replace local lordships.",
+      "B) A shift towards serfdom as peasants sought security in hereditary tenure.",
+      "C) The decline of the manorial system, leading to greater economic mobility and social fluidity.",
+      "D) The solidification of guilds as a counterbalance to emerging merchant capital."
+    ],
+    "answer": "C",
+    "explanation": "The Black Death's devastating impact on medieval Europe led to a significant decline in the feudal system. As the aristocracy was decimated, the power dynamics shifted towards greater economic mobility and social fluidity. This allowed for increased labor mobility, reduced serfdom, and the emergence of new social classes.",
+    "domain": "history",
+    "tier": "hard",
+    "id": 306,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Consider a relativistic electron moving in a uniform magnetic field. Assuming the Lorentz force equation applies, which of the following correctly describes the relationship between the electron's momentum, p, and its velocity, v?",
+    "choices": [
+      "A) p \u221d v",
+      "B) p \u221d v^2",
+      "C) p \u221d \u221av",
+      "D) p is independent of v"
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is D) p is independent of v because the Lorentz force equation shows that the electron's momentum is determined solely by its charge, mass, and magnetic field strength, but not its velocity. The other options are incorrect because they suggest a linear or quadratic relationship between momentum and velocity, which is not supported by the relativistic equations.",
+    "domain": "physics",
+    "tier": "hard",
+    "id": 380,
+    "verification_confidence": 95
+  },
+  {
+    "id": 367,
+    "tier": "hard",
+    "domain": "science",
+    "question": "What is the Chandrasekhar limit?",
+    "choices": [
+      "A) The maximum mass of a neutron star (~3 solar masses)",
+      "B) The maximum mass of a white dwarf (~1.4 solar masses)",
+      "C) The minimum mass for nuclear fusion (~0.08 solar masses)",
+      "D) The maximum size of a black hole event horizon"
+    ],
+    "answer": "B",
+    "explanation": "The Chandrasekhar limit (~1.4 solar masses) is the maximum mass a white dwarf star can have before collapsing."
+  },
+  {
+    "question": "What was the primary motivator behind the decision by the Soviet Union to abandon its 'War Scare' policies in the early 1980s, which had led to a heightened state of nuclear deterrence and military buildup?",
+    "choices": [
+      "A) The rise of Mikhail Gorbachev's reformist agenda",
+      "B) The increasing economic costs of maintaining a large military presence",
+      "C) The perceived threat posed by NATO's deployment of Pershing II missiles in Western Europe",
+      "D) The collapse of the socialist bloc in Eastern Europe"
+    ],
+    "answer": "A",
+    "explanation": "The primary motivator behind the Soviet Union's decision to abandon its 'War Scare' policies was indeed the rise of Mikhail Gorbachev's reformist agenda, which emphasized perestroika and glasnost. This shift in policy was driven by a recognition that the previous approach had become unsustainable, both economically and ideologically. In contrast, options B and C are plausible but ultimately secondary factors that did not drive the Soviet Union's decision to reorient its policies. Option D is incorrect because while the collapse of the socialist bloc did contribute to the decline of the Soviet Union, it was not a direct motivator for abandoning the 'War Scare' policies.",
+    "domain": "history",
+    "tier": "hard",
+    "id": 322,
+    "verification_confidence": 95
+  },
+  {
+    "question": "The thermodynamic equilibrium constant Kp for the reversible reaction CO2(g) + 3H2O(l) \u21cc H2CO3(aq) is related to the standard Gibbs energy change \u0394G\u00b0 by which equation?",
+    "choices": [
+      "A) Kp = exp(-\u0394G\u00b0 / RT)",
+      "B) Kp = exp(\u0394G\u00b0 / RT)",
+      "C) Kp = (1 + \u0394G\u00b0 / RT)^3",
+      "D) Kp = (RT / \u0394G\u00b0)^(1/3)"
+    ],
+    "answer": "A",
+    "explanation": "This answer is correct because the equation relates the equilibrium constant to the standard Gibbs energy change, which can be expressed as -RT * ln(Kp), where R is the gas constant and T is temperature. The other options do not reflect this relationship.",
+    "domain": "chemistry",
+    "tier": "hard",
+    "id": 283,
+    "verification_confidence": 95
+  },
+  {
+    "question": "When training a neural network with multiple outputs using mean squared error (MSE) as the loss function, which of the following is true about the relationship between the MSE and the individual output errors?",
+    "choices": [
+      "A) The MSE is equal to the sum of the squares of the individual output errors.",
+      "B) The MSE is proportional to the product of the individual output errors.",
+      "C) The MSE is a monotonically increasing function of each individual output error.",
+      "D) The MSE is invariant to the sign of any individual output error."
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A) The MSE is equal to the sum of the squares of the individual output errors. This is because the mean squared error is calculated as (1/n) * \u03a3(yi - yi')^2, where yi and yi' are the true and predicted outputs for each data point. When there are multiple outputs, this equation generalizes to calculating the MSE for each output separately and then summing these values.",
+    "domain": "machine learning",
+    "tier": "hard",
+    "id": 335,
+    "verification_confidence": 100
+  },
+  {
+    "question": "Consider a greedy algorithm for solving the 3-dimensional bin packing problem. Which of the following statements about its approximation ratio is TRUE?",
+    "choices": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n log n)",
+      "D) O(n^2)"
+    ],
+    "answer": "A",
+    "explanation": "The greedy algorithm for bin packing has a constant-factor approximation ratio, which is bounded by the number of items packed in each bin. In contrast, options B, C, and D are incorrect because they are based on the input size n or log n, whereas the approximation ratio of the greedy algorithm does not depend on these factors.",
+    "domain": "algorithms",
+    "tier": "hard",
+    "id": 337,
+    "verification_confidence": 100
+  },
+  {
+    "question": "Which of the following neural mechanisms has been implicated in the phenomenon of 'spontaneous activity' in cortical neurons during quiet wakefulness, characterized by high-frequency firing patterns without apparent sensory input?",
+    "choices": [
+      "A) Activation of GABAergic interneurons",
+      "B) Release of dopamine from mesolimbic neurons",
+      "C) Increase in potassium currents through Kv7 channels",
+      "D) Decrease in glutamate release from thalamocortical fibers"
+    ],
+    "answer": "C",
+    "explanation": "Spontaneous activity is a hallmark of cortical neural oscillations during quiet wakefulness. The correct answer, 'Increase in potassium currents through Kv7 channels', refers to the role of KCNQ2/3 channel-mediated potassium currents in regulating the membrane potential and firing rate of cortical neurons. GABAergic interneurons (A) are primarily involved in inhibitory neurotransmission, dopamine release (B) is associated with reward processing and movement control, and glutamate release from thalamocortical fibers (D) is typically linked to sensory processing.",
+    "domain": "neuroscience",
+    "tier": "hard",
+    "id": 345,
+    "verification_confidence": 95
+  },
+  {
+    "question": "When describing the phase behavior of a binary mixture consisting of component A and component B, which of the following statements about the liquid-liquid equilibrium (LLE) is true?",
+    "choices": [
+      "A) The LLE occurs when the activity coefficients of both components are equal at the coexistence curve.",
+      "B) The LLE is characterized by a single critical point that separates the one-phase region from the two-phase region.",
+      "C) The LLE is only possible if the interactions between component A and B are attractive.",
+      "D) The LLE is not influenced by the molecular size or shape of either component."
+    ],
+    "answer": "A",
+    "explanation": "The correct answer, option A, accurately reflects the condition for LLE. In a binary mixture, the activity coefficients of both components must be equal at the coexistence curve to achieve phase separation. Option B is incorrect because there can be multiple critical points depending on the mixture composition. Options C and D are also incorrect as attractive interactions between components are not a necessary condition for LLE.",
+    "domain": "chemistry",
+    "tier": "hard",
+    "id": 300,
+    "verification_confidence": 95
+  },
+  {
+    "question": "The process by which certain plant cells, such as those in the shoot apical meristem, undergo rapid cell division and differentiation to produce a pattern of leaf arrangement characteristic of a particular species is most closely associated with the regulation of which transcription factor?",
+    "choices": [
+      "A) LEAFY (LFY)",
+      "B) KNOTTED1 (KN1)",
+      "C) TEOSINTE BRANCHED1 (TB1)",
+      "D) WUSCHEL-RELATED HOMEOBOX5 (WOX5)"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is LEAFY (LFY), as it plays a crucial role in the regulation of leaf development and pattern formation by controlling the expression of downstream genes involved in cell division, differentiation, and morphology. While KNOTTED1 (KN1) also has roles in plant development, its primary function is in regulating shoot meristem identity rather than leaf patterning. TEOSINTE BRANCHED1 (TB1) primarily regulates branching patterns in grasses, whereas WUSCHEL-RELATED HOMEOBOX5 (WOX5) is involved in the regulation of stem cell niche maintenance and proliferation.",
+    "domain": "biology",
+    "tier": "hard",
+    "id": 310,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Given a generative adversarial network (GAN) with a generator G and discriminator D, which of the following statements best describes the optimization objective for training G?",
+    "choices": [
+      "A) Minimize the expected value of the discriminator's output",
+      "B) Maximize the likelihood of the generated samples given the real data",
+      "C) Minimize the Earth Mover Distance between the generated and target distributions",
+      "D) Maximize the Jensen-Shannon divergence between the generator's output and the training data"
+    ],
+    "answer": "A",
+    "explanation": "When training a GAN, the goal is to minimize the expected value of the discriminator's output for the generated samples. This is because the generator aims to produce samples that are indistinguishable from real data, which means minimizing the discriminator's confidence in distinguishing between real and fake samples. Options B and C are related to other generative modeling objectives, but not directly applicable to GAN training. Option D is a measure of divergence that would actually contradict the goal of making the generated samples indistinguishable from real data.",
+    "domain": "machine learning",
+    "tier": "hard",
+    "id": 371,
+    "verification_confidence": 100
+  },
+  {
+    "question": "During the process of apoptosis, which of the following events is most critical for the formation of the apoptotic density gradient that drives engulfment by phagocytes?",
+    "choices": [
+      "A) Reorganization of microtubules into the perinuclear zone",
+      "B) Activation of caspase-3-mediated proteolysis",
+      "C) Phosphorylation of Annexin A1 at serine 104",
+      "D) Disruption of the mitochondrial permeability transition pore"
+    ],
+    "answer": "A",
+    "explanation": "The apoptotic density gradient is generated by the redistribution of phosphatidylserine to the outer leaflet of the plasma membrane, which requires the reorganization of microtubules into the perinuclear zone. Activation of caspase-3 (option B) leads to proteolysis, but this does not directly contribute to the density gradient. Phosphorylation of Annexin A1 (option C) is a post-apoptotic event and has no direct connection to the density gradient. Disruption of the mitochondrial permeability transition pore (option D) can induce apoptosis, but it is not directly related to the formation of the apoptotic density gradient.",
+    "domain": "biology",
+    "tier": "hard",
+    "id": 362,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Consider a system consisting of two charged particles, A and B, moving in opposite directions along the x-axis with equal magnitudes of velocity. If the charge-to-mass ratio of particle A is twice that of particle B, what is the direction of the magnetic force acting on particle B?",
+    "choices": [
+      "A) Opposite to its velocity",
+      "B) Along its velocity",
+      "C) Perpendicular to both particles' velocities",
+      "D) Zero"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer, C) Perpendicular to both particles' velocities, is based on the Lorentz force equation. Since the particles are moving in opposite directions, the magnetic field from particle A will be perpendicular to the velocity of particle B, resulting in a magnetic force that is also perpendicular to both particles' velocities. The other options do not accurately describe the direction of the magnetic force.",
+    "domain": "physics",
+    "tier": "hard",
+    "id": 325,
+    "verification_confidence": 95
+  },
+  {
+    "question": "When attempting to synthesize a specific organometallic compound, a chemist is faced with the challenge of overcoming the tendency for nucleophilic attack on the metal center. Which of the following strategies would most effectively address this issue?",
+    "choices": [
+      "A) Using a bulky ligand to sterically hinder access to the metal",
+      "B) Employing a weakly coordinating anion to reduce the rate of nucleophilic attack",
+      "C) Introducing an electron-withdrawing group on the metal to increase its Lewis acidity",
+      "D) Utilizing a transition metal with a high effective nuclear charge"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer, using a bulky ligand, would effectively steric hinder access to the metal center, preventing nucleophilic attack. The other options may provide some level of protection but are less effective or not directly addressing the issue.",
+    "domain": "chemistry",
+    "tier": "hard",
+    "id": 259,
+    "verification_confidence": 100
+  },
+  {
+    "id": 360,
+    "tier": "hard",
+    "domain": "science",
+    "question": "What is the significance of Bell's theorem in quantum mechanics?",
+    "choices": [
+      "A) It proves quantum computers are faster than classical ones",
+      "B) It shows no local hidden variable theory can reproduce all predictions of quantum mechanics",
+      "C) It establishes the uncertainty principle mathematically",
+      "D) It proves wave-particle duality"
+    ],
+    "answer": "B",
+    "explanation": "Bell's theorem shows quantum entanglement cannot be explained by local hidden variables, confirmed by Bell test experiments."
+  },
+  {
+    "question": "Consider a crystalline solid whose lattice parameters exhibit an unusual temperature-dependent behavior, namely, that the lattice parameter 'a' increases with decreasing temperature while the lattice parameter 'c' decreases with increasing temperature. Which of the following crystal structures is most likely to display this property?",
+    "choices": [
+      "A) Body-centered cubic (bcc)",
+      "B) Face-centered cubic (fcc)",
+      "C) Hexagonal close-packed (hcp)",
+      "D) Tetragonal"
+    ],
+    "answer": "C",
+    "explanation": "This answer is correct because the unusual temperature-dependent behavior is characteristic of certain hexagonal compounds, such as certain alkali metal pnictides. The bcc and fcc structures typically exhibit more conventional temperature dependencies, while the tetragonal structure does not display this specific behavior.",
+    "domain": "chemistry",
+    "tier": "hard",
+    "id": 288,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Let X be a Banach space, Y a Hilbert space, and T: X \u2192 Y a linear operator. Suppose that T is compact, self-adjoint, and has eigenvalues \u03bbn such that \u2211|\u03bbn|^2 < \u221e. Which of the following statements about the approximation of T by finite-rank operators holds?",
+    "choices": [
+      "A) The norm of T can be arbitrarily well-approximated by a finite-rank operator.",
+      "B) The singular values of T can be approximated by those of a finite-rank operator.",
+      "C) The spectral measure of T can be uniformly approximated by that of a finite-rank operator.",
+      "D) The image of T under the Fourier transform on Y can be arbitrarily well-approximated."
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A because compact, self-adjoint operators have a discrete spectrum and can be approximated by finite-rank operators in the strong operator topology. Options B, C, and D are all plausible but incorrect: singular values are not directly related to the approximation of T, spectral measures are not well-defined for compact operators, and the Fourier transform is not relevant to this problem.",
+    "domain": "mathematics",
+    "tier": "hard",
+    "id": 280,
+    "verification_confidence": 95
+  },
+  {
+    "question": "The spatial organization of neurons in the neocortex has been implicated in information processing and memory formation. In the context of Hebbian learning, which of the following types of neural connections is most likely to exhibit long-term potentiation (LTP) due to repeated co-activation?",
+    "choices": [
+      "A) Synapses between pyramidal cells and inhibitory interneurons",
+      "B) Excitatory synapses between layer 2/3 pyramidal cells and layer 5 pyramidal cells",
+      "C) Glutamatergic synapses between pyramidal cells and Cajal-Retzius neurons",
+      "D) Synapses between granular cells in the dentate gyrus"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B) Excitatory synapses between layer 2/3 pyramidal cells and layer 5 pyramidal cells. This type of connection is known to exhibit LTP due to repeated co-activation, which is a hallmark of Hebbian learning. The other options are incorrect because they do not involve the specific type of excitatory synaptic plasticity required for LTP.",
+    "domain": "neuroscience",
+    "tier": "hard",
+    "id": 347,
+    "verification_confidence": 95
+  },
+  {
+    "question": "During the process of long-term potentiation (LTP) induction in the hippocampus, which of the following types of calcium channels plays a crucial role in mediating the influx of calcium ions required for the activation of protein kinase M\u03b6 and subsequent long-lasting synaptic plasticity?",
+    "choices": [
+      "A) P/Q-type voltage-gated calcium channels",
+      "B) N-type voltage-gated calcium channels",
+      "C) R-type voltage-gated calcium channels",
+      "D) store-operated calcium release channels"
+    ],
+    "answer": "A",
+    "explanation": "LTP induction requires the activation of protein kinase M\u03b6, which is downstream of the influx of calcium ions. P/Q-type voltage-gated calcium channels are specifically expressed in CA1 pyramidal neurons and play a critical role in LTP induction. The other options are not directly involved in this process.",
+    "domain": "neuroscience",
+    "tier": "hard",
+    "id": 265,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In the context of quantum field theory, what is the consequence of imposing a gauge symmetry on the electromagnetic field's covariant derivative operator?",
+    "choices": [
+      "A) The photon becomes massless.",
+      "B) The electromagnetic potential A\u03bc becomes pure gauge.",
+      "C) The gauge symmetry is broken by the renormalization process.",
+      "D) The electromagnetic field's Hamiltonian density is no longer Hermitian."
+    ],
+    "answer": "B",
+    "explanation": "Imposing a gauge symmetry on the electromagnetic field's covariant derivative operator ensures that the physical photon degrees of freedom remain massless. This is because any additional mass term would break the gauge invariance, whereas the pure gauge component A\u03bc represents a redundancy in the description, which can be eliminated by a suitable choice of gauge.",
+    "domain": "physics",
+    "tier": "hard",
+    "id": 352,
+    "verification_confidence": 95
+  },
+  {
+    "question": "The neural correlate of consciousness (NCC) that has been most strongly linked to global workspace theory (GWT) in the context of integrated information theory (IIT) is:",
+    "choices": [
+      "A) gamma-band oscillations",
+      "B) alpha-theta coherence",
+      "C) spindle waves",
+      "D) phase-locking values"
+    ],
+    "answer": "A",
+    "explanation": "The answer, gamma-band oscillations, has been consistently linked to the global workspace in IIT. Gamma-band activity is thought to reflect the integration of information across different brain regions, which is central to GWT. In contrast, alpha-theta coherence and spindle waves are related to other aspects of neural processing, such as attentional modulation or sleep-state regulation. Phase-locking values are a measure of synchrony within specific frequency bands, but do not necessarily reflect the global workspace.",
+    "domain": "neuroscience",
+    "tier": "hard",
+    "id": 275,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In the context of quantum field theory, which of the following statements about asymptotic freedom in QCD (quantum chromodynamics) is correct?",
+    "choices": [
+      "A) Asymptotic freedom implies that the strong nuclear force becomes weaker at very small distances.",
+      "B) In the presence of a hot plasma, asymptotic freedom causes the quarks to behave as if they were free particles.",
+      "C) The renormalization group flow in QCD exhibits a fixed point under asymptotic freedom.",
+      "D) Asymptotic freedom is a consequence of the Higgs mechanism in the standard model of particle physics."
+    ],
+    "answer": "A",
+    "explanation": "Asymptotic freedom in QCD means that the strong nuclear force becomes weaker at very small distances, not stronger. This property arises from the running of the coupling constant and is a key feature of quantum chromodynamics. The other options are all incorrect: (B) hot plasma effects are unrelated to asymptotic freedom; (C) the renormalization group flow in QCD does not exhibit a fixed point under asymptotic freedom; (D) the Higgs mechanism has no direct connection to asymptotic freedom.",
+    "domain": "physics",
+    "tier": "hard",
+    "id": 366,
+    "verification_confidence": 95
+  },
+  {
+    "question": "The concept of 'mission civilisatrice' originated in the context of which colonial power's efforts to impose its own cultural and moral standards on colonized societies, as exemplified by the establishment of \u00c9coles des M\u00e9tiers in Senegal?",
+    "choices": [
+      "A) British",
+      "B) French",
+      "C) Spanish",
+      "D) Portuguese"
+    ],
+    "answer": "B",
+    "explanation": "The concept of 'mission civilisatrice' refers specifically to the French colonial ideology that aimed to bring civilization and modernity to colonized societies. This idea was exemplified by the establishment of \u00c9coles des M\u00e9tiers in Senegal, which were designed to train local artisans and promote French cultural influence. In contrast, while other European powers also had colonial projects, their ideologies did not explicitly emphasize the notion of 'mission civilisatrice'.",
+    "domain": "history",
+    "tier": "hard",
+    "id": 315,
+    "verification_confidence": 95
+  },
+  {
+    "question": "What is the primary mechanism by which the prefrontal cortex (PFC) influences the hippocampus during spatial memory formation, as evidenced by studies of neuroimaging and electrophysiology?",
+    "choices": [
+      "A) The PFC directly activates the hippocampus via glutamatergic projections.",
+      "B) The PFC modulates the hippocampus through the release of dopamine and norepinephrine.",
+      "C) The PFC synchronizes neural activity between the two structures through theta-gamma coupling.",
+      "D) The PFC reorganizes the hippocampal neural network through top-down feedback mechanisms."
+    ],
+    "answer": "C",
+    "explanation": "The prefrontal cortex (PFC) influences the hippocampus during spatial memory formation primarily by synchronizing neural activity between the two structures through theta-gamma coupling. This is supported by studies using neuroimaging techniques such as magnetoencephalography and electrophysiology, which have shown that the PFC generates rhythmic oscillations in the theta frequency band (4-8 Hz) that are synchronized with the hippocampus's neural activity. This synchronization enables the PFC to gate information into the hippocampus, facilitating spatial memory formation.",
+    "domain": "neuroscience",
+    "tier": "hard",
+    "id": 278,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In the context of deep learning-based anomaly detection, what is the primary challenge when applying density-based clustering algorithms to identify novel patterns in high-dimensional data?",
+    "choices": [
+      "A) The curse of dimensionality limits the effectiveness of density-based clustering",
+      "B) The difficulty in defining a meaningful distance metric for high-dimensional data",
+      "C) The risk of overfitting due to the complexity of the underlying distribution",
+      "D) The impossibility of identifying novel patterns without prior knowledge of the anomaly type"
+    ],
+    "answer": "A",
+    "explanation": "The primary challenge in applying density-based clustering algorithms is indeed the curse of dimensionality, which makes it increasingly difficult to maintain a robust representation of the underlying data distribution as the dimensionality increases. This issue can lead to poor clustering performance and decreased detection accuracy for novel patterns.",
+    "domain": "machine learning",
+    "tier": "hard",
+    "id": 319,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the primary mechanism by which the prefrontal cortex (PFC) modulates the activity of neurons in the ventromedial hypothalamus (VMH), leading to changes in food intake and body weight?",
+    "choices": [
+      "A) The PFC exerts direct glutamatergic excitation on VMH neurons",
+      "B) The PFC releases dopamine, which activates VMH neurons through D2 receptors",
+      "C) The PFC modulates the activity of VMH neurons through glucocorticoid receptor-dependent mechanisms",
+      "D) The PFC inhibits VMH neurons via GABAergic transmission"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C) The PFC modulates the activity of VMH neurons through glucocorticoid receptor-dependent mechanisms. This is supported by studies showing that corticosterone, a glucocorticoid hormone released by the PFC, binds to glucocorticoid receptors in the VMH and affects food intake and body weight. In contrast, A) is incorrect because the PFC does not directly excite VMH neurons. B) is also incorrect as dopamine does not play a direct role in this process. D) is wrong as GABAergic transmission from the PFC to VMH neurons has not been shown to affect food intake and body weight.",
+    "domain": "neuroscience",
+    "tier": "hard",
+    "id": 303,
+    "verification_confidence": 95
+  },
+  {
+    "question": "When testing the equality of two statistical distributions using the two-sample Kolmogorov-Smirnov test, which of the following assumptions must be met for the test to be valid?",
+    "choices": [
+      "A) The two samples are independent and identically distributed.",
+      "B) The cumulative distribution functions of the two populations are identical.",
+      "C) The data is normally distributed with equal variances.",
+      "D) The two samples have the same size."
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A because the Kolmogorov-Smirnov test assumes that the two samples are independent and identically distributed. This assumption ensures that the test statistic is calculated correctly, allowing for a valid comparison of the distributions. Options B, C, and D are incorrect because they do not relate to the assumptions required for the test.",
+    "domain": "statistics",
+    "tier": "hard",
+    "id": 326,
+    "verification_confidence": 100
+  },
+  {
+    "question": "Consider a economy with a unique feature: the majority of firms are owned by foreign investors. Which of the following best describes the implications for economic growth in this economy?",
+    "choices": [
+      "A) The presence of foreign-owned firms will lead to a increase in economic growth, as they bring in new capital and management expertise.",
+      "B) The economy's growth rate will be unaffected by the ownership structure, as the majority of firms are already operating at capacity.",
+      "C) The government may face pressure to implement policies that favor foreign-owned firms over domestic ones, potentially hindering economic growth.",
+      "D) The economy is likely to experience a decrease in economic growth due to the lack of incentives for entrepreneurship and innovation among domestic firms."
+    ],
+    "answer": "A",
+    "explanation": "The presence of foreign-owned firms can bring new capital and management expertise, leading to increased investment and improved productivity. This can result in higher levels of economic growth. Options B and D are incorrect as they do not account for the potential benefits of foreign ownership. Option C is plausible but incorrect as it assumes a specific government policy intervention that may not necessarily occur.",
+    "domain": "economics",
+    "tier": "hard",
+    "id": 311,
+    "verification_confidence": 95
+  },
+  {
+    "id": 369,
+    "tier": "hard",
+    "domain": "cs",
+    "question": "What is the difference between L1 and L2 regularization?",
+    "choices": [
+      "A) L1 adds squared weights to loss, L2 adds absolute weights",
+      "B) L1 adds absolute weights to loss (promotes sparsity), L2 adds squared weights (promotes small weights)",
+      "C) L1 is for classification, L2 is for regression",
+      "D) L1 prevents overfitting, L2 prevents underfitting"
+    ],
+    "answer": "B",
+    "explanation": "L1 (Lasso) uses |w| promoting sparsity; L2 (Ridge) uses w^2 shrinking weights toward zero without sparsity."
+  },
+  {
+    "question": "In the context of quantum mechanics, which of the following statements accurately describes the role of the spin-orbit coupling term in the Hamiltonian of an atom?",
+    "choices": [
+      "A) It modifies the s-orbital energy levels and has no impact on the p-orbital energy levels.",
+      "B) It is responsible for the splitting of degenerate energy levels in heavy atoms, but only affects the valence electrons.",
+      "C) It plays a crucial role in determining the magnetic properties of an atom by interacting with the orbital angular momentum.",
+      "D) It is negligible in most cases and can be safely ignored when calculating atomic energies."
+    ],
+    "answer": "C",
+    "explanation": "The spin-orbit coupling term in the Hamiltonian of an atom arises from the interaction between the electron's spin and its orbital motion. This term plays a crucial role in determining the magnetic properties of an atom, such as the g-factor, by interacting with the orbital angular momentum. Options A, B, and D are incorrect because they either underestimate or overestimate the impact of spin-orbit coupling on atomic energies.",
+    "domain": "chemistry",
+    "tier": "hard",
+    "id": 299,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In the context of plant development, which of the following statements best describes the role of the KNOX family of transcription factors in regulating stem cell identity and meristem maintenance?",
+    "choices": [
+      "A) They act as repressors to maintain stem cell quiescence",
+      "B) They function as activators to promote stem cell proliferation",
+      "C) They are necessary for the formation of leaf primordia but not stem cell maintenance",
+      "D) They have no role in plant development"
+    ],
+    "answer": "A",
+    "explanation": "KNOX transcription factors act as repressors to maintain stem cell quiescence, thereby allowing the meristem to remain in a state of self-renewal. In contrast, options B and C are incorrect as KNOX proteins do not directly regulate stem cell proliferation or leaf primordia formation. Option D is also incorrect since KNOX genes have been shown to be essential for plant development.",
+    "domain": "biology",
+    "tier": "hard",
+    "id": 273,
+    "verification_confidence": 95
+  },
+  {
+    "id": 340,
+    "tier": "hard",
+    "domain": "math",
+    "question": "What is the G\u00c3\u00b6del's incompleteness theorem?",
+    "choices": [
+      "A) Any consistent formal system is complete",
+      "B) Any sufficiently powerful consistent formal system contains true statements that cannot be proven within the system",
+      "C) Mathematics is fundamentally inconsistent",
+      "D) All mathematical truths are provable given enough axioms"
+    ],
+    "answer": "B",
+    "explanation": "G\u00c3\u00b6del showed any consistent formal system powerful enough to describe arithmetic contains unprovable true statements."
+  },
+  {
+    "question": "Which of the following neural circuit mechanisms best explains the phenomenon of interareal alpha-band phase locking in the human brain during visual attention tasks?",
+    "choices": [
+      "A) Spatially-specific long-range synchronous activity driven by local oscillations",
+      "B) Hierarchical processing via top-down feedback connections from higher-level areas",
+      "C) Synchronization of gamma-band power between distant cortical regions due to shared input",
+      "D) Phase-locked alpha-power in visual cortex as a result of intrinsic brain rhythmicity"
+    ],
+    "answer": "A",
+    "explanation": "Interareal alpha-band phase locking is thought to be driven by the spatially-specific long-range synchronous activity between distant cortical regions, which is mediated by local oscillations. This mechanism allows for the coordination of visual attention across different areas and is a hallmark of top-down processing.",
+    "domain": "neuroscience",
+    "tier": "hard",
+    "id": 378,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In the context of quantum field theory, which of the following statements about the renormalization group flow of a fundamental scalar field is true?",
+    "choices": [
+      "A) The fixed point structure of the beta function determines the mass spectrum of physical particles.",
+      "B) The presence of asymptotic freedom in the running coupling constant implies that the theory becomes strongly coupled at high energies.",
+      "C) A non-trivial ultraviolet fixed point indicates that the theory is not perturbatively renormalizable.",
+      "D) The beta function of the scalar field can be determined by solving a nonlinear differential equation."
+    ],
+    "answer": "A",
+    "explanation": "The correct answer highlights the crucial role of the fixed point structure in determining the mass spectrum. In contrast, options B and C are incorrect because they relate to different aspects of renormalization group flow (asymptotic freedom vs. ultraviolet behavior). Option D is also wrong as it implies a misunderstanding of the renormalization group equation.",
+    "domain": "physics",
+    "tier": "hard",
+    "id": 296,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Consider the following reaction scheme: 2H2 + O2 \u2192 2H2O. What is the minimum number of Langmuir adsorption sites required on a metal surface for this reaction to occur at a significant rate?",
+    "choices": [
+      "A) 2",
+      "B) 4",
+      "C) 6",
+      "D) 8"
+    ],
+    "answer": "A",
+    "explanation": "This question requires deep understanding of the Langmuir adsorption model and its application in heterogeneous catalysis. The correct answer is A) 2, as two adsorption sites are required for one H2 molecule to bind to the surface and facilitate the reaction.",
+    "domain": "chemistry",
+    "tier": "hard",
+    "id": 348,
+    "verification_confidence": 95
+  },
+  {
+    "id": 357,
+    "tier": "hard",
+    "domain": "cs",
+    "question": "In the context of transformer models, what does 'attention head' compute?",
+    "choices": [
+      "A) A weighted sum of values where weights are determined by query-key dot products",
+      "B) A simple average of all token embeddings",
+      "C) A convolutional filter applied to token sequences",
+      "D) A recurrent hidden state update"
+    ],
+    "answer": "A",
+    "explanation": "Each attention head computes scaled dot-product attention: softmax(QK^T/sqrt(d_k))V."
+  },
+  {
+    "id": 295,
+    "tier": "hard",
+    "domain": "science",
+    "question": "In quantum mechanics, what does the Born rule state?",
+    "choices": [
+      "A) Particles cannot be in two places simultaneously",
+      "B) The probability of a measurement outcome equals the squared modulus of the wave function amplitude",
+      "C) Energy is quantized in discrete packets",
+      "D) Electrons orbit the nucleus in fixed shells"
+    ],
+    "answer": "B",
+    "explanation": "The Born rule: probability = |\u00cf\u02c6|^2, connecting the wave function to observable probabilities."
+  },
+  {
+    "question": "What was the primary economic motivation behind the decision of the Russian Revolution's leaders to nationalize key industries, such as banking and manufacturing, in 1918?",
+    "choices": [
+      "A) To eliminate the bourgeoisie class and create a socialist economy",
+      "B) To stimulate economic growth by attracting foreign investment",
+      "C) To consolidate state control over the means of production and distribution",
+      "D) To address shortages and inefficiencies caused by World War I"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C) To consolidate state control over the means of production and distribution. The Russian Revolution's leaders, specifically Vladimir Lenin and the Bolsheviks, sought to establish a socialist economy through nationalization of key industries. This move aimed to give the state control over the means of production, allowing for central planning and management. The other options are incorrect because they do not accurately capture the primary economic motivation behind the nationalization.",
+    "domain": "history",
+    "tier": "hard",
+    "id": 376,
+    "verification_confidence": 95
+  },
+  {
+    "id": 342,
+    "tier": "hard",
+    "domain": "science",
+    "question": "What is the second law of thermodynamics?",
+    "choices": [
+      "A) Energy is conserved in all processes",
+      "B) The entropy of an isolated system never decreases over time",
+      "C) Heat flows from cold to hot spontaneously",
+      "D) All processes are reversible given enough energy"
+    ],
+    "answer": "B",
+    "explanation": "The second law states entropy of an isolated system always increases or stays constant, never decreases."
+  },
+  {
+    "question": "The historiographical debate surrounding the Treaty of Westphalia (1648) revolves around its significance in establishing the modern system of sovereign states. Which of the following best captures the treaty's impact on international relations?",
+    "choices": [
+      "A) It codified a clear distinction between just and unjust wars, marking a significant departure from medieval just war theory.",
+      "B) It introduced the concept of a 'balance of power' as a means to maintain peace among European states.",
+      "C) It established the principle of non-interference in the internal affairs of sovereign states, effectively ending the era of imperial overlordship.",
+      "D) It merely reconfirmed existing treaty arrangements and did not significantly alter the nature of international relations."
+    ],
+    "answer": "C",
+    "explanation": "The Treaty of Westphalia indeed established the principle of non-interference in the internal affairs of sovereign states, effectively ending the era of imperial overlordship. This allowed for the development of a system where independent nation-states could exist without external interference. Options A and B are incorrect as they do not accurately capture the treaty's impact on international relations. Option D is also incorrect because it understates the significance of the treaty in establishing the modern system of sovereign states.",
+    "domain": "history",
+    "tier": "hard",
+    "id": 266,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In the context of neural networks, which of the following statements best describes the relationship between the synaptic plasticity rule known as spike-timing-dependent plasticity (STDP) and the learning algorithm Hebbian learning?",
+    "choices": [
+      "A) STDP is a mechanism for long-term potentiation (LTP) during associative Hebbian learning.",
+      "B) STDP is a mechanism for long-term depression (LTD) during associative Hebbian learning.",
+      "C) STDP is a mechanism for short-term synaptic plasticity during feedforward Hebbian learning.",
+      "D) STDP is unrelated to Hebbian learning and plays no role in neural network plasticity."
+    ],
+    "answer": "A",
+    "explanation": "Spike-timing-dependent plasticity (STDP) is a type of synaptic plasticity rule that has been shown to underlie the associative learning mechanism described by Hebb's 'Cells that fire together, wire together' principle. STDP enhances the strength of connections between neurons that are activated in close temporal proximity, which is consistent with LTP during associative Hebbian learning.",
+    "domain": "neuroscience",
+    "tier": "hard",
+    "id": 359,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Which of the following neural mechanisms has been most closely linked to the phenomenon of stimulus-driven reinstatement of memories from a specific period in an individual's life?",
+    "choices": [
+      "A) Reconsolidation-based retrieval",
+      "B) Long-term potentiation-dependent recall",
+      "C) Pattern separation-mediated competition",
+      "D) Synchrony-induced reactivation"
+    ],
+    "answer": "A",
+    "explanation": "Stimulus-driven reinstatement of memories is a phenomenon where specific events or contexts can reactivate and replay previously consolidated memories. This process has been closely linked to the neural mechanism of reconsolidation-based retrieval, which involves the dynamic updating of memory representations in response to novel information. In contrast, long-term potentiation-dependent recall focuses on the strengthening of synaptic connections between neurons, while pattern separation-mediated competition is a mechanism that helps distinguish between similar memories. Synchrony-induced reactivation refers to the coordinated activity of neurons involved in memory retrieval, but it is not directly related to stimulus-driven reinstatement.",
+    "domain": "neuroscience",
+    "tier": "hard",
+    "id": 297,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Consider a dynamic programming algorithm that solves the 0/1 knapsack problem by recursively constructing a table of subproblems. Which of the following is NOT a characteristic of this algorithm?",
+    "choices": [
+      "A) The algorithm has exponential time complexity",
+      "B) The algorithm uses memoization to avoid redundant computation",
+      "C) The algorithm has a recursive function that grows polynomially with respect to input size",
+      "D) The algorithm solves the problem in O(1) time"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A because the dynamic programming algorithm does not have exponential time complexity. It uses memoization and recursive construction, but still has a polynomial time complexity (typically O(n*W), where n is the number of items and W is the knapsack capacity). The other options are all characteristics of this type of algorithm.",
+    "domain": "algorithms",
+    "tier": "hard",
+    "id": 372,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In the context of medieval European politics, what was the primary significance of the Treaty of Verdun (843 CE), which divided the Carolingian Empire among the three surviving sons of Louis the Pious?",
+    "choices": [
+      "A) It marked a significant shift in the balance of power between the Holy Roman Empire and the Byzantine Empire",
+      "B) It established the concept of feudalism as we know it today",
+      "C) It solidified the territorial boundaries of the Carolingian Empire for centuries to come",
+      "D) It served as a model for future treaties dividing imperial territories among multiple heirs"
+    ],
+    "answer": "A",
+    "explanation": "The Treaty of Verdun was primarily significant because it divided the Carolingian Empire, marking a shift in power dynamics between the Holy Roman Empire and the Byzantine Empire. Options B and C are incorrect because feudalism emerged later, and the treaty did not establish permanent territorial boundaries. Option D is also incorrect because the treaty's terms were unique to its historical context.",
+    "domain": "history",
+    "tier": "hard",
+    "id": 382,
+    "verification_confidence": 95
+  },
+  {
+    "id": 309,
+    "tier": "hard",
+    "domain": "cs",
+    "question": "What is the Byzantine Generals Problem?",
+    "choices": [
+      "A) A routing problem in ancient network topologies",
+      "B) A consensus problem where distributed nodes must agree despite some nodes sending conflicting or false information",
+      "C) A scheduling problem for parallel processors",
+      "D) A cryptographic problem involving key distribution"
+    ],
+    "answer": "B",
+    "explanation": "The Byzantine Generals Problem models distributed consensus when some nodes (traitors) may send conflicting messages."
+  },
+  {
+    "id": 302,
+    "tier": "hard",
+    "domain": "math",
+    "question": "What is the Fourier transform used for?",
+    "choices": [
+      "A) Solving differential equations only",
+      "B) Decomposing a function into its constituent frequencies",
+      "C) Computing matrix inverses",
+      "D) Approximating polynomial functions"
+    ],
+    "answer": "B",
+    "explanation": "The Fourier transform decomposes a signal into its frequency components, fundamental in signal processing."
+  },
+  {
+    "question": "Consider a distributed algorithm that solves the max-flow problem on a graph with m edges, where each edge has a capacity of at most c. Suppose we partition the edges into k groups, such that each group has at most \u03b3m edges, for some constant \u03b3 \u2208 (0, 1). Proving that this partition does not significantly affect the algorithm's running time would require demonstrating which of the following properties?",
+    "choices": [
+      "A) The maximum flow across any edge in a single group is bounded by O(c / k)",
+      "B) The number of edges in each group is upper-bounded by O(m / \u03b3^2)",
+      "C) The total capacity of all edges within a single group is at most O(c / k)",
+      "D) The number of groups required to partition the graph is proportional to m"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer A) ensures that the maximum flow across any edge in a single group is bounded, which is crucial for analyzing the algorithm's running time. Options B, C, and D are distractors because they do not relate to the running time of the algorithm.",
+    "domain": "algorithms",
+    "tier": "hard",
+    "id": 349,
+    "verification_confidence": 95
+  },
+  {
+    "question": "What was the primary historiographical significance of the 'Annales' school in shaping the development of modern historical research?",
+    "choices": [
+      "A) The Annales school's emphasis on quantitative methods and statistical analysis revolutionized the field by introducing a scientific approach to history.",
+      "B) The Annales school's focus on social and economic history as opposed to political events led to a shift in the way historians approached the study of the past.",
+      "C) The Annales school's rejection of traditional narratives and emphasis on structural analysis enabled historians to uncover deeper patterns and trends in historical development.",
+      "D) The Annales school's reliance on primary sources and archival research led to a renewed focus on local history and regional studies."
+    ],
+    "answer": "C",
+    "explanation": "The Annales school, founded by Lucien Febvre and Marc Bloch, was a response to the dominant narrative-driven approach to history. The school's rejection of traditional narratives and emphasis on structural analysis enabled historians to uncover deeper patterns and trends in historical development. This shift in focus led to a more nuanced understanding of historical processes and a greater emphasis on long-term structural change. Options A, B, and D are all incorrect as they mischaracterize the Annales school's contributions to historiography.",
+    "domain": "history",
+    "tier": "hard",
+    "id": 353,
+    "verification_confidence": 95
+  },
+  {
+    "question": "The process of convergent evolution in the morphology of cetaceans (whales, dolphins, and porpoises) has been attributed to various selective pressures. Which of the following mechanisms is most strongly supported by comparative anatomical and fossil evidence as driving the evolution of similar body shapes in these aquatic mammals?",
+    "choices": [
+      "A) Hydrodynamic constraints imposed by swimming in dense marine environments",
+      "B) Pressure to minimize surface area for thermoregulation in cold water",
+      "C) Evolutionary advantage of reduced visual detection risk through cryptic behavior",
+      "D) Selection pressure against predator avoidance"
+    ],
+    "answer": "A",
+    "explanation": "Convergent evolution in cetaceans is primarily driven by hydrodynamic constraints, as their streamlined bodies enable them to swim efficiently and conserve energy. This is evident from comparative anatomical studies of their skeletons and fossil records showing the gradual development of these body shapes.",
+    "domain": "biology",
+    "tier": "hard",
+    "id": 305,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In the context of molecular recognition, what is the primary mechanism by which a transition state analog (TSA) stabilizes the transition state in an enzyme-catalyzed reaction?",
+    "choices": [
+      "A) By forming a covalent bond with the substrate",
+      "B) Through electrostatic interactions with the substrate and the enzyme's active site",
+      "C) Via hydrogen bonding between the TSA and the substrate",
+      "D) By altering the enzyme's conformation to favor the transition state"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer, B) Through electrostatic interactions with the substrate and the enzyme's active site, is supported by numerous studies demonstrating that TSAs work by mimicking the partial charges present on the transition state. The other options are plausible but incorrect: A) covalent bonds are unlikely to form between the TSA and substrate in a transition state, C) hydrogen bonding can occur but does not provide sufficient stabilization, and D) altering enzyme conformation is not a primary mechanism for stabilizing transition states.",
+    "domain": "chemistry",
+    "tier": "hard",
+    "id": 330,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In the context of developmental biology, which of the following mechanisms is responsible for the formation of the anterior-posterior axis in vertebrate embryos?",
+    "choices": [
+      "A) Epithelial-to-mesenchymal transition",
+      "B) Wnt/\u03b2-catenin signaling pathway",
+      "C) Nodal signaling cascade",
+      "D) Sonic hedgehog (Shh) morphogen gradient"
+    ],
+    "answer": "C",
+    "explanation": "The anterior-posterior axis is formed in vertebrate embryos through the Nodal signaling cascade, which involves the activation of Nodal ligands and their subsequent binding to Nodal receptors on cells. This binding leads to the activation of downstream targets, including transcription factors that specify anterior and posterior fates. In contrast, epithelial-to-mesenchymal transition is a process by which epithelial cells become mesenchymal cells, but it is not involved in axis formation. Wnt/\u03b2-catenin signaling pathway is important for tissue patterning and cell fate determination, but it is not the primary mechanism responsible for anterior-posterior axis formation. Sonic hedgehog (Shh) morphogen gradient plays a role in patterning along the anteroposterior axis in some organisms, but it is not the main mechanism responsible for forming the axis in vertebrate embryos.",
+    "domain": "biology",
+    "tier": "hard",
+    "id": 292,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Theoretical models of chemical reactivity often rely on the concept of frontier molecular orbitals. In this context, which of the following statements accurately describes the relationship between the HOMO-LUMO gap and the reaction rate?",
+    "choices": [
+      "A) A larger HOMO-LUMO gap typically corresponds to a faster reaction rate.",
+      "B) The HOMO-LUMO gap has no direct influence on the reaction rate, as it only affects the stability of the reactants.",
+      "C) A smaller HOMO-LUMO gap is generally associated with slower reaction rates due to increased orbital overlap and stabilization.",
+      "D) The HOMO-LUMO gap solely depends on the reactant's thermodynamic properties, such as the activation energy"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A) A larger HOMO-LUMO gap typically corresponds to a faster reaction rate. This is because a larger gap indicates that the reactants have less orbital overlap and stabilization, which can facilitate a faster reaction by reducing the activation energy barrier.",
+    "domain": "chemistry",
+    "tier": "hard",
+    "id": 346,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In the context of neural activity patterns, what is the primary mechanism by which the phenomenon of 'gamma oscillations' is thought to contribute to information processing and memory consolidation?",
+    "choices": [
+      "A) Gamma oscillations are believed to primarily facilitate long-term potentiation in pyramidal neurons.",
+      "B) They are thought to enhance the synchrony of thalamocortical interactions, which in turn strengthen neocortical activity.",
+      "C) Gamma oscillations are hypothesized to play a key role in the generation and maintenance of neural 'hotspots' for local learning and memory.",
+      "D) Gamma oscillations have been shown to be directly involved in the re-entrant processing of sensory information and the formation of complex spatial maps."
+    ],
+    "answer": "B",
+    "explanation": "Gamma oscillations are thought to enhance the synchrony of thalamocortical interactions, which in turn strengthens neocortical activity. This is because gamma frequency stimulation has been shown to increase the phase-locking value between thalamic and cortical neurons, allowing for more efficient information transfer and processing.",
+    "domain": "neuroscience",
+    "tier": "hard",
+    "id": 285,
+    "verification_confidence": 95
+  },
+  {
+    "question": "What was the primary motivation behind the Austrian government's decision to annex Bosnia and Herzegovina in 1908, as evident from the diplomatic correspondence and historical records?",
+    "choices": [
+      "A) To prevent Ottoman expansion into Europe",
+      "B) To gain control over the region's strategic trade routes",
+      "C) To appease nationalist sentiments among ethnic Croats and Slovenes",
+      "D) To expand Austria-Hungary's colonial empire in Africa"
+    ],
+    "answer": "A",
+    "explanation": "The primary motivation behind the Austrian government's decision to annex Bosnia and Herzegovina was to prevent Ottoman expansion into Europe. The Austro-Hungarian Empire saw the Balkans as a crucial buffer zone against further Ottoman encroachment, and the annexation of Bosnia and Herzegovina was a key move in this strategy. Options B, C, and D are plausible but incorrect; while trade routes, nationalist sentiments, and colonial expansion were all factors in regional politics during this time period, they do not accurately capture the primary motivation behind Austria's decision to annex Bosnia and Herzegovina.",
+    "domain": "history",
+    "tier": "hard",
+    "id": 318,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Consider a lattice graph G = (V, E) with a set V of vertices and a set E of edges. Suppose that G has no isolated vertices and every vertex has degree at least 2. Which of the following statements about the graph is true?",
+    "choices": [
+      "A) G contains an even cycle.",
+      "B) G is Hamiltonian.",
+      "C) Every connected component of G contains a vertex with degree exactly 3.",
+      "D) The number of vertices in G is odd."
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is that the graph contains an even cycle. This follows from the fact that every vertex has degree at least 2, which implies that every connected component must have at least one edge. Since there are no isolated vertices, this means that each connected component contains at least one cycle. Moreover, since every vertex has even degree (at least 2), it is impossible to have a graph containing only odd cycles. Hence, the graph must contain an even cycle.",
+    "domain": "logic",
+    "tier": "hard",
+    "id": 355,
+    "verification_confidence": 100
+  },
+  {
+    "question": "Consider a relativistic electromagnetic wave propagating through a homogeneous, isotropic plasma with an equilibrium density n0. Assuming the wave has frequency \u03c9 and wavevector k, and that the plasma's electron-ion collision frequency \u03bdei is much smaller than \u03c9 and k/c, where c is the speed of light. Which of the following best describes the behavior of the wave's refractive index n?",
+    "choices": [
+      "A) The refractive index n approaches a constant value as \u03c9 \u2192 \u221e",
+      "B) The refractive index n decreases monotonically with increasing frequency \u03c9",
+      "C) The refractive index n exhibits a pronounced resonance at a characteristic frequency",
+      "D) The refractive index n is independent of the wave's frequency \u03c9"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer A) is due to the fact that in the high-frequency limit, the plasma behaves like a vacuum and the electromagnetic wave propagates with a constant speed. Options B) and C) are incorrect because they would require a resonance or absorption of energy by the plasma, which is not possible given the assumptions made. Option D) is also wrong as it neglects the effects of the plasma on the wave's propagation.",
+    "domain": "physics",
+    "tier": "hard",
+    "id": 384,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In the context of synaptic plasticity, which of the following types of AMPA receptor subunits is most closely associated with spike-timing-dependent plasticity (STDP) and its underlying mechanisms?",
+    "choices": [
+      "A) GluA2",
+      "B) GluA3",
+      "C) GluA4",
+      "D) GluA1"
+    ],
+    "answer": "D",
+    "explanation": "GluA1 subunits are specifically linked to STDP, as their expression is required for the induction of long-term potentiation (LTP) and long-term depression (LTD). The other options do not have a direct link to STDP.",
+    "domain": "neuroscience",
+    "tier": "hard",
+    "id": 307,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Let G = (V,E) be a connected graph with minimum vertex degree \u03b4(G). Prove that for any positive integer k, there exists a k-vertex-connected subgraph H \u2286 G such that \u03b4(H) \u2265 k.",
+    "choices": [
+      "A) Use Hall's Marriage Theorem to construct the desired subgraph.",
+      "B) Apply Dirac's theorem on k-vertex-connected graphs.",
+      "C) Prove that every connected graph has a Hamiltonian cycle, then use induction.",
+      "D) Construct a k-vertex-connected tree T and show that G contains a copy of T as a subgraph."
+    ],
+    "answer": "A",
+    "explanation": "The correct answer relies on the application of Hall's Marriage Theorem to prove the existence of a k-vertex-connected subgraph. This theorem is particularly well-suited for this problem, as it allows us to construct the desired subgraph by iteratively adding vertices and edges that satisfy the condition \u03b4(H) \u2265 k. The other options are either incorrect or insufficiently general, as they rely on specific properties of graphs (Dirac's theorem) or do not address the requirement of a connected graph with minimum vertex degree \u03b4(G).",
+    "domain": "mathematics",
+    "tier": "hard",
+    "id": 323,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In a study on the mechanism of enzyme-catalyzed reactions, researchers observed that a specific enzyme exhibited a significant increase in activity upon addition of a metal ion. However, subsequent experiments revealed that the presence of the metal ion did not alter the enzyme's substrate specificity or binding affinity. Which of the following most accurately describes the likely effect of the metal ion on the enzyme's kinetics?",
+    "choices": [
+      "A) The metal ion increased the enzyme's catalytic efficiency by stabilizing the transition state",
+      "B) The metal ion induced a conformational change in the enzyme that facilitated substrate binding",
+      "C) The metal ion had no significant effect on the enzyme's kinetics due to its absence of direct interaction with the active site",
+      "D) The metal ion inhibited the enzyme's activity by competing with the substrate for binding"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A) The metal ion increased the enzyme's catalytic efficiency by stabilizing the transition state. This is because the observed increase in enzyme activity upon addition of the metal ion suggests that the metal ion is likely affecting the kinetics of the reaction, rather than altering the enzyme's substrate specificity or binding affinity. Stabilization of the transition state is a common mechanism by which metal ions can enhance enzymatic activity, without affecting the enzyme's substrate specificity.",
+    "domain": "chemistry",
+    "tier": "hard",
+    "id": 314,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In the context of European colonialism, what was the primary consequence of the Berlin Conference of 1884-85 for the Congo River basin?",
+    "choices": [
+      "A) The conference established a precedent for international cooperation in African affairs, leading to increased investment and infrastructure development.",
+      "B) The conference resulted in the partitioning of the Congo River basin among European powers, with little consideration given to local populations or indigenous cultures.",
+      "C) The conference was a failure due to disagreements among European nations over territorial claims, ultimately leading to a stalemate on African colonial expansion.",
+      "D) The conference had no significant impact on the Congo River basin, as it primarily focused on regulating the exploitation of natural resources in Africa."
+    ],
+    "answer": "B",
+    "explanation": "The Berlin Conference established rules for European colonization in Africa, but its primary consequence was the partitioning of the Congo River basin among European powers. This led to significant territorial and resource extraction implications for local populations and indigenous cultures.",
+    "domain": "history",
+    "tier": "hard",
+    "id": 313,
+    "verification_confidence": 95
+  },
+  {
+    "question": "The process of apoptosis in the developing nervous system is thought to be regulated by a complex interplay between pro-survival and pro-apoptotic signals. Which of the following molecular mechanisms is most likely responsible for the activation of Bax, a key pro-apoptotic protein, during this process?",
+    "choices": [
+      "A) Phosphorylation of Bax by JNK",
+      "B) Inhibition of Bcl-2 by caspase-mediated cleavage",
+      "C) Activation of p53 through DNA damage response pathways",
+      "D) Dephosphorylation of Mdm2"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A) Phosphorylation of Bax by JNK. During apoptosis, the pro-apoptotic protein Bax is activated by phosphorylation mediated by JNK (c-Jun N-terminal kinase), which is a key component of the ERK/MAPK signaling pathway. This phosphorylation event allows Bax to oligomerize and insert into the mitochondrial outer membrane, ultimately leading to cytochrome c release and apoptosis. The other options are not directly related to the regulation of Bax during apoptosis.",
+    "domain": "biology",
+    "tier": "hard",
+    "id": 328,
+    "verification_confidence": 95
+  },
+  {
+    "id": 364,
+    "tier": "hard",
+    "domain": "math",
+    "question": "What is the Navier-Stokes equation used to describe?",
+    "choices": [
+      "A) Quantum particle behavior",
+      "B) The motion of viscous fluid substances",
+      "C) Electromagnetic field propagation",
+      "D) Gravitational wave equations"
+    ],
+    "answer": "B",
+    "explanation": "Navier-Stokes equations describe the motion of viscous fluids, fundamental to fluid dynamics."
+  },
+  {
+    "id": 363,
+    "tier": "hard",
+    "domain": "cs",
+    "question": "What is gradient vanishing in deep neural networks?",
+    "choices": [
+      "A) When gradients become too large during backpropagation",
+      "B) When gradients become exponentially small during backpropagation through many layers, preventing learning in early layers",
+      "C) When the learning rate is set too high",
+      "D) When the network memorizes training data"
+    ],
+    "answer": "B",
+    "explanation": "Vanishing gradients occur when repeated multiplication of small values during backprop makes gradients near zero in early layers."
+  },
+  {
+    "question": "The neural activity underlying the perception of ambiguous visual stimuli, such as the famous 'Hermann grid' illusion, is thought to involve the integration of contextual information across multiple neurons. Which type of neural computation best accounts for this phenomenon?",
+    "choices": [
+      "A) Sustained attention-based gain modulation",
+      "B) Hierarchical feature extraction with top-down feedback",
+      "C) Cortical columnar processing with lateral inhibition",
+      "D) Spatial frequency analysis with localized energy detection"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B) Hierarchical feature extraction with top-down feedback, as it captures the idea that higher-level features are extracted through a top-down process and integrated across multiple neurons to form a coherent percept. Options A, C, and D do not explicitly address the integration of contextual information.",
+    "domain": "neuroscience",
+    "tier": "hard",
+    "id": 269,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In eukaryotic cells, which of the following is NOT a primary mechanism by which microtubules regulate the dynamics of the Golgi apparatus?",
+    "choices": [
+      "A) Microtubule-mediated Golgi fragmentation and reassembly",
+      "B) Inhibition of Golgi enzymes through microtubule-based Golgi disassembly",
+      "C) Regulation of Golgi protein trafficking via motor protein-dependent vesicle transport",
+      "D) Stabilization of Golgi morphology by sequestering the cytosolic pool of tubulin"
+    ],
+    "answer": "A",
+    "explanation": "While microtubules play a crucial role in regulating Golgi dynamics, fragmentation and reassembly is not a primary mechanism. Instead, microtubules control Golgi architecture through stabilization and destabilization of specific microtubule-based structures.",
+    "domain": "biology",
+    "tier": "hard",
+    "id": 331,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Let X be a random variable with cumulative distribution function F(x) = 1 - e^(-\u03bbx), x \u2265 0, where \u03bb > 0. Which of the following statements about the tail behavior of X is TRUE?",
+    "choices": [
+      "A) The probability that X exceeds any given threshold \u03b8 > 0 decays exponentially fast as \u03b8 \u2192 \u221e.",
+      "B) The probability that X is less than or equal to a given threshold \u03b8 < 0 grows polynomially fast as \u03b8 \u2192 -\u221e.",
+      "C) The distribution of X has finite mean, but infinite variance.",
+      "D) The distribution of X is subexponential with index \u03c1 = 1/\u03bb"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer holds because the survival function S(x) = 1 - F(x) = e^(-\u03bbx) decays exponentially as x \u2192 \u221e, which implies that the probability that X exceeds any given threshold \u03b8 > 0 also decays exponentially fast. The other options are incorrect: option B refers to a different tail behavior, option C is not consistent with the given distribution, and option D is a statement about the distribution of -X rather than X.",
+    "domain": "mathematics",
+    "tier": "hard",
+    "id": 268,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What was the primary historiographical implication of the 1955 publication of Fernand Braudel's 'The Mediterranean and the Mediterranean World, 1460-1648', which challenged prevailing interpretations of early modern European history?",
+    "choices": [
+      "A) It introduced a new paradigm for understanding the Renaissance",
+      "B) It highlighted the significance of cultural exchange between Europe and the Islamic world",
+      "C) It questioned the traditional narrative of European expansion and the rise of nation-states",
+      "D) It emphasized the importance of economic factors in shaping early modern European history"
+    ],
+    "answer": "C",
+    "explanation": "Fernand Braudel's 'The Mediterranean and the Mediterranean World, 1460-1648' challenged prevailing interpretations of early modern European history by questioning the traditional narrative of European expansion and the rise of nation-states. By emphasizing the importance of long-term structural processes and the continuity of Mediterranean societies, Braudel argued that the emergence of modern Europe was not a linear process but rather a complex interplay of factors. This perspective has had a profound impact on historiographical debates about early modern Europe.",
+    "domain": "history",
+    "tier": "hard",
+    "id": 370,
+    "verification_confidence": 95
+  },
+  {
+    "id": 304,
+    "tier": "hard",
+    "domain": "math",
+    "question": "What is the Kolmogorov complexity of a string?",
+    "choices": [
+      "A) The length of the string",
+      "B) The length of the shortest computer program that produces the string as output",
+      "C) The number of unique characters in the string",
+      "D) The entropy of the string's character distribution"
+    ],
+    "answer": "B",
+    "explanation": "Kolmogorov complexity is the length of the shortest program that outputs the string, measuring its information content."
+  },
+  {
+    "question": "Which of the following best describes the role of the 'hypercolumn' in the visual cortex, a concept introduced by Hubel and Wiesel?",
+    "choices": [
+      "A) A functional unit responsible for processing spatial frequency information",
+      "B) A type of inhibitory interneuron selectively activated during sensory deprivation",
+      "C) A morphological feature unique to layer IV of the primary visual cortex",
+      "D) A hypothetical construct used to explain the emergence of higher-order visual features"
+    ],
+    "answer": "A",
+    "explanation": "The 'hypercolumn' is a functional unit in the visual cortex that processes spatial frequency information, allowing for the integration of multiple stimulus attributes. Options B and C are incorrect as they describe distinct neural components or features not related to the hypercolumn concept. Option D is wrong because the hypercolumn is a real anatomical structure with a clear function.",
+    "domain": "neuroscience",
+    "tier": "hard",
+    "id": 339,
+    "verification_confidence": 95
+  },
+  {
+    "question": "The neural correlates of consciousness have been extensively studied using functional magnetic resonance imaging (fMRI) and electroencephalography (EEG). Which of the following theories best explains the observed synchronization between neural activity in different brain regions during conscious processing?",
+    "choices": [
+      "A) The Global Workspace Theory posits that conscious experience arises from the integration of information across distributed networks.",
+      "B) The Binding Problem suggests that synchronized neural activity is necessary for the formation of complex, feature-based representations.",
+      "C) The Neural Darwinism theory proposes that synaptic plasticity and competition among neurons are key mechanisms underlying conscious processing.",
+      "D) The Integrated Information Theory posits that consciousness arises from the unified information generated by integrated processing across different brain regions."
+    ],
+    "answer": "A",
+    "explanation": "The Global Workspace Theory (GWT) provides a comprehensive framework for understanding the neural correlates of consciousness. According to GWT, conscious experience arises from the global workspace, where information from various sensory and cognitive systems is integrated and made available for further processing. This theory can account for the observed synchronization between brain regions during conscious processing, as well as the role of attention and working memory in shaping conscious experience.",
+    "domain": "neuroscience",
+    "tier": "hard",
+    "id": 282,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In the context of plant cell signaling, which of the following molecules is most directly responsible for transducing the hormonal signal from ethylene to its downstream targets?",
+    "choices": [
+      "A) Ethylene receptor protein",
+      "B) Plant growth regulator",
+      "C) Jasmonate-dependent transcription factor",
+      "D) Ethylene-insensitive mutant protein"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A, ethylene receptor protein. This protein directly binds to and responds to the hormonal signal from ethylene, leading to downstream signaling pathways that regulate plant growth and development. The other options are incorrect because B) Plant growth regulator refers to a broader class of hormones, C) Jasmonate-dependent transcription factor is involved in a different signaling pathway, and D) Ethylene-insensitive mutant protein is a negative regulator that blocks ethylene signaling.",
+    "domain": "biology",
+    "tier": "hard",
+    "id": 262,
+    "verification_confidence": 100
+  },
+  {
+    "question": "In the context of quantum field theory, which of the following statements best describes the relationship between the Higgs mechanism and spontaneous symmetry breaking?",
+    "choices": [
+      "A) The Higgs mechanism is a consequence of spontaneous symmetry breaking, but not vice versa.",
+      "B) Spontaneous symmetry breaking always requires the existence of a massless particle, like the photon.",
+      "C) The Higgs mechanism is a necessary condition for spontaneous symmetry breaking to occur in certain gauge theories.",
+      "D) Spontaneous symmetry breaking cannot occur without the Higgs mechanism, as it would require a non-zero vacuum expectation value in all directions."
+    ],
+    "answer": "C",
+    "explanation": "The Higgs mechanism and spontaneous symmetry breaking are closely related but distinct concepts. The Higgs mechanism refers to the process by which the electroweak force acquires mass through the interactions of particles with the Higgs field, while spontaneous symmetry breaking describes the phenomenon where a system's symmetry is broken due to the ground state of the system having non-zero vacuum expectation value. In gauge theories like the Standard Model, the Higgs mechanism is necessary for spontaneous symmetry breaking to occur in certain directions, allowing for the generation of mass for fundamental particles.",
+    "domain": "physics",
+    "tier": "hard",
+    "id": 276,
+    "verification_confidence": 95
+  },
+  {
+    "id": 351,
+    "tier": "hard",
+    "domain": "cs",
+    "question": "What is the P vs NP problem asking?",
+    "choices": [
+      "A) Whether polynomial-time algorithms are faster than non-polynomial ones",
+      "B) Whether every problem whose solution can be verified in polynomial time can also be solved in polynomial time",
+      "C) Whether parallel computing can solve NP problems efficiently",
+      "D) Whether neural networks can approximate any polynomial function"
+    ],
+    "answer": "B",
+    "explanation": "P vs NP asks if every problem verifiable in polynomial time (NP) can also be solved in polynomial time (P)."
+  },
+  {
+    "question": "During the rapid eye movement (REM) stage of sleep, which neurotransmitter system is responsible for suppressing the activity of neurons in the visual cortex, resulting in a 'visual off-switch' that allows for the consolidation of memories formed during wakefulness?",
+    "choices": [
+      "A) Norepinephrine-Noradrenaline system",
+      "B) Acetylcholine-Cholinergic system",
+      "C) GABA-Gamma-aminobutyric acid system",
+      "D) Serotonin-Serotonergic system"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B) Acetylcholine-Cholinergic system, as the cholinergic neurons in the brainstem and basal forebrain are activated during REM sleep, which leads to the release of acetylcholine that suppresses visual cortex activity. Options A, C, and D are all incorrect because norepinephrine, GABA, and serotonin have different roles in regulating neuronal activity during REM sleep.",
+    "domain": "neuroscience",
+    "tier": "hard",
+    "id": 308,
+    "verification_confidence": 95
+  },
+  {
+    "question": "During the process of cell division, a eukaryotic cell's centrioles play a crucial role in organizing microtubules to form the spindle fibers. Which of the following statements about centriole dynamics is most accurate?",
+    "choices": [
+      "A) Centrioles duplicate once per cell cycle, and each new pair inherits its mother's polarity.",
+      "B) Centrioles never touch the nuclear envelope during mitosis, but do so in meiosis.",
+      "C) Centrioles are responsible for organizing the midbody during cytokinesis.",
+      "D) Centrioles always maintain their original orientation throughout the cell cycle."
+    ],
+    "answer": "A",
+    "explanation": "Centrioles duplicate once per cell cycle, and each new pair inherits its mother's polarity. This ensures that the spindle fibers are properly organized for proper cell division. Options B, C, and D are all incorrect as centrioles do touch the nuclear envelope during mitosis, play no role in organizing the midbody, and their orientation can change throughout the cell cycle.",
+    "domain": "biology",
+    "tier": "hard",
+    "id": 350,
+    "verification_confidence": 95
+  },
+  {
+    "id": 361,
+    "tier": "hard",
+    "domain": "cs",
+    "question": "What is the halting problem?",
+    "choices": [
+      "A) The problem of optimizing loop execution time",
+      "B) The undecidable problem of determining whether an arbitrary program will halt or run forever",
+      "C) The problem of detecting infinite loops at compile time",
+      "D) The challenge of stopping distributed systems gracefully"
+    ],
+    "answer": "B",
+    "explanation": "Turing proved no general algorithm can determine whether an arbitrary program halts, making it undecidable."
+  },
+  {
+    "question": "What is the primary mechanism by which the perineuronal net (PNN) protein Wnt signaling pathway regulates synaptic plasticity in hippocampal neurons?",
+    "choices": [
+      "A) Through modulation of AMPAR-mediated excitatory transmission",
+      "B) By controlling the expression of postsynaptic density proteins",
+      "C) Via regulation of GABAergic interneuron activity",
+      "D) Through the inhibition of NMDA receptor-dependent long-term potentiation"
+    ],
+    "answer": "A",
+    "explanation": "The perineuronal net (PNN) is a specialized extracellular matrix surrounding specific types of neurons, including those in the hippocampus. Wnt signaling pathway has been shown to regulate PNN formation and maintenance, which in turn modulates AMPAR-mediated excitatory transmission. This modulation affects synaptic plasticity by influencing the balance between excitation and inhibition. Options B and C are not supported by empirical evidence, while option D is an incorrect interpretation of the role of NMDA receptors.",
+    "domain": "neuroscience",
+    "tier": "hard",
+    "id": 368,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In a deep neural network with multiple hidden layers, which of the following statements about the role of weight sharing in convolutional neural networks (CNNs) is true?",
+    "choices": [
+      "A) Weight sharing reduces the number of learnable parameters in CNNs.",
+      "B) Weight sharing increases the computational complexity of CNNs.",
+      "C) Weight sharing allows for more accurate feature extraction in CNNs.",
+      "D) Weight sharing is only beneficial when using a specific type of activation function."
+    ],
+    "answer": "A",
+    "explanation": "Weight sharing in CNNs reduces the number of learnable parameters by sharing weights across different filter locations, making it an effective mechanism for reducing overfitting and improving model generalizability. Options B, C, and D are incorrect because they do not accurately capture the role of weight sharing in CNNs.",
+    "domain": "machine learning",
+    "tier": "hard",
+    "id": 354,
+    "verification_confidence": 100
+  },
+  {
+    "question": "What is the maximum possible number of distinct diastereomers that can be formed from a pair of enantiomorphic chiral centers in a molecule, considering the stereochemical consequences of Cram's rule and the Felkin-Houk model?",
+    "choices": [
+      "A) 2",
+      "B) 4",
+      "C) 6",
+      "D) 8"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A) 2, as the two enantiomorphic chiral centers can only form a maximum of 2 diastereomers. Cram's rule and the Felkin-Houk model describe the stereochemical consequences of adding a nucleophile to a planar, trisubstituted olefin, but they do not predict more than 2 possible diastereomers.",
+    "domain": "chemistry",
+    "tier": "hard",
+    "id": 290,
+    "verification_confidence": 100
+  },
+  {
+    "question": "Let X be a non-empty set, Y be a subset of the power set of X, and R be a binary relation on X. If every equivalence class under the equivalence relation induced by R contains at least one element not in Y, can it be concluded that there exists an element x in X such that for all y in Y, (x, y) is not in R?",
+    "choices": [
+      "A) Yes",
+      "B) No",
+      "C) It depends on the specific structure of X and Y",
+      "D) The statement does not provide enough information to conclude anything"
+    ],
+    "answer": "A",
+    "explanation": "The key insight here is that every equivalence class under R must contain at least one element not in Y, since if all elements in an equivalence class were in Y, then the class would be entirely contained within Y. This implies that there exists an element x such that for all y in Y, (x, y) is not in R, as any relation between x and a y in Y would put y into the same equivalence class as x.",
+    "domain": "logic",
+    "tier": "hard",
+    "id": 258,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In the context of evolutionary developmental biology, which of the following statements best describes the role of Hox genes in patterning the anterior-posterior axis of embryonic development?",
+    "choices": [
+      "A) Hox genes serve as master regulators, establishing a hierarchical organization that influences the expression of downstream genes.",
+      "B) Hox genes are transcriptional repressors that silence posterior-specific genes to maintain anterior identity.",
+      "C) Hox genes play no direct role in patterning the anterior-posterior axis, but instead regulate the formation of limbs and other appendages.",
+      "D) Hox genes are activated by signals from the notochord to specify the regional identity of neural tube cells."
+    ],
+    "answer": "A",
+    "explanation": "Hox genes are master regulators that establish a hierarchical organization influencing the expression of downstream genes, including those involved in patterning the anterior-posterior axis. Options B, C, and D represent incorrect or incomplete descriptions of Hox gene function.",
+    "domain": "biology",
+    "tier": "hard",
+    "id": 274,
+    "verification_confidence": 95
+  },
+  {
+    "question": "When designing a memory-efficient data structure for storing graph-structured data, which of the following compression techniques is most effective at minimizing memory usage while preserving query performance?",
+    "choices": [
+      "A) Bit-packing and delta encoding",
+      "B) Run-length encoding with adjacency matrix representation",
+      "C) Compact Bloom filter with edge compression",
+      "D) Lossless compression using LZW coding"
+    ],
+    "answer": "A",
+    "explanation": "Bit-packing and delta encoding is the most effective technique for minimizing memory usage while preserving query performance. This is because bit-packing reduces the number of bits required to represent graph edges, and delta encoding takes advantage of the fact that many graph edges have similar values. In contrast, run-length encoding relies on repetitive patterns in edge values, which may not be common in graph-structured data. Compact Bloom filters can be inefficient for large graphs, and lossless compression using LZW coding is overkill for this problem.",
+    "domain": "computer science",
+    "tier": "hard",
+    "id": 329,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Consider a monetary policy experiment where the central bank increases the money supply while keeping the interest rate constant. Which of the following statements best describes the effect on aggregate demand?",
+    "choices": [
+      "A) Aggregate demand decreases due to the inflationary impact on consumption and investment.",
+      "B) Aggregate demand remains unchanged, as the increase in money supply is offset by the constant interest rate.",
+      "C) Aggregate demand increases due to the wealth effect and lower borrowing costs.",
+      "D) Aggregate demand initially increases but then decreases as the higher money supply leads to a rise in nominal wages and reduced competitiveness."
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A because, assuming a constant interest rate, an increase in the money supply will lead to inflation. As prices rise, consumers and businesses adjust their spending habits, leading to a decrease in aggregate demand. The other options do not accurately capture the effect on aggregate demand.",
+    "domain": "economics",
+    "tier": "hard",
+    "id": 373,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In a scenario where an overparameterized neural network is trained using early stopping to mitigate overfitting, what is the primary reason why the optimal number of epochs tends to increase as the size of the dataset grows?",
+    "choices": [
+      "A) The increased size of the training set leads to a more diverse representation of the target function, making it harder for the model to fit during the early stages.",
+      "B) As the dataset grows, the risk of overfitting decreases, allowing the model to learn more complex representations without worrying about memorization.",
+      "C) The larger dataset enables the model to utilize regularization techniques less frequently, leading to a longer training period.",
+      "D) Early stopping is no longer effective in large datasets due to the increased noise-to-signal ratio, causing the optimal number of epochs to increase."
+    ],
+    "answer": "A",
+    "explanation": "The correct answer lies in the fact that as the dataset grows, the representation of the target function becomes more diverse. This makes it harder for the model to fit during the early stages, leading to a longer training period. The other options are incorrect because they fail to account for this increased diversity.",
+    "domain": "machine learning",
+    "tier": "hard",
+    "id": 341,
+    "verification_confidence": 95
+  },
+  {
+    "id": 381,
+    "tier": "hard",
+    "domain": "math",
+    "question": "What is the eigenvalue decomposition of a matrix?",
+    "choices": [
+      "A) Expressing a matrix as a product of its diagonal elements",
+      "B) Expressing a matrix A as A = PDP^-1 where D is diagonal with eigenvalues and P contains eigenvectors",
+      "C) Finding the inverse of a matrix",
+      "D) Decomposing a matrix into upper and lower triangular matrices"
+    ],
+    "answer": "B",
+    "explanation": "Eigendecomposition: A = PDP^-1 where D contains eigenvalues on diagonal and P's columns are corresponding eigenvectors."
+  },
+  {
+    "question": "Which of the following statements best describes the relationship between the stability of a neural network's decision boundary and the phenomenon of overfitting?",
+    "choices": [
+      "A) As the decision boundary becomes more stable, the risk of overfitting increases.",
+      "B) A stable decision boundary implies reduced overfitting.",
+      "C) Overfitting is directly proportional to the complexity of the decision boundary.",
+      "D) The stability of the decision boundary has no correlation with overfitting."
+    ],
+    "answer": "B",
+    "explanation": "A stable decision boundary implies that the neural network has learned to generalize well, which reduces the risk of overfitting. Overfitting occurs when a model becomes too complex and begins to fit the noise in the training data rather than the underlying patterns. As the decision boundary becomes more stable, it is less likely to be overly sensitive to specific training examples, thus reducing the likelihood of overfitting.",
+    "domain": "machine learning",
+    "tier": "hard",
+    "id": 301,
+    "verification_confidence": 95
+  },
+  {
+    "id": 374,
+    "tier": "hard",
+    "domain": "science",
+    "question": "What is the significance of the Higgs boson?",
+    "choices": [
+      "A) It carries the electromagnetic force",
+      "B) It explains why fundamental particles have mass through interaction with the Higgs field",
+      "C) It is the smallest possible unit of matter",
+      "D) It mediates the strong nuclear force"
+    ],
+    "answer": "B",
+    "explanation": "The Higgs boson is the quantum excitation of the Higgs field, which gives mass to fundamental particles."
+  },
+  {
+    "question": "Which of the following best explains the neural mechanisms underlying the phenomenon of 'perceptual filling-in' in primates, a process where visual information from adjacent neurons is used to complete incomplete visual patterns?",
+    "choices": [
+      "A) Synchronous firing of V1 and V2 neurons allows for top-down influences on early visual areas.",
+      "B) Long-range horizontal connections between pyramidal cells in V1 enable rapid transmission of spatial information.",
+      "C) The lateral geniculate nucleus (LGN) plays a crucial role in integrating information from multiple retinal ganglion cells to generate complete visual representations.",
+      "D) The ventral pathway, including areas V4 and IT, is primarily responsible for processing complex shapes and patterns in the presence of incomplete or ambiguous visual information."
+    ],
+    "answer": "A",
+    "explanation": "Perceptual filling-in refers to the brain's ability to fill in missing visual information based on context. This process involves top-down influences from higher-level areas, such as V2, onto early visual areas like V1. Synchronous firing of these neurons allows for the completion of incomplete visual patterns. Options B and C are not directly related to perceptual filling-in, while option D is focused on shape processing rather than filling-in.",
+    "domain": "neuroscience",
+    "tier": "hard",
+    "id": 267,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In a solid-state reaction, the activation energy for diffusion-controlled processes is typically higher than that for atomically controlled reactions. Which of the following factors primarily contributes to this difference?",
+    "choices": [
+      "A) The presence of defects in the crystal lattice",
+      "B) The strength of intermolecular forces between reactants",
+      "C) The size and shape of the reactant molecules",
+      "D) The temperature at which the reaction occurs"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A) The presence of defects in the crystal lattice. This is because defects in the crystal lattice can hinder the diffusion of reactants, increasing the activation energy required for the reaction to proceed. In contrast, atomically controlled reactions are not significantly affected by defects. Options B and C are incorrect because intermolecular forces and molecular size/shape do not directly impact the activation energy difference between diffusion-controlled and atomically controlled reactions. Option D is also incorrect because temperature can affect the rate of a reaction but does not directly influence the activation energy.",
+    "domain": "chemistry",
+    "tier": "hard",
+    "id": 320,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Consider a relativistic charged particle moving along the z-axis with velocity v = \u03b3(c, 0, 0). Prove that the electric field E within the particle's rest frame (moving at speed v in the lab frame) is perpendicular to the particle's instantaneous position vector r.",
+    "choices": [
+      "A) This can be proven using a Lorentz transformation of the electromagnetic four-potential.",
+      "B) The correct answer is that the electric field E within the particle's rest frame must be parallel to the particle's instantaneous position vector r, due to symmetry.",
+      "C) A calculation involving the four-gradient and the electromagnetic current density j\u03bc is required to determine the correct result.",
+      "D) This question is purely a matter of electromagnetism in accelerating frames, and the electric field E within the particle's rest frame can be arbitrary."
+    ],
+    "answer": "A",
+    "explanation": "The key to this problem lies in recognizing that the Lorentz transformation of the electromagnetic four-potential retains its gauge-invariance property. Therefore, the electric field E within the particle's rest frame is perpendicular to the particle's instantaneous position vector r, as any change in the potential would merely correspond to a different choice of gauge.",
+    "domain": "physics",
+    "tier": "hard",
+    "id": 277,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In the context of quantum field theory, which of the following statements best describes the significance of the 'gauge invariance' condition on the Lagrangian density?",
+    "choices": [
+      "A) Gauge invariance ensures that the physical predictions of a theory are independent of the arbitrary choice of gauge",
+      "B) Gauge invariance allows for the elimination of unphysical degrees of freedom from the theory",
+      "C) Gauge invariance is a necessary condition for the renormalizability of a quantum field theory",
+      "D) Gauge invariance ensures that the theory remains consistent with special relativity"
+    ],
+    "answer": "A",
+    "explanation": "Gauge invariance is a fundamental property of quantum field theories, ensuring that physical predictions are independent of arbitrary gauge choices. This is because different gauges describe the same physical system from different perspectives, and gauge transformations represent symmetries of the theory. As such, gauge invariance guarantees that the theory's physical content is gauge-independent.",
+    "domain": "physics",
+    "tier": "hard",
+    "id": 316,
+    "verification_confidence": 95
+  },
+  {
+    "question": "When attempting to synthesize a novel polyrotaxane, a researcher notices that the molecular weight of the desired polymer increases significantly as the reaction time is prolonged. Which of the following mechanisms most accurately explains this phenomenon?",
+    "choices": [
+      "A) The increased reaction time allows for more efficient click chemistry, resulting in a higher degree of polymerization.",
+      "B) The prolonged reaction time leads to an increase in side reactions, causing the formation of larger, more branched molecules.",
+      "C) The researcher has inadvertently introduced a catalyst that promotes the growth of the polymer chain.",
+      "D) The increased reaction time causes the solvent to evaporate, resulting in a higher molecular weight due to concentration effects."
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B) The prolonged reaction time leads to an increase in side reactions, causing the formation of larger, more branched molecules. This is because polyrotaxane synthesis often involves multiple steps and can be prone to side reactions that can lead to higher molecular weights. Options A and C are incorrect as they do not account for the possibility of side reactions occurring over time. Option D is also incorrect as it assumes a concentration-dependent effect, whereas the correct answer focuses on the chemical transformations taking place during the reaction.",
+    "domain": "chemistry",
+    "tier": "hard",
+    "id": 333,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Consider a Bayesian non-parametric procedure for density estimation, such as the kernel density estimator with a Gaussian kernel. Which of the following statements about the optimal bandwidth selection is true?",
+    "choices": [
+      "A) The optimal bandwidth is a function of the number of observations and the dimensionality of the data.",
+      "B) The optimal bandwidth is inversely proportional to the variance of the underlying distribution.",
+      "C) The optimal bandwidth is independent of the underlying distribution and only depends on the sample size.",
+      "D) The optimal bandwidth is directly proportional to the expected value of the underlying distribution."
+    ],
+    "answer": "A",
+    "explanation": "The correct answer, A, is true because the optimal bandwidth selection in a kernel density estimator typically depends on both the number of observations and the dimensionality of the data. The other options are incorrect: B) is wrong because the variance of the underlying distribution does not directly determine the optimal bandwidth; C) is false because the optimal bandwidth can depend on the characteristics of the underlying distribution, such as its smoothness or multimodality; D) is incorrect because the expected value of the underlying distribution is not a relevant factor in determining the optimal bandwidth.",
+    "domain": "statistics",
+    "tier": "hard",
+    "id": 334,
+    "verification_confidence": 95
+  },
+  {
+    "question": "What is a key implication of the Modigliani-Miller theorem in the context of corporate finance, given that leveraged firms may have access to tax-loss harvesting strategies?",
+    "choices": [
+      "A) The optimal capital structure for firms is solely determined by their cost of capital.",
+      "B) Firms with high levels of debt are more likely to experience financial distress due to increased agency costs.",
+      "C) Tax-loss harvesting strategies eliminate the benefits of leverage in reducing corporate tax liabilities.",
+      "D) Leverage can increase firm value by allowing for more aggressive investments in real assets."
+    ],
+    "answer": "A",
+    "explanation": "The Modigliani-Miller theorem states that, under certain assumptions, the capital structure of a firm does not affect its value. In this case, since leveraged firms may have access to tax-loss harvesting strategies, it is still optimal for them to choose their capital structure based on their cost of capital, rather than being influenced by potential tax benefits. Options B and C are incorrect because they do not reflect the theorem's implication about the irrelevance of capital structure. Option D is wrong because leverage does not necessarily increase firm value in this context.",
+    "domain": "economics",
+    "tier": "hard",
+    "id": 298,
+    "verification_confidence": 95
+  },
+  {
+    "question": "The neural activity in the prefrontal cortex (PFC) during a working memory task is characterized by increased firing rates of pyramidal cells, which can be attributed to which one of the following underlying neural mechanisms?",
+    "choices": [
+      "A) Enhanced expression of dopamine receptors",
+      "B) Increased release of acetylcholine from cholinergic interneurons",
+      "C) Modulation of gamma-aminobutyric acid (GABA) receptor function",
+      "D) Upregulation of N-methyl-D-aspartate (NMDA) receptor-mediated synaptic plasticity"
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is D) Upregulation of N-methyl-D-aspartate (NMDA) receptor-mediated synaptic plasticity. This mechanism is supported by numerous studies demonstrating the role of NMDA receptors in the PFC during working memory tasks. The other options are plausible but incorrect: A) dopamine receptors are not directly involved in pyramidal cell activity, B) acetylcholine release is not specific to the PFC or working memory, C) GABA receptor function is actually decreased during working memory tasks.",
+    "domain": "neuroscience",
+    "tier": "hard",
+    "id": 286,
+    "verification_confidence": 95
+  },
+  {
+    "id": 312,
+    "tier": "hard",
+    "domain": "cs",
+    "question": "What is the difference between model bias and variance in machine learning?",
+    "choices": [
+      "A) Bias measures training error, variance measures test error",
+      "B) Bias is error from wrong assumptions (underfitting), variance is error from sensitivity to training data fluctuations (overfitting)",
+      "C) Bias affects classification, variance affects regression",
+      "D) High bias means the model is too complex, high variance means too simple"
+    ],
+    "answer": "B",
+    "explanation": "Bias-variance tradeoff: high bias = underfitting (too simple), high variance = overfitting (too complex/sensitive to training data)."
+  },
+  {
+    "question": "In the context of quantum field theory, what is the primary consequence of the Ward-Takahashi identity for a gauge-invariant theory like Quantum Electrodynamics (QED)?",
+    "choices": [
+      "A) The existence of a non-physical zero-point energy in the vacuum state.",
+      "B) A fundamental constraint on the renormalization group flow of couplings.",
+      "C) The predictability crisis inherent to the theory, requiring new physics beyond the Standard Model.",
+      "D) The spontaneous breakdown of gauge symmetry due to quantum fluctuations."
+    ],
+    "answer": "B",
+    "explanation": "The Ward-Takahashi identity is a fundamental constraint in gauge-invariant theories like QED. It ensures that the symmetry of the theory is preserved under renormalization, effectively imposing a condition on the flow of couplings. This has important implications for our understanding of the renormalization group and its applications to high-energy physics.",
+    "domain": "physics",
+    "tier": "hard",
+    "id": 321,
+    "verification_confidence": 95
+  },
+  {
+    "question": "When analyzing the reactivity of a transition metal complex towards hydrogen peroxide, which of the following statements best describes the role of ligand field theory in determining its catalytic activity?",
+    "choices": [
+      "A) Ligand field theory predicts the energy levels of the d-orbitals, which influences the complex's ability to reduce O2- ions and form water.",
+      "B) The coordination sphere of the metal ion must be carefully designed to optimize its electron transfer properties.",
+      "C) The ligand's \u03c0* orbital is involved in backbonding with the metal's d-orbitals, enabling the reduction of H2O2.",
+      "D) The complex's reactivity is solely dependent on the strength of the metal-ligand bond and the steric effects around the metal center."
+    ],
+    "answer": "A",
+    "explanation": "The correct answer acknowledges that ligand field theory helps predict the energy levels of the d-orbitals, which in turn affects the complex's ability to reduce O2- ions and form water. The other options are plausible but incorrect because they do not accurately describe the role of ligand field theory in determining the complex's catalytic activity.",
+    "domain": "chemistry",
+    "tier": "hard",
+    "id": 294,
+    "verification_confidence": 95
+  },
+  {
+    "question": "In the presence of a catalyst, the activation energy (EA) for a chemical reaction can be reduced by increasing the reactant concentration or decreasing the temperature. Which of the following statements about the impact of these factors on EA accurately describes their effect on the kinetics of the reaction?",
+    "choices": [
+      "A) Both increasing reactant concentration and decreasing temperature will increase EA, as they favor the backward reaction.",
+      "B) Only increasing reactant concentration will decrease EA, as it increases the frequency factor in the Arrhenius equation.",
+      "C) Both increasing reactant concentration and decreasing temperature will decrease EA, as they enhance the effectiveness of the catalyst.",
+      "D) Increasing reactant concentration will increase EA, while decreasing temperature will have no effect on EA."
+    ],
+    "answer": "C",
+    "explanation": "Increasing the reactant concentration increases the frequency factor in the Arrhenius equation, which reduces the activation energy. Decreasing the temperature also reduces the kinetic energy of the reactants, making it easier for them to form products and thereby reducing the activation energy. Both factors contribute to a decrease in the activation energy.",
+    "domain": "chemistry",
+    "tier": "hard",
+    "id": 279,
+    "verification_confidence": 95
+  },
+  {
+    "id": 377,
+    "tier": "hard",
+    "domain": "math",
+    "question": "What is the central limit theorem?",
+    "choices": [
+      "A) The mean of a sample equals the population mean",
+      "B) The distribution of sample means approaches a normal distribution as sample size increases, regardless of population distribution",
+      "C) Large samples always produce accurate estimates",
+      "D) The variance of a sum equals the sum of variances"
+    ],
+    "answer": "B",
+    "explanation": "CLT: as n increases, the sampling distribution of the mean approaches normality regardless of the original distribution."
+  },
+  {
+    "question": "In the context of endogenous growth theory, which of the following best explains how increasing returns to scale in human capital formation can lead to self-reinforcing cycles of economic growth?",
+    "choices": [
+      "A) Human capital accumulation generates positive externalities that attract more skilled workers, further increasing human capital.",
+      "B) The increasing returns to scale in human capital formation create a virtuous cycle where the resulting higher productivity and wages incentivize investment in education and training, leading to increased human capital.",
+      "C) Endogenous growth models assume that technological progress is driven by human capital accumulation, which in turn generates self-reinforcing cycles of economic growth through the creation of new industries and jobs.",
+      "D) The increasing returns to scale in human capital formation lead to a reduction in the cost of education and training, making it more accessible to a larger population and thereby driving self-reinforcing cycles of economic growth"
+    ],
+    "answer": "B",
+    "explanation": "This option correctly describes how increasing returns to scale in human capital formation can create a virtuous cycle where higher productivity and wages incentivize investment in education and training, leading to increased human capital. The other options are plausible but incorrect because they either do not capture the mechanism of self-reinforcing cycles or are too simplistic.",
+    "domain": "economics",
+    "tier": "hard",
+    "id": 338,
+    "verification_confidence": 95
+  },
+  {
+    "question": "Consider a sorting algorithm that, given a set of n integers, partitions them into two subsets such that all numbers in one subset are smaller than all numbers in the other. Prove that this algorithm cannot be implemented using a single recursive function call and O(log n) space complexity.",
+    "choices": [
+      "A) This is a classic example of divide-and-conquer sorting, but the problem statement inherently requires a non-recursive approach.",
+      "B) The problem can be solved by modifying the standard merge sort algorithm to use a secondary data structure for recursive function calls.",
+      "C) The correct solution involves using a combination of bit manipulation and arithmetic operations to achieve O(log n) space complexity.",
+      "D) This is a variation of the standard quicksort algorithm, which can be implemented recursively with O(log n) space complexity."
+    ],
+    "answer": "A",
+    "explanation": "This question tests the candidate's ability to analyze the problem statement and understand its inherent constraints. A single recursive function call would require O(n) space complexity, whereas the problem demands O(log n). This rules out options B, C, and D, which propose various sorting algorithms that do not meet the required constraints. Option A correctly identifies the fundamental limitation of the problem.",
+    "domain": "algorithms",
+    "tier": "hard",
+    "id": 356,
+    "verification_confidence": 95
+  }
+]
