@@ -13,7 +13,7 @@ This benchmark measures **confidence calibration** — whether a model's stated 
 
 ## Dataset
 
-- 560 total questions (60 hand-authored + 500 LLM-generated & verified)
+- 307 active questions (98 easy / 100 medium / 109 hard)
 - 3 difficulty tiers: Easy / Medium / Hard
 - 12 domains: CS, Math, Physics, Biology, Neuroscience, Logic, History, Economics...
 - Generated via Llama 3 + verified by Mistral (61% acceptance rate, 85% confidence threshold)
